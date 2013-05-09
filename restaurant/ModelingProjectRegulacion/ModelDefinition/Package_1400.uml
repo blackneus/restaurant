@@ -1,0 +1,2632 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="beeebce7-22f0-4ca2-b90f-dce7be04e50f"
+  name="Datos"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="046f35fc-dd2b-49f3-8e3d-7ef8544d58d1"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DRegulacion.Datos"
+      tag="ViewCode" />
+  </referencesInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="b0310f58-3b14-4f1a-a1f5-d1e5db6b7474">
+      <profileInstance
+        Id="400bd950-a59c-4ba3-90c8-0abb985572c2"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="6dabf334-fe1f-4209-890d-ebf47ddedb94"
+        name="clConexionSQL"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="dd98cced-59c3-4a86-9eb7-85bcbcff1526"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion.Datos%2Fbin%2FDebug%2FRegulacion.Datos.dll&quot; Namespace%3DRegulacion.Datos Type%3DclConexionSQL"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="4d236957-4a2a-4ad1-85af-f5c5293b3f69"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f13ccc68-3370-41d2-b593-e56d69758ddd">
+                <propertyInstance
+                  Id="5e98a1af-b1a3-4f12-be17-dfa3cc0647d3"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="be8f47ba-f6ec-4c2e-a5d2-01b968c21cf4">
+                <propertyInstance
+                  Id="bb1a2ecc-c8b6-4473-9a57-ae8d29fe9978"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="db5c4c16-abb3-4c5e-aa75-7c486967b733">
+                <propertyInstance
+                  Id="ed3f15ff-5140-441d-8cae-af6ce006b5c4"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="51c9f748-7481-4349-9847-fa102ea1f587">
+                <propertyInstance
+                  Id="39884409-c329-47d8-80a9-e330a346352b"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="3a0db7cd-4f1e-4bdf-8fee-84f711e035fa">
+                <propertyInstance
+                  Id="e2ec4498-5e0b-409f-ad09-2044c3fb250b"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="f882fbdd-8296-4795-9912-a7d17c5924ae"
+            name="cn_Connection"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="c086d506-77c4-460c-857d-e69ed8fad150"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion.Datos%2Fbin%2FDebug%2FRegulacion.Datos.dll&quot; Namespace%3DRegulacion.Datos Type%3DclConexionSQL Member%3Dcn_Connection"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="fe593447-2af6-411d-a98e-00edebb7d799"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="67c58f50-71b4-474b-b92f-8ca35dddb319">
+                    <propertyInstance
+                      Id="8c35fa8a-97b8-4b72-ad64-853be64cec1e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bc7ad1f3-01d7-400a-af5a-6506257ac705">
+                    <propertyInstance
+                      Id="aaed0d5b-9ae5-42d0-9239-64c49b289947"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dfbdaa30-5c8a-4780-b94a-6fd79afa08b1">
+                    <propertyInstance
+                      Id="a6118cb1-ae55-4ce0-82fc-5496ae9057a6"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="238fe6bf-744f-44dc-b782-9d0436511b89">
+                    <propertyInstance
+                      Id="294f7278-e669-4c6e-a653-9b7f3c43f2fa"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a5ba2847-8377-4f5f-87ad-139dd993429c">
+                    <propertyInstance
+                      Id="e68389b9-88b0-41ab-8d7c-1eebbd157771"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="018f2803-fbc9-40c1-9187-641e9d5cdbf6"
+                LastKnownName="SqlConnection"
+                LastKnownLocation="Package2_1400.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="d009f840-5971-46ab-80a1-69aeef83789a"
+            name="cm_Command"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="169eec67-954e-4e49-88e4-6d747ab3e70f"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion.Datos%2Fbin%2FDebug%2FRegulacion.Datos.dll&quot; Namespace%3DRegulacion.Datos Type%3DclConexionSQL Member%3Dcm_Command"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="dc446033-e07f-4a6c-b825-4b4d316e7236"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="feb2b3a5-888e-4422-8d1c-8a7d82942997">
+                    <propertyInstance
+                      Id="835c356d-b4da-4c11-b507-9bfc55e4e2cb"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4d450fb7-2b73-45dd-9e38-0175d4b2af42">
+                    <propertyInstance
+                      Id="cf587541-bb1d-4060-b10d-7f73b28560aa"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="40f4b263-d5c5-46bc-874b-4532adef52da">
+                    <propertyInstance
+                      Id="d4e4a0c2-cfcf-4167-a645-895403666fe5"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="11f925fd-cc6a-435a-9030-22636f3f9648">
+                    <propertyInstance
+                      Id="60e65aba-8f29-42da-845e-f72ce25c42a7"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bf03cfd3-e0b8-4c17-a5d8-9fba4ba6ebad">
+                    <propertyInstance
+                      Id="49a56572-bef3-42d4-a65d-498f9685b8aa"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="4afd9348-8c62-4555-bf79-d1e5b9db6ad0"
+                LastKnownName="SqlCommand"
+                LastKnownLocation="Package2_1400.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="fc05117c-0df7-4deb-9ff8-8ee3448ba1f3"
+            name="da_Connector"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="c18ab1b4-9206-43bb-b9f4-6638bf6441ee"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion.Datos%2Fbin%2FDebug%2FRegulacion.Datos.dll&quot; Namespace%3DRegulacion.Datos Type%3DclConexionSQL Member%3Dda_Connector"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="39c9992c-8ff4-4fae-9c26-5f451dd92076"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fcfaf0a4-04ae-4357-a5dc-5e77efd17499">
+                    <propertyInstance
+                      Id="f96a4b4d-a7de-4421-a111-deccbd5080c7"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c0554ce2-310d-4268-a71e-1fef942a2896">
+                    <propertyInstance
+                      Id="bfdb793f-29b8-4ece-80ab-3f12480eb2c2"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dcc0e4ad-ac63-4804-81fc-deea55fe754c">
+                    <propertyInstance
+                      Id="2748d2ad-abda-472c-8d84-d0b33b570f95"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d74fa1cc-9ab6-4157-813c-4c32bb60ba27">
+                    <propertyInstance
+                      Id="7a2a9747-21be-41d5-859c-0c11f1fa992b"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b5b7fed7-3fe7-4499-beaf-a2861a0d2720">
+                    <propertyInstance
+                      Id="932bbff3-66ce-47ba-af5e-d419f03cbb91"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="d9ffe153-95a5-4e4e-8420-f86fd268e906"
+                LastKnownName="SqlDataAdapter"
+                LastKnownLocation="Package2_1400.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="90fdb52f-8e88-4dc2-bf70-7e3873ddfc6a"
+            name="dr_Recordset"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="0889b061-aa74-4e46-b96a-f5a98231f4be"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion.Datos%2Fbin%2FDebug%2FRegulacion.Datos.dll&quot; Namespace%3DRegulacion.Datos Type%3DclConexionSQL Member%3Ddr_Recordset"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="be7e2ff0-7c11-427a-8a3d-e00adfd62a75"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1bab6c51-dbdf-490e-a796-7592ee82d432">
+                    <propertyInstance
+                      Id="fb72e881-a262-4080-ab0c-981a115a95bd"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1823ff7e-dc90-49af-9591-c48e017c917b">
+                    <propertyInstance
+                      Id="fab6c1ab-c234-45b5-b2ce-b704a3e0f784"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f997456d-dba6-4a11-a1fe-e4a7a3fd102b">
+                    <propertyInstance
+                      Id="7cc1cc78-0477-4ba3-b3c9-6bc107c3eaaf"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ba736668-a320-418a-84de-15571dc83eba">
+                    <propertyInstance
+                      Id="3f0c9b1d-9f9d-4817-8ef1-d739ab7b0b8a"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="20314cfa-5584-46ee-ac9a-291ea0c66b98">
+                    <propertyInstance
+                      Id="607e7370-e7ab-4d9f-adbb-8aff4594350c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="c7172e24-0113-48b6-8360-6b1f08a07fa6"
+                LastKnownName="SqlDataReader"
+                LastKnownLocation="Package2_1400.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="36b1376e-8fe2-4537-b361-2b75fc91a775"
+            name="ds_Recordset"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="97638810-cbda-46e6-90c1-400e15deb131"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion.Datos%2Fbin%2FDebug%2FRegulacion.Datos.dll&quot; Namespace%3DRegulacion.Datos Type%3DclConexionSQL Member%3Dds_Recordset"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="02c20c36-a018-423a-b6c5-02858810d2b1"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aec7deaa-ef25-491b-afcb-ac40b1c9dfeb">
+                    <propertyInstance
+                      Id="5df715ed-cb4a-42f4-b655-e2e0275d574a"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4ae7ac8e-8cbe-429f-b1f8-7f50d0f90cc3">
+                    <propertyInstance
+                      Id="43707c16-9d63-4650-ae3a-0aab390caa6a"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bdce634d-82e2-4545-93b8-8b1157cd5eaa">
+                    <propertyInstance
+                      Id="ff3fd9bd-9312-4086-86ff-b14e8ca66004"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6702be70-5623-4870-9e78-a80fb3592395">
+                    <propertyInstance
+                      Id="b3a5bca1-2d46-4e47-a44a-a8ec5367d56b"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="729716b5-65c1-47c5-9ca6-d3be6ab7e93a">
+                    <propertyInstance
+                      Id="9d0fc243-986a-4556-97d8-11db894c7ad8"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="14132f47-1461-49e1-b1fc-e81b5a98bf68"
+                LastKnownName="DataSet"
+                LastKnownLocation="Package1_1400.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="0f2d076b-301f-4abe-8d95-5756da94c709"
+            name="clConexionSQL"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="aa2dfe0c-4c39-428a-812a-dd34d77716ca"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion.Datos%2Fbin%2FDebug%2FRegulacion.Datos.dll&quot; Namespace%3DRegulacion.Datos Type%3DclConexionSQL Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="bdd1abc7-b9c1-4596-87ef-f1a9118897af"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2154cc9b-84fb-44d1-9cbc-d87c8709393b">
+                    <propertyInstance
+                      Id="9213db6b-5630-4f26-aa51-585a2544b3fa"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b54072f2-9ba9-4da6-a8bd-ebbaabd10035">
+                    <propertyInstance
+                      Id="4903cec4-74a9-4d49-a75d-6ab83ea9fb26"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0fc5e33e-e415-455f-a64c-b31e84d112c9">
+                    <propertyInstance
+                      Id="dd98d8bd-1bad-44d9-b00f-e68508e2ec24"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4792a1bb-79f4-4080-90fb-e66894f6a775">
+                    <propertyInstance
+                      Id="77bb81b2-6a71-445f-bb2e-8a6a6748d74e"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c8743ed6-99e9-43ad-8481-3f869a6aa2a5">
+                    <propertyInstance
+                      Id="e10c2327-da43-475a-a172-a238bfbb28a6"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bd2ea3ea-3286-4f25-960e-efceb661eac9">
+                    <propertyInstance
+                      Id="edcc0aad-2799-43e5-8844-41b6c6ce8239"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="766c9299-6723-4254-a586-3ac210d7c48d"
+                  name="sConexion"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="e8ccfc68-ef72-45f2-9838-573044365d04"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion.Datos%2Fbin%2FDebug%2FRegulacion.Datos.dll&quot; Namespace%3DRegulacion.Datos Type%3DclConexionSQL Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DsConexion"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProjectRegulacion.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="aef0168a-b5a3-4ff5-ac98-aa79c885f874"
+            name="clConexionSQL"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="73ac34a6-9f1c-4b4c-9ade-6730d22c4f78"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion.Datos%2Fbin%2FDebug%2FRegulacion.Datos.dll&quot; Namespace%3DRegulacion.Datos Type%3DclConexionSQL Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="ef299db3-7b13-47ed-aae6-3c3451651e0f"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9edd820c-1534-40d1-9df0-6596f5667ce3">
+                    <propertyInstance
+                      Id="46ec43a7-9f3d-4b3b-861c-fefd875f709f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="edf4736f-07bf-4f78-80c5-e3995587bf96">
+                    <propertyInstance
+                      Id="f5b8a9f9-c690-4dfa-93ab-b29ef4ba74c3"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8377fd3e-3ab8-41f1-b8f5-a2ba7b1dbb3a">
+                    <propertyInstance
+                      Id="16d29d69-86da-4bac-9dc1-fc310a78b6e5"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="27e7e288-25f7-4e35-8dda-e461c37c0e06">
+                    <propertyInstance
+                      Id="df4346e2-645b-4445-9cb0-dd6567565bb0"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a79f6f54-4758-49e7-9b94-10798d4a61a2">
+                    <propertyInstance
+                      Id="d23370a1-bdd8-4885-87f3-b8474c908565"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e5b6391b-4cd9-4425-9132-b8a54c1dae5d">
+                    <propertyInstance
+                      Id="3994aa99-5bab-4e9d-812d-0d1b05e8be0e"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="58f2608e-e47e-47cb-b121-61609f76f057"
+                  name="sConexion"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="6d90d333-b255-4062-9475-cb6321e280b2"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion.Datos%2Fbin%2FDebug%2FRegulacion.Datos.dll&quot; Namespace%3DRegulacion.Datos Type%3DclConexionSQL Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)]) ParameterIdentifier%3DsConexion"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProjectRegulacion.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="e95b4c0f-0cce-4c86-be0a-aa161217fe4f"
+                  name="boWebConfig"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="37bf9845-1fc1-4685-a180-7773b3fd9326"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion.Datos%2Fbin%2FDebug%2FRegulacion.Datos.dll&quot; Namespace%3DRegulacion.Datos Type%3DclConexionSQL Member%3D(Name%3D.ctor OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DBoolean)]) ParameterIdentifier%3DboWebConfig"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                      LastKnownName="Boolean"
+                      LastKnownLocation="ModelingProjectRegulacion.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="b4de81c5-05a0-4ccf-9179-88f267623689"
+            name="GetCommand"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="3aaffcc3-64aa-48b3-819d-4d5a15d883f9"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion.Datos%2Fbin%2FDebug%2FRegulacion.Datos.dll&quot; Namespace%3DRegulacion.Datos Type%3DclConexionSQL Member%3D(Name%3DGetCommand OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="0681c1fa-a740-4030-9704-2add149e22cb"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0ee09fe9-4d86-4870-8172-91c1e9d76df8">
+                    <propertyInstance
+                      Id="1dbc93b5-c2be-4560-9f15-1d92cbbda664"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="87532880-3b60-44c2-8c15-939ba7053226">
+                    <propertyInstance
+                      Id="2453bc06-c0b6-4b7f-826e-28dbb2775d41"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2f1b6659-cf9b-4d5b-8748-53cdb443365d">
+                    <propertyInstance
+                      Id="adae5fa4-ec18-489d-9707-4949757129ab"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="611eb525-3ffc-4440-a808-e3de98b67dae">
+                    <propertyInstance
+                      Id="c6e136c5-39ac-43b5-9932-9a64ddb93346"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5b16ccf9-7cdd-47c2-8961-b28ca48f43ed">
+                    <propertyInstance
+                      Id="bf5261ca-a55d-4f1a-972f-1851ea44c432"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="396ca712-25fc-42ec-9338-f0864e8db1bd">
+                    <propertyInstance
+                      Id="20aed814-d6d3-451a-8eb0-e6269e1495e2"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="87e8ab3a-6d91-48d9-99c2-49b884e65ee7"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="4afd9348-8c62-4555-bf79-d1e5b9db6ad0"
+                      LastKnownName="SqlCommand"
+                      LastKnownLocation="Package2_1400.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="08afb921-b850-4372-8510-4a6500cc5245"
+                  name="stConsulta"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="e26b309b-ad16-42e1-a034-323c592d00ef"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion.Datos%2Fbin%2FDebug%2FRegulacion.Datos.dll&quot; Namespace%3DRegulacion.Datos Type%3DclConexionSQL Member%3D(Name%3DGetCommand OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DstConsulta"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProjectRegulacion.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="819d7aeb-50ed-462f-baf3-db1934d8551a"
+            name="GetDataAdapter"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="aec69cfd-ba28-4b48-a327-468a3548a88f"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion.Datos%2Fbin%2FDebug%2FRegulacion.Datos.dll&quot; Namespace%3DRegulacion.Datos Type%3DclConexionSQL Member%3D(Name%3DGetDataAdapter OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="006ecc64-c9a8-458d-9fce-103f7e41c642"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b5ee42a9-33b1-43b2-ab5d-52d11a1402d4">
+                    <propertyInstance
+                      Id="72530105-1983-4908-8473-73777100a946"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a294c06f-166c-415f-a635-bbe7411f6310">
+                    <propertyInstance
+                      Id="715a92a6-684e-4a94-a6ac-4386be803904"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="09be0dc7-3cac-463a-af26-56d7b538978e">
+                    <propertyInstance
+                      Id="1f6e2e96-8eeb-4009-94d6-8de40c92d3c7"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c4aff614-d54e-4e9d-aff2-6d65f023cb56">
+                    <propertyInstance
+                      Id="a1415eb3-7c3e-4289-a578-affe61992e7e"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8550890e-eb05-4ef6-8dd7-1d156e81860f">
+                    <propertyInstance
+                      Id="e89fd899-a766-417d-a181-05dedb14042c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="024145fe-56bf-48a8-bec1-77131d905d05">
+                    <propertyInstance
+                      Id="49f16294-6fd5-44ee-8eeb-6ae59745564b"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="496e2497-1715-457f-868b-1a35f18e1951"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="d9ffe153-95a5-4e4e-8420-f86fd268e906"
+                      LastKnownName="SqlDataAdapter"
+                      LastKnownLocation="Package2_1400.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="5c99aabd-547d-4020-8603-11d8ac7eb945"
+                  name="stConsulta"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="d84b5abc-aedb-4997-baf2-c6f0da4b0942"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion.Datos%2Fbin%2FDebug%2FRegulacion.Datos.dll&quot; Namespace%3DRegulacion.Datos Type%3DclConexionSQL Member%3D(Name%3DGetDataAdapter OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DstConsulta"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProjectRegulacion.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="61dfd12d-4cba-4d5c-bee3-1b1306269bc3"
+            name="GetSPDataSet"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="817729e3-9f62-4dd4-83b0-ba4a05a14108"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion.Datos%2Fbin%2FDebug%2FRegulacion.Datos.dll&quot; Namespace%3DRegulacion.Datos Type%3DclConexionSQL Member%3D(Name%3DGetSPDataSet OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="78469a5e-2e05-4c7a-8f68-fbdc52565594"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8db99fe1-b072-4d94-8273-e473cc0bc5d1">
+                    <propertyInstance
+                      Id="4497a54d-79e8-46c9-b22a-4162ad51a101"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f6100f24-ce76-4df2-b857-6f15faf73238">
+                    <propertyInstance
+                      Id="2410afbf-4761-42e6-bb5c-10baf5ab0ff3"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9e704539-95d9-49a1-81d6-b579f78c2ecb">
+                    <propertyInstance
+                      Id="b98e741b-c153-4563-865a-6b1cf1da2817"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ac306c4e-9238-45f5-8fd0-450d43952637">
+                    <propertyInstance
+                      Id="1ce21d7e-9295-4a75-a0ad-0e0f110d3699"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="58d48849-5b41-416a-b21e-fc7f57baabb5">
+                    <propertyInstance
+                      Id="751c4cca-4210-4890-93fb-387f9b25923b"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="01fbaf80-3d8c-4585-ac2b-fe47f2ab02a5">
+                    <propertyInstance
+                      Id="c2d4f9c2-49a8-4727-9c91-59980ec1d096"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="89cfa035-6c17-42b2-a7c1-e02039b9bcaa"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="14132f47-1461-49e1-b1fc-e81b5a98bf68"
+                      LastKnownName="DataSet"
+                      LastKnownLocation="Package1_1400.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="e1a40c37-8c9a-47d7-af6e-b197f14010e8"
+                  name="stSPNombre"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="afa6ed2b-390e-466e-9fc8-c87293947e61"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion.Datos%2Fbin%2FDebug%2FRegulacion.Datos.dll&quot; Namespace%3DRegulacion.Datos Type%3DclConexionSQL Member%3D(Name%3DGetSPDataSet OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DstSPNombre"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProjectRegulacion.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="a66a0ee3-c349-4e66-a1f8-8364b9a53fde"
+            name="GetSPDataTable"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="6bdd2260-ebdd-4817-ba31-41e1e1aa8b67"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion.Datos%2Fbin%2FDebug%2FRegulacion.Datos.dll&quot; Namespace%3DRegulacion.Datos Type%3DclConexionSQL Member%3D(Name%3DGetSPDataTable OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DDictionary GenericParameterCount%3D2 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)]))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="1b1ee6d1-a441-418a-a57c-5c5f38750716"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ce96a9e9-a52d-4a88-b19d-868b7dbd9891">
+                    <propertyInstance
+                      Id="8682b4c8-ba06-48d5-a60e-bf8091f1b0cb"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f7f4cba8-a419-43ed-a138-2d1d94b7a023">
+                    <propertyInstance
+                      Id="3eda7609-c07f-4cc6-8270-f9994ed37d4c"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7c6ee48d-70c3-4b7a-8719-c91787b25520">
+                    <propertyInstance
+                      Id="3a5f6213-1ba8-4b27-8d9d-fe51d93b6515"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5f6f0215-7b50-4b11-b0d0-0162650c4144">
+                    <propertyInstance
+                      Id="317b5e77-21e1-4f48-b7ff-8cb0f9ea3064"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a6a756e3-8769-4e1d-b390-40e46209973c">
+                    <propertyInstance
+                      Id="8934dfbc-eca5-4608-a84c-16c0be96f0ae"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e869294b-5ddd-4964-8862-c03bff830160">
+                    <propertyInstance
+                      Id="021d586c-869a-4bf1-8b34-9825cb87399d"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="2bdd9474-8ca3-4e25-a132-6a313280a8e0"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="b5fbe3bf-da0f-4702-ad54-28a12dba03f4"
+                      LastKnownName="DataTable"
+                      LastKnownLocation="Package1_1400.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="087eedb9-838b-48d7-a88a-0d88470b9865"
+                  name="stConsulta"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="b5f7d737-fcd6-417d-a31c-f15af4ebaf9e"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion.Datos%2Fbin%2FDebug%2FRegulacion.Datos.dll&quot; Namespace%3DRegulacion.Datos Type%3DclConexionSQL Member%3D(Name%3DGetSPDataTable OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DDictionary GenericParameterCount%3D2 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)]))]) ParameterIdentifier%3DstConsulta"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProjectRegulacion.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="0f96b487-5041-4264-a06b-528933dd630c"
+                  name="diParametros"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="4e403d96-9b50-4e42-864d-f42efafed1d2"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion.Datos%2Fbin%2FDebug%2FRegulacion.Datos.dll&quot; Namespace%3DRegulacion.Datos Type%3DclConexionSQL Member%3D(Name%3DGetSPDataTable OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DDictionary GenericParameterCount%3D2 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)]))]) ParameterIdentifier%3DdiParametros"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="d711d47d-3e37-49fa-827b-7f0cbe24f483"
+                      LastKnownName="Dictionary&lt;String‎, Object‎&gt;"
+                      LastKnownLocation="Package9_1350.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="ab546a7e-f1bb-4ea8-8e46-33de7c16d9ec"
+            name="GetSPDataSet"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="30e28dec-40db-4040-939c-762978421b25"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion.Datos%2Fbin%2FDebug%2FRegulacion.Datos.dll&quot; Namespace%3DRegulacion.Datos Type%3DclConexionSQL Member%3D(Name%3DGetSPDataSet OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DDictionary GenericParameterCount%3D2 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)]))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="02326b1f-4317-4e7b-b6c3-04a4fa634aa1"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f2be0d3c-8c40-4a3d-a3c0-df461e2bfbf1">
+                    <propertyInstance
+                      Id="8d7f683d-e7b1-4104-8be6-bf8802bef8f8"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d3006bce-8b68-4054-8f2f-4eef948eb393">
+                    <propertyInstance
+                      Id="818f3801-b2ef-4d90-9459-5488a8679097"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8fdb6887-4ea7-4cf8-af5c-d50c5f556117">
+                    <propertyInstance
+                      Id="b635d2fa-65e5-4365-a2f0-5837bbbb1462"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eed6d547-52ad-47eb-8558-fb602c28b67a">
+                    <propertyInstance
+                      Id="24bba374-cea8-41dd-ac17-cf806cf254e0"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fe6cd28a-765f-4253-9983-42f7cddab0a9">
+                    <propertyInstance
+                      Id="9b7be88c-bc59-4f17-925d-bdff05be1c77"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6b03802a-5d63-441f-b90e-06993f782290">
+                    <propertyInstance
+                      Id="f6e672a5-b888-4e03-a1e0-bd20de7962bc"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="3f445661-ae70-4cff-93ea-db494324f4af"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="14132f47-1461-49e1-b1fc-e81b5a98bf68"
+                      LastKnownName="DataSet"
+                      LastKnownLocation="Package1_1400.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="76460a00-3bee-405e-b485-893f8fb9cfa4"
+                  name="stSPNombre"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="965eda27-24b9-433d-841c-74108b1f3dff"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion.Datos%2Fbin%2FDebug%2FRegulacion.Datos.dll&quot; Namespace%3DRegulacion.Datos Type%3DclConexionSQL Member%3D(Name%3DGetSPDataSet OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DDictionary GenericParameterCount%3D2 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)]))]) ParameterIdentifier%3DstSPNombre"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProjectRegulacion.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="191e36a2-44f0-44d5-a56d-eb66a23b16a9"
+                  name="diParametros"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="3bf80ee8-4f94-4f27-ba36-efb8fa042119"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion.Datos%2Fbin%2FDebug%2FRegulacion.Datos.dll&quot; Namespace%3DRegulacion.Datos Type%3DclConexionSQL Member%3D(Name%3DGetSPDataSet OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DDictionary GenericParameterCount%3D2 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)]))]) ParameterIdentifier%3DdiParametros"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="d711d47d-3e37-49fa-827b-7f0cbe24f483"
+                      LastKnownName="Dictionary&lt;String‎, Object‎&gt;"
+                      LastKnownLocation="Package9_1350.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="688c264c-3692-4fd0-bf2d-4bf71e8c9d48"
+            name="GetSPDataReader"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="1c3fe2f1-5dd1-4f1d-9945-1eff656ab409"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion.Datos%2Fbin%2FDebug%2FRegulacion.Datos.dll&quot; Namespace%3DRegulacion.Datos Type%3DclConexionSQL Member%3D(Name%3DGetSPDataReader OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="8695cdee-d2f3-483b-959b-387eb602a533"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="57206e59-f8b5-4b97-9a4c-497b7b99db15">
+                    <propertyInstance
+                      Id="15b909a4-b71e-442b-9ac5-ae01296be653"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6c461329-15ab-4ce4-8b9b-0ea454903eca">
+                    <propertyInstance
+                      Id="1c159a0a-5e21-40ff-afcc-202e89fb0e18"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="334b4b97-7901-424b-addf-5b6590ebd4ef">
+                    <propertyInstance
+                      Id="cfa1f8a8-b80e-443c-8f44-90080c8d6d05"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4031a651-b0df-4923-96a7-6588a6a6d44a">
+                    <propertyInstance
+                      Id="3becc6ad-6def-4127-8e24-89cd7dac647b"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="72ad3b21-668c-4c76-bfa6-fd71d730c52a">
+                    <propertyInstance
+                      Id="60f50796-f6e3-487e-aae8-ec479cd8aa47"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ad352c3b-a53e-4ae9-a26c-eb7062ee95b3">
+                    <propertyInstance
+                      Id="6085b4ee-8d31-451b-916f-800dfcf6c29e"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="9f9a47b2-81ca-444b-822f-bcbef1331278"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="c7172e24-0113-48b6-8360-6b1f08a07fa6"
+                      LastKnownName="SqlDataReader"
+                      LastKnownLocation="Package2_1400.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="0fc9d5cf-c5bd-4392-9477-6c61769d0441"
+                  name="stSPNombre"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="9e019b3f-f763-41e5-bded-6191ce700fef"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion.Datos%2Fbin%2FDebug%2FRegulacion.Datos.dll&quot; Namespace%3DRegulacion.Datos Type%3DclConexionSQL Member%3D(Name%3DGetSPDataReader OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DstSPNombre"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProjectRegulacion.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="e6e3a107-5097-4b4d-a11a-b1be657e610e"
+            name="GetSPDataReader"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="b0a08c85-6e35-4ac0-aff2-2887fc440d6f"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion.Datos%2Fbin%2FDebug%2FRegulacion.Datos.dll&quot; Namespace%3DRegulacion.Datos Type%3DclConexionSQL Member%3D(Name%3DGetSPDataReader OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DDictionary GenericParameterCount%3D2 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="6f358ae1-7514-4dde-a94f-7830cbbe4c7d"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a957a58b-d73e-4d31-9d29-62e243782673">
+                    <propertyInstance
+                      Id="1342596d-5d23-4353-bff5-d7205b418527"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="49c5ac72-0283-4093-9e31-eed61ec02102">
+                    <propertyInstance
+                      Id="ec1331c8-652e-4069-82ce-3fc65b1c53d7"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f29812c4-2624-4b46-acbb-351b0c7690f4">
+                    <propertyInstance
+                      Id="daba6a93-2beb-4f24-adc8-d38a7dc03002"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="628c4476-6f40-42d4-bde1-74a95a812854">
+                    <propertyInstance
+                      Id="e930d139-91bc-401d-bc09-b4418eb074f3"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e67a4f24-e4a3-4937-ad94-f43a5291c494">
+                    <propertyInstance
+                      Id="6500eeec-f184-4c8e-8992-b8d2dc1d9c1a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="78123e22-bc66-4f1f-a458-2368ddefbe50">
+                    <propertyInstance
+                      Id="306dee25-4be0-4f0e-a782-73c00a259df0"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="f42b367b-ff61-4003-b30a-6b8b705e1fe6"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="c7172e24-0113-48b6-8360-6b1f08a07fa6"
+                      LastKnownName="SqlDataReader"
+                      LastKnownLocation="Package2_1400.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="3c232969-d569-480e-adc9-3d01aacf1320"
+                  name="stSPNombre"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="45afb8e2-ed9d-472d-92e3-57432692e2ee"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion.Datos%2Fbin%2FDebug%2FRegulacion.Datos.dll&quot; Namespace%3DRegulacion.Datos Type%3DclConexionSQL Member%3D(Name%3DGetSPDataReader OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DDictionary GenericParameterCount%3D2 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]))]) ParameterIdentifier%3DstSPNombre"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProjectRegulacion.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="4e2c00ba-6a46-4de4-a213-56916aa76610"
+                  name="diParametros"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="98e457ca-6313-4774-845e-b7dcf97439fc"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion.Datos%2Fbin%2FDebug%2FRegulacion.Datos.dll&quot; Namespace%3DRegulacion.Datos Type%3DclConexionSQL Member%3D(Name%3DGetSPDataReader OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DDictionary GenericParameterCount%3D2 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]))]) ParameterIdentifier%3DdiParametros"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="554eee84-a21b-46f6-a463-cda995c4ccd0"
+                      LastKnownName="Dictionary&lt;String‎, String‎&gt;"
+                      LastKnownLocation="Package9_1350.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="548db8a6-128c-4679-837b-188caa9745ae"
+            name="ExeCommandSP"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="c9983cbd-9730-4b9a-bdf1-a8eda9828b78"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion.Datos%2Fbin%2FDebug%2FRegulacion.Datos.dll&quot; Namespace%3DRegulacion.Datos Type%3DclConexionSQL Member%3D(Name%3DExeCommandSP OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DDictionary GenericParameterCount%3D2 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)]))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="4742a992-d2df-4446-af04-b8a73917372d"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4313ac47-413b-49a0-8368-0bce8bbddd15">
+                    <propertyInstance
+                      Id="c57ecad1-6de3-4aa9-b0c5-b1d93b0e8c5a"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="783c3953-100f-4cfb-af78-9694cf8e4545">
+                    <propertyInstance
+                      Id="ef8c818c-5938-4ec2-829a-dc769ac77496"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9481ce20-a973-41a2-8880-1eae0e9f893c">
+                    <propertyInstance
+                      Id="19900da3-efec-487d-b689-56f992d4a72c"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a0bd38e2-1766-4b70-9b85-1f1a3b535a19">
+                    <propertyInstance
+                      Id="197f6d8f-13c9-4d1c-936e-0ef944903c09"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ce42f455-c510-4c18-889d-03aa06ad799c">
+                    <propertyInstance
+                      Id="67a14d41-a79c-474e-b927-fc4d17549984"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c2f04525-fcfb-449c-88a9-9678a3ae5c8a">
+                    <propertyInstance
+                      Id="9a63b0af-4f7b-4dff-b026-79e81caa2af1"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="39540e74-edef-4d25-b6fc-f360fe3c7ac2"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProjectRegulacion.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="c16302d7-d104-43db-a20d-f851f54857de"
+                  name="stSPNombre"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="badc2a3c-4d9b-4e85-877b-bf804b7b7309"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion.Datos%2Fbin%2FDebug%2FRegulacion.Datos.dll&quot; Namespace%3DRegulacion.Datos Type%3DclConexionSQL Member%3D(Name%3DExeCommandSP OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DDictionary GenericParameterCount%3D2 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)]))]) ParameterIdentifier%3DstSPNombre"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProjectRegulacion.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="25f98e5b-7c5b-48a4-a11b-e9257598c550"
+                  name="diParametros"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="bfd4d5d5-7c91-450c-8459-135e37c5f0df"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion.Datos%2Fbin%2FDebug%2FRegulacion.Datos.dll&quot; Namespace%3DRegulacion.Datos Type%3DclConexionSQL Member%3D(Name%3DExeCommandSP OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DDictionary GenericParameterCount%3D2 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)]))]) ParameterIdentifier%3DdiParametros"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="d711d47d-3e37-49fa-827b-7f0cbe24f483"
+                      LastKnownName="Dictionary&lt;String‎, Object‎&gt;"
+                      LastKnownLocation="Package9_1350.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="8cd3e4c5-ac5e-4744-8a7a-fb121ba5e05b"
+            name="ExeScalarSP"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="236942f3-0ea0-4913-9e38-c435c7af9acb"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion.Datos%2Fbin%2FDebug%2FRegulacion.Datos.dll&quot; Namespace%3DRegulacion.Datos Type%3DclConexionSQL Member%3D(Name%3DExeScalarSP OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DDictionary GenericParameterCount%3D2 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)]))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="17185817-fe7b-4f91-8935-2ffd27535588"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1323d0ea-42c1-4ac9-b250-eb6c628d7d01">
+                    <propertyInstance
+                      Id="be11e8e5-48bd-483c-9e48-f2400f7eeddb"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="092b1366-51df-45ac-b1c8-815383ae5f60">
+                    <propertyInstance
+                      Id="ac8c4c25-b971-4e91-b9a9-f01a16d65b2a"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0dde24ea-e45f-4dab-bc7f-259746ca007b">
+                    <propertyInstance
+                      Id="13655534-40c3-43ee-9173-be04ac069849"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="af4084ab-28bb-4e27-9843-161a34f7234e">
+                    <propertyInstance
+                      Id="b3dda12e-743d-4ec1-ba2c-082fed5df487"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="349c2997-175b-4987-90fc-28d1702885ca">
+                    <propertyInstance
+                      Id="5092aaf3-652f-4f3b-940e-b3c440ccc01e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="98ff0972-bcee-426b-b3ee-e904c9488a96">
+                    <propertyInstance
+                      Id="541d6270-c97a-4e06-ad91-cff628a03601"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="74711157-241c-444c-8825-565c45142c50"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="6e834389-d394-442a-aced-504545537ba9"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package3_1350.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="eb7b6e8a-5d1a-4836-a2cf-faba76332b0a"
+                  name="stSPNombre"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="1670224b-04d3-467d-ad02-20bf622b5c29"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion.Datos%2Fbin%2FDebug%2FRegulacion.Datos.dll&quot; Namespace%3DRegulacion.Datos Type%3DclConexionSQL Member%3D(Name%3DExeScalarSP OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DDictionary GenericParameterCount%3D2 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)]))]) ParameterIdentifier%3DstSPNombre"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProjectRegulacion.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="4181c425-49b1-497f-bff3-af2700dec9bd"
+                  name="diParametros"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="cab1d760-8efd-479e-a2bf-d8477bb7bd78"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion.Datos%2Fbin%2FDebug%2FRegulacion.Datos.dll&quot; Namespace%3DRegulacion.Datos Type%3DclConexionSQL Member%3D(Name%3DExeScalarSP OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DDictionary GenericParameterCount%3D2 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)]))]) ParameterIdentifier%3DdiParametros"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="d711d47d-3e37-49fa-827b-7f0cbe24f483"
+                      LastKnownName="Dictionary&lt;String‎, Object‎&gt;"
+                      LastKnownLocation="Package9_1350.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="07d040a8-4a9e-4f71-bd3b-4e4694058ee9"
+            name="GetDataSet"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="743eb9b2-267e-424e-ad75-5ad3db00f1c4"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion.Datos%2Fbin%2FDebug%2FRegulacion.Datos.dll&quot; Namespace%3DRegulacion.Datos Type%3DclConexionSQL Member%3D(Name%3DGetDataSet OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DDictionary GenericParameterCount%3D2 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)]))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f790d652-2b5c-4f4d-8196-1494dcac3530"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="50eb205f-5b11-478f-b82a-ee28bd1a73d1">
+                    <propertyInstance
+                      Id="a561e428-5bc8-48f6-a807-ce096848e0a8"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f8d085fb-830d-4048-a0c2-45a356bb2fdf">
+                    <propertyInstance
+                      Id="ff6730ed-0074-419d-9648-99d396bc336d"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7c22812b-90f0-493b-9200-1bca19170f76">
+                    <propertyInstance
+                      Id="149f6176-1e00-43f0-9961-03e4d92cbf71"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a1f3d26c-c0cc-4892-9695-8f197bdda9ee">
+                    <propertyInstance
+                      Id="da55ddc4-b05c-408b-907d-da54b4e4f2e6"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8611e567-3835-45be-a412-0e21078c0da7">
+                    <propertyInstance
+                      Id="6375e51b-fdb5-4e2d-b4b1-f1b3f7f75382"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="88f6869e-0a92-4ffa-92f2-42d9df5282f0">
+                    <propertyInstance
+                      Id="0c5bdfc3-5b0a-43e1-8c09-39256c3b0222"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="21342aa2-9097-461e-9542-1e9d31ea560c"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="14132f47-1461-49e1-b1fc-e81b5a98bf68"
+                      LastKnownName="DataSet"
+                      LastKnownLocation="Package1_1400.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="208bb55e-7f94-456b-a791-44cfdbb0f926"
+                  name="stConsulta"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="088a21ed-7387-408c-be1f-00a264da4362"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion.Datos%2Fbin%2FDebug%2FRegulacion.Datos.dll&quot; Namespace%3DRegulacion.Datos Type%3DclConexionSQL Member%3D(Name%3DGetDataSet OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DDictionary GenericParameterCount%3D2 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)]))]) ParameterIdentifier%3DstConsulta"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProjectRegulacion.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="02e9aa12-84eb-415a-a29e-50d5bc250615"
+                  name="diParametros"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="93a200de-fee3-423c-942d-1a4f39e32712"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion.Datos%2Fbin%2FDebug%2FRegulacion.Datos.dll&quot; Namespace%3DRegulacion.Datos Type%3DclConexionSQL Member%3D(Name%3DGetDataSet OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DDictionary GenericParameterCount%3D2 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)]))]) ParameterIdentifier%3DdiParametros"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="d711d47d-3e37-49fa-827b-7f0cbe24f483"
+                      LastKnownName="Dictionary&lt;String‎, Object‎&gt;"
+                      LastKnownLocation="Package9_1350.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="b2348ca8-8920-4d7f-95cb-d2100dfcef03"
+            name="GetDataSet"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="21a3c010-1981-4b07-b5b9-b50e0bbd11da"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion.Datos%2Fbin%2FDebug%2FRegulacion.Datos.dll&quot; Namespace%3DRegulacion.Datos Type%3DclConexionSQL Member%3D(Name%3DGetDataSet OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a4b14613-ae61-477e-a0de-2ab46f2aea9b"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="66c195fd-a260-4d2e-b704-cec88feaf5bd">
+                    <propertyInstance
+                      Id="3460b2c6-8e67-4324-8e65-4cc3ac4157d1"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2983d281-f891-4562-9106-d7b239353509">
+                    <propertyInstance
+                      Id="81522e59-5d2a-4a05-a7e9-2a086a494311"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="46b33bd1-b225-4310-98aa-091308df0b65">
+                    <propertyInstance
+                      Id="db316898-111a-45db-9afd-50e323560596"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9834e8f5-e8a1-4e6c-b55a-bd977fdd16f0">
+                    <propertyInstance
+                      Id="377d20b0-2428-465d-bf81-5fdf2cd1a0e8"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="73f96445-4e41-45f9-b4b9-4a2e0bae7ef2">
+                    <propertyInstance
+                      Id="39cbc605-0977-4dc8-a43e-06c3e8ca8d43"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b93cd93b-d321-47e7-9386-c1b9089100f6">
+                    <propertyInstance
+                      Id="1e1f2a24-f41b-4a61-a5b7-586835546259"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="d01028dc-f106-41a1-ab0a-d5c605ca34ba"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="14132f47-1461-49e1-b1fc-e81b5a98bf68"
+                      LastKnownName="DataSet"
+                      LastKnownLocation="Package1_1400.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="2ce05341-65d3-4555-91b1-b4a66589fedb"
+                  name="stConsulta"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="3369569d-53bc-45fe-bf35-8c8d928a7906"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion.Datos%2Fbin%2FDebug%2FRegulacion.Datos.dll&quot; Namespace%3DRegulacion.Datos Type%3DclConexionSQL Member%3D(Name%3DGetDataSet OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DstConsulta"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProjectRegulacion.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="35da9af0-ac0f-49dc-b82a-604830c45d1e"
+                  name="s_Name"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="e8516d5b-7e82-4d1a-bcc5-239cc30c0f63"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion.Datos%2Fbin%2FDebug%2FRegulacion.Datos.dll&quot; Namespace%3DRegulacion.Datos Type%3DclConexionSQL Member%3D(Name%3DGetDataSet OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3Ds_Name"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProjectRegulacion.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="cadc5378-7b3f-45e5-9f0a-2b704702804b"
+            name="GetDataTable"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="a0b9e1f9-e5f7-4cfd-9154-d5b9947c5ac2"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion.Datos%2Fbin%2FDebug%2FRegulacion.Datos.dll&quot; Namespace%3DRegulacion.Datos Type%3DclConexionSQL Member%3D(Name%3DGetDataTable OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="8f239d0a-c888-41c5-9502-d19c06071a48"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="006096c6-d8ac-44c9-a6be-b3a35c525aa3">
+                    <propertyInstance
+                      Id="bbd4d470-48b3-4580-b617-0f414ca4c3a1"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="25d50829-0ff2-4deb-b52b-35beebc924fd">
+                    <propertyInstance
+                      Id="ee3ddb0a-f724-4e90-913e-3874fb8d7f5b"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ea171d81-7edf-4d92-8f5f-cc31933f597e">
+                    <propertyInstance
+                      Id="d4ec6018-42ae-4bb8-a0b5-961283cbed61"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="17b47f74-244c-4d8b-86c4-313c4299705a">
+                    <propertyInstance
+                      Id="9464d087-bc76-4e59-84bf-b3fb44ccfa9c"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3a21e4f3-42f3-4b2f-882f-12dc0065014c">
+                    <propertyInstance
+                      Id="79cba3d9-72ce-4ac4-ad53-3c213544118c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e5f0a9e3-b6cf-4a9d-bfd8-a9cda2ee4ace">
+                    <propertyInstance
+                      Id="295e4c7d-1f53-412d-acb6-2db9e464d1b5"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="55481f5d-f849-464e-8fc6-85d38494607c"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="b5fbe3bf-da0f-4702-ad54-28a12dba03f4"
+                      LastKnownName="DataTable"
+                      LastKnownLocation="Package1_1400.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="70d654d2-486d-4e10-990b-84dcc86de2b4"
+                  name="stConsulta"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="3bc09d6e-38b8-4c49-91f0-65c6b107deaa"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion.Datos%2Fbin%2FDebug%2FRegulacion.Datos.dll&quot; Namespace%3DRegulacion.Datos Type%3DclConexionSQL Member%3D(Name%3DGetDataTable OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DstConsulta"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProjectRegulacion.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="7f3ec521-78a9-4b9b-ae17-c3c02d8c5c8c"
+            name="GetDataTable"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="f57ea17a-30fb-413b-8fa1-7ec7f8aaac85"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion.Datos%2Fbin%2FDebug%2FRegulacion.Datos.dll&quot; Namespace%3DRegulacion.Datos Type%3DclConexionSQL Member%3D(Name%3DGetDataTable OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DDictionary GenericParameterCount%3D2 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)]))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c77b7614-899c-45b7-bddb-deee14e94788"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="af967d36-861d-4c89-aa98-e41224d6ce04">
+                    <propertyInstance
+                      Id="63e55a3f-a77c-4e5b-b105-9a31c351895f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="548e4d9b-5a1e-4478-b4c8-14b429a20923">
+                    <propertyInstance
+                      Id="c3c9ac74-6ee4-4df9-aeea-b14309a1fcd7"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3426ba75-d23c-4a71-96fb-cfbec461c215">
+                    <propertyInstance
+                      Id="cd361976-7777-4bcb-bceb-8e5cbdca1bdd"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cc31a0e1-3cec-4d09-bf35-850d9b1e5c47">
+                    <propertyInstance
+                      Id="797e66ea-f35d-4bc5-8f82-297c75bb58bc"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="20349c73-4e58-438b-a554-fd11047846b7">
+                    <propertyInstance
+                      Id="b0f2c18c-09b0-4a64-b025-02d5634fb2ef"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b23b2f79-038d-4b80-91da-53f9719354a5">
+                    <propertyInstance
+                      Id="73403c49-dc10-49c5-8546-ee1eb4c3e8a3"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="490ae66b-d69b-419b-a0d0-b923c81495a4"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="b5fbe3bf-da0f-4702-ad54-28a12dba03f4"
+                      LastKnownName="DataTable"
+                      LastKnownLocation="Package1_1400.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="db354caa-704a-4e30-8cb1-92bf36cd9c6a"
+                  name="stConsulta"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="a94b4ae9-2f2f-47b7-ad77-fec8edd3c88a"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion.Datos%2Fbin%2FDebug%2FRegulacion.Datos.dll&quot; Namespace%3DRegulacion.Datos Type%3DclConexionSQL Member%3D(Name%3DGetDataTable OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DDictionary GenericParameterCount%3D2 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)]))]) ParameterIdentifier%3DstConsulta"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProjectRegulacion.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="be5c7238-3201-4643-96cb-9392dcc1b5e7"
+                  name="diParametros"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="189cde3f-f672-4fe0-9144-a9229c6baded"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion.Datos%2Fbin%2FDebug%2FRegulacion.Datos.dll&quot; Namespace%3DRegulacion.Datos Type%3DclConexionSQL Member%3D(Name%3DGetDataTable OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DDictionary GenericParameterCount%3D2 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)]))]) ParameterIdentifier%3DdiParametros"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="d711d47d-3e37-49fa-827b-7f0cbe24f483"
+                      LastKnownName="Dictionary&lt;String‎, Object‎&gt;"
+                      LastKnownLocation="Package9_1350.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="3ff1fbef-908e-4f0c-b47f-360dd42c8a6a"
+            name="GetDataReader"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="1d947cb2-db78-452d-9b57-a259edd6a092"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion.Datos%2Fbin%2FDebug%2FRegulacion.Datos.dll&quot; Namespace%3DRegulacion.Datos Type%3DclConexionSQL Member%3D(Name%3DGetDataReader OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c5fcd0c4-7f82-4fb3-9c86-034d81372b1c"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="468df954-a8b4-46f4-9578-88d94163bcbf">
+                    <propertyInstance
+                      Id="c5130b3c-88cd-4cb0-90a1-7abf6397b0eb"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="815a7d77-8532-496f-98b8-b5aaa15b874a">
+                    <propertyInstance
+                      Id="238d015e-fc18-4731-952d-74a25186ab51"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="081656cb-1901-4de0-b6f0-3b5a8f4be88e">
+                    <propertyInstance
+                      Id="c5d909b3-8205-4b0a-a58d-9d004fe92e99"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="21c09a23-1437-45c1-8f4b-e35a9b20d682">
+                    <propertyInstance
+                      Id="424335a0-c011-4053-ac3e-a920500f80c1"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3440eba4-415c-4f66-8127-36a6b681310a">
+                    <propertyInstance
+                      Id="9fa95d98-2c6b-45a7-81cb-92089c728178"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="507fcd23-c5bf-40cd-9007-72561fb868be">
+                    <propertyInstance
+                      Id="f9f00942-4075-4b44-922c-b7c8318cb51f"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="e9e62f23-df39-40fb-8125-2332713940d9"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="c7172e24-0113-48b6-8360-6b1f08a07fa6"
+                      LastKnownName="SqlDataReader"
+                      LastKnownLocation="Package2_1400.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="64730cc7-e61d-4f25-bb73-0e01d4ce2642"
+                  name="stConsulta"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="23daacf7-67eb-44a8-a551-2976ddb1cf86"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion.Datos%2Fbin%2FDebug%2FRegulacion.Datos.dll&quot; Namespace%3DRegulacion.Datos Type%3DclConexionSQL Member%3D(Name%3DGetDataReader OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DstConsulta"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProjectRegulacion.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="69b9ad7a-b030-48f0-86bf-a5383ae26ee9"
+            name="ExeCommand"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="537a697e-5ad1-4f66-ae36-6f6631b905d1"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion.Datos%2Fbin%2FDebug%2FRegulacion.Datos.dll&quot; Namespace%3DRegulacion.Datos Type%3DclConexionSQL Member%3D(Name%3DExeCommand OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DDictionary GenericParameterCount%3D2 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)]))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="03e546dd-f75a-409f-b668-74183b7fde00"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7aac5652-a73c-4535-87b3-824a54f86795">
+                    <propertyInstance
+                      Id="a2aa4795-41e2-41a2-8281-84266d9e5910"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0190c566-5454-4934-8b9d-7ad049dcba22">
+                    <propertyInstance
+                      Id="2d14f1d9-7633-4228-98d0-59aa372d9bf6"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1266fe73-dee9-4e5b-86f4-f427227b65a8">
+                    <propertyInstance
+                      Id="8c24e919-8a61-4a37-9d12-036370ea38e5"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="353e142f-7d2b-4e7d-929f-0429d6e3ec7b">
+                    <propertyInstance
+                      Id="cd663f15-0142-4107-b3a3-0fbea00fa6bd"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9533f3d4-2b40-47d9-9927-12c8c7b462e3">
+                    <propertyInstance
+                      Id="f229158b-702c-43cf-bef2-f83410afdd72"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="667a9cbf-aede-4ed5-a841-f119956335dc">
+                    <propertyInstance
+                      Id="9ce82acd-2930-4ed2-9a91-aa332b6db46c"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="530b901e-7d6c-4698-8690-a3c844f308c1"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProjectRegulacion.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="22ef3eb3-8db6-4601-80c4-2d5b6cddc0e1"
+                  name="stConsulta"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="e26e46c0-0b6e-48c0-a480-0e957d66dd33"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion.Datos%2Fbin%2FDebug%2FRegulacion.Datos.dll&quot; Namespace%3DRegulacion.Datos Type%3DclConexionSQL Member%3D(Name%3DExeCommand OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DDictionary GenericParameterCount%3D2 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)]))]) ParameterIdentifier%3DstConsulta"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProjectRegulacion.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="58c4d983-739b-4c9b-92b5-a915060e6d3f"
+                  name="diParametros"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="65ec0182-d422-4501-b66e-3311d2dd7866"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion.Datos%2Fbin%2FDebug%2FRegulacion.Datos.dll&quot; Namespace%3DRegulacion.Datos Type%3DclConexionSQL Member%3D(Name%3DExeCommand OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DDictionary GenericParameterCount%3D2 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)]))]) ParameterIdentifier%3DdiParametros"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="d711d47d-3e37-49fa-827b-7f0cbe24f483"
+                      LastKnownName="Dictionary&lt;String‎, Object‎&gt;"
+                      LastKnownLocation="Package9_1350.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="10805708-b557-41ae-95c5-b540ae0b7dae"
+            name="ExeCommand"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="a97c8d39-fe8e-4be5-898d-0f3c53fd9777"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion.Datos%2Fbin%2FDebug%2FRegulacion.Datos.dll&quot; Namespace%3DRegulacion.Datos Type%3DclConexionSQL Member%3D(Name%3DExeCommand OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b705a3ab-bb0a-474a-9fe6-96ac4c66b5dd"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c9f5b610-012a-4a40-b47a-a86c9caa3a81">
+                    <propertyInstance
+                      Id="a4eb8c31-a130-4987-aa5b-55f6c39dd92a"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="85025e53-a225-4847-82ed-96e536f623b1">
+                    <propertyInstance
+                      Id="78d97ea1-9cb2-4cbc-8d6c-c12048fdc53d"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="034153df-f691-487d-85ac-be3c1e3728bc">
+                    <propertyInstance
+                      Id="ded97460-836a-48ef-8a2e-5d23dbca152b"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="30ec946f-94c2-465d-963e-e151bf560dac">
+                    <propertyInstance
+                      Id="27293825-8577-4414-8133-56fe256e915c"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="99b6dba3-cda0-4e4c-8c80-6c6a6b66322a">
+                    <propertyInstance
+                      Id="c6c0c041-2acb-4981-a0f3-0c9c31bc1ec9"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a8e4cffc-f729-40e3-a398-70446394e8b9">
+                    <propertyInstance
+                      Id="e7423fe3-6b01-4e64-82bf-63742ce43aa4"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="9a9a9c80-23bb-45ca-83ae-7bfe76ce0b79"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="220a3521-e091-4221-bae9-3ef9018e845c"
+                      LastKnownName="Integer"
+                      LastKnownLocation="ModelingProjectRegulacion.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="cddcbe10-c378-4ebd-ac00-e829d8072fd5"
+                  name="stConsulta"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="e4dbc38f-a966-41c8-8f71-7defeb10ca96"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion.Datos%2Fbin%2FDebug%2FRegulacion.Datos.dll&quot; Namespace%3DRegulacion.Datos Type%3DclConexionSQL Member%3D(Name%3DExeCommand OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DstConsulta"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProjectRegulacion.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="171594b0-d88f-46a2-bf9a-5181ef034717"
+            name="ExeScalar"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="75744ef8-23be-4444-8fed-7f071fb13cd4"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion.Datos%2Fbin%2FDebug%2FRegulacion.Datos.dll&quot; Namespace%3DRegulacion.Datos Type%3DclConexionSQL Member%3D(Name%3DExeScalar OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DDictionary GenericParameterCount%3D2 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)]))])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="46641966-86aa-4fd6-8db6-e957f790e2b2"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="96d4c8eb-f315-4c48-bab4-1a7723ec3f0d">
+                    <propertyInstance
+                      Id="51f7ea61-0c46-4405-9829-232b6488049e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7f3ce68b-bb99-4f0e-bd93-9c6babb8d509">
+                    <propertyInstance
+                      Id="630ee481-3c69-435a-b015-792a89c6cadd"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="86f7a65e-8c59-4100-9a87-3eb194c3bf70">
+                    <propertyInstance
+                      Id="1d60e11b-aa40-45a7-9e44-061f906d4570"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ee812f13-509e-4a7c-9282-be9e305bdea5">
+                    <propertyInstance
+                      Id="5cf891e9-8ba9-49e8-8fda-783f1b8ecbee"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2a996b83-5855-4201-8908-1d92e7ac9d71">
+                    <propertyInstance
+                      Id="36a86de2-850c-4c61-9bd2-e39eb625a858"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d4d43a0b-1588-4ac5-a97e-d5f346891ed0">
+                    <propertyInstance
+                      Id="06b1c0f8-03a5-4d98-902c-d1f54f52f4ca"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="a4675e1b-1c64-4158-8f49-7568b3b96209"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="6e834389-d394-442a-aced-504545537ba9"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package3_1350.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="e1508208-45b3-4207-b619-268ab9e1417a"
+                  name="stConsulta"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="4e8bbd37-7430-42f5-96c6-8a6583425bee"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion.Datos%2Fbin%2FDebug%2FRegulacion.Datos.dll&quot; Namespace%3DRegulacion.Datos Type%3DclConexionSQL Member%3D(Name%3DExeScalar OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DDictionary GenericParameterCount%3D2 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)]))]) ParameterIdentifier%3DstConsulta"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProjectRegulacion.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="613f146b-4284-4af8-bb51-72cfe46c2167"
+                  name="diParametros"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="5d50090e-baa6-45fb-8eef-439842bd72a4"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion.Datos%2Fbin%2FDebug%2FRegulacion.Datos.dll&quot; Namespace%3DRegulacion.Datos Type%3DclConexionSQL Member%3D(Name%3DExeScalar OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem.Collections.Generic Type%3D(Name%3DDictionary GenericParameterCount%3D2 GenericArguments%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)]))]) ParameterIdentifier%3DdiParametros"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="d711d47d-3e37-49fa-827b-7f0cbe24f483"
+                      LastKnownName="Dictionary&lt;String‎, Object‎&gt;"
+                      LastKnownLocation="Package9_1350.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="7145f8a6-f6e2-4e7a-a6bd-a923f57cbf44"
+            name="ExeScalar"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="c3cfdd45-fbd9-4f29-a54e-c32861932cca"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion.Datos%2Fbin%2FDebug%2FRegulacion.Datos.dll&quot; Namespace%3DRegulacion.Datos Type%3DclConexionSQL Member%3D(Name%3DExeScalar OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="1af14aad-7ac9-4700-9015-182f2d7607f4"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="360d9940-6f66-4560-b60c-93df1ebc0bd4">
+                    <propertyInstance
+                      Id="5e4a59f5-e480-4b6e-a8b1-2fc61b0a8878"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0e3dc3c1-3552-420a-b473-846b116e29f0">
+                    <propertyInstance
+                      Id="7332db01-745e-4deb-9a31-5560e57b5fdf"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="33a43303-119f-4aa5-8304-cbd963f7c454">
+                    <propertyInstance
+                      Id="92bd5f12-bb1d-4f09-9ed1-ec29a6f418d9"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8936b1b0-7fae-4a8c-a298-9cc546ac31c4">
+                    <propertyInstance
+                      Id="97f50d40-f440-4ab9-abbf-1a6767ae1008"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="163ab285-384e-4a6a-9349-6ce58d10503c">
+                    <propertyInstance
+                      Id="88e7121b-6231-46d2-983c-9879513db713"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="256c3a11-350c-48e7-9a64-6c68405f89a4">
+                    <propertyInstance
+                      Id="767f6797-c3c9-41a3-a2f9-44479aa276ab"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="e3d15d31-21ee-4655-9c9c-b14908813d58"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="6e834389-d394-442a-aced-504545537ba9"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package3_1350.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="f632465e-b7e6-4cba-bbe0-9116e1a02e76"
+                  name="stConsulta"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="ed9ed567-8a4e-4aad-81f2-d4e774456ed3"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion.Datos%2Fbin%2FDebug%2FRegulacion.Datos.dll&quot; Namespace%3DRegulacion.Datos Type%3DclConexionSQL Member%3D(Name%3DExeScalar OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DstConsulta"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProjectRegulacion.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="1af9e587-b054-4a71-bf22-fc48ba92ed2d"
+            name="CloseConnection"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="ebcb45e7-9b24-48b3-95fb-464f3daf62a0"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion.Datos%2Fbin%2FDebug%2FRegulacion.Datos.dll&quot; Namespace%3DRegulacion.Datos Type%3DclConexionSQL Member%3DCloseConnection"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="598a64b9-6519-40ad-aee9-3c2f56a223a8"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cc637d19-58a0-4a7f-9199-73f4ba1979cf">
+                    <propertyInstance
+                      Id="6a30a9ef-4844-424b-8acb-e8e1b7b5ae06"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b8fba125-ad9f-49e0-bf25-732e2fe917f7">
+                    <propertyInstance
+                      Id="907bd13a-b72d-43f8-bbb4-76ac51f9eddd"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cc6d4e8b-98b3-467a-ad3f-19ca840b3060">
+                    <propertyInstance
+                      Id="9a5d7223-b3c4-4fe3-8f8b-8e116ed76e79"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6d76805a-3021-49ef-ba98-83fdc0f2fa5f">
+                    <propertyInstance
+                      Id="e368339d-e6d1-44b8-8450-148125f19f9f"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d546ea76-935b-4136-a0d4-db0b2eec6b0f">
+                    <propertyInstance
+                      Id="5ab1d54a-9043-4ad0-a14b-ac9b36ca9e54"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1763a9be-6631-4163-ab60-d6e1060fb8e4">
+                    <propertyInstance
+                      Id="2d6da643-ef66-47a2-a383-cb4b33c0c90e"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

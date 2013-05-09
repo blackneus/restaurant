@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="ce487bfc-969b-46bc-aaf1-ec5677474330" name="Login" linkedPackageId="ca9aae0d-ad83-4e8d-bc4e-88eb46e735b9" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="965804eb-436c-4a0a-b3b0-43cefa83e906" name="Usuario CNH" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="7f3649a3-6041-46e0-901b-c198692bc6d4" />
+        <targetEnds>
+          <association Id="5a023a10-4cb5-47cb-8b98-1415118c532d" isDerived="false" sourceEndRoleName="Usuario CNH" targetEndRoleName="Iniciar sesión" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="d7c41175-1fa0-44c3-9da2-20487b6a1959" LastKnownName="Iniciar sesión" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="5f3ee040-c918-41e5-a66d-ff4efca6a637" name="Usuario CNH" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="4c07ea5b-b06d-471f-86a5-53f4443c3a71" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="74ae17ce-45ad-4840-9ee1-139782649f5e" name="Iniciar sesión" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="eab80d0d-1bc7-4e15-b579-16ee8384760a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="c4319493-bd27-4e9a-9307-0516e9beace1" />
+          </association>
+          <association Id="30ff971b-66d4-4419-ac4b-99cff17b9c81" isDerived="false" sourceEndRoleName="Usuario CNH" targetEndRoleName="Recuperar contraseña" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="ae7aaa7f-5bca-4d02-bb2f-37b64973fbfe" LastKnownName="Recuperar contraseña" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="362bbba1-3425-43c5-909a-5a885e7f4757" name="Usuario CNH" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="e3fe3fc8-bd8b-437b-946f-b2464d70cdff" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6e61ab61-3450-46df-8c27-298915232e54" name="Recuperar contraseña" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="b329b596-0e9d-42fa-b8c6-1098b419bf94" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="cecaf669-9b28-4ef5-b90e-252b3e75db09" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="5036cbd2-7be8-47fb-835a-bf54e336a658" name="Usuario PEP" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="1482b193-652d-49e1-8806-ae8912fadd26" />
+        <targetEnds>
+          <association Id="aee2578c-d9d6-4997-ab45-b5655f9eae19" isDerived="false" sourceEndRoleName="Usuario PEP" targetEndRoleName="Iniciar sesión" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="d7c41175-1fa0-44c3-9da2-20487b6a1959" LastKnownName="Iniciar sesión" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="5e09464e-06b4-4c34-a910-09f0661114f9" name="Usuario PEP" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="db606b5b-c1cf-4b0b-b34b-5078f030fba9" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b6023b51-99d7-4d15-913b-0e1bec291f54" name="Iniciar sesión" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="322034a1-6e1c-47eb-9ad0-11eb5a658f5c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="36ccf4df-7122-4108-b810-c6b3c079b491" />
+          </association>
+          <association Id="28aa897f-feff-485b-b0aa-13060936188e" isDerived="false" sourceEndRoleName="Usuario PEP" targetEndRoleName="Recuperar contraseña" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="ae7aaa7f-5bca-4d02-bb2f-37b64973fbfe" LastKnownName="Recuperar contraseña" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="5d194d49-b0e1-4fb4-9f41-4ddffd5b3cd4" name="Usuario PEP" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="96c1538c-795e-448f-9330-1d47aa50edec" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d8d3fe94-4283-4fb5-b878-d2224163b5cd" name="Recuperar contraseña" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="8cd386e4-8a62-47f6-b8f6-9eb7b9d9a75f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="b8448bad-10ff-4889-b419-cadf0cac949e" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="b1a32a87-5b7f-4560-b543-67034f52dd74" name="Administrador" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="41b217d9-bfe8-4fb6-b5ca-6bc59994dcfa" />
+        <targetEnds>
+          <association Id="6e85d7a0-7a12-4ad1-b51f-348ce38518a6" isDerived="false" sourceEndRoleName="Administrador" targetEndRoleName="Iniciar sesión" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="d7c41175-1fa0-44c3-9da2-20487b6a1959" LastKnownName="Iniciar sesión" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="dcf89f45-5675-4dc7-a5c5-4c2c4aecd0c2" name="Administrador" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="e64a3e4a-8566-4176-baea-fbfaffe9f989" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="71407dd6-20d7-40fb-842b-57dd46a894cc" name="Iniciar sesión" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="a11e3df5-27f6-4d64-a3bd-dce913b81933" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="f1780a03-82b0-4383-bf02-ea5efe5fdfb0" />
+          </association>
+          <association Id="f9194ff6-4974-4744-96e1-95b35fdc1b28" isDerived="false" sourceEndRoleName="Administrador" targetEndRoleName="Recuperar contraseña" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="ae7aaa7f-5bca-4d02-bb2f-37b64973fbfe" LastKnownName="Recuperar contraseña" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="761521bf-dff3-43c8-aee2-dde844cd2684" name="Administrador" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="448eacf0-ecf6-4f7e-9b20-6e56bbc3603f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="4d77e2d3-0b32-43c4-a1fd-ec434041ce32" name="Recuperar contraseña" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="fbff2b6e-d907-47ad-a882-f7fbafd6394a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="e8f475c2-39cc-4804-bf8e-cf6c1a23e512" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <subsystem Id="4244101b-4a18-49e5-8942-e282183f29c5" name="Login" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="88bfb6dc-99a3-4175-be25-13117a08e7bf" />
+      </subsystem>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="d7c41175-1fa0-44c3-9da2-20487b6a1959" name="Iniciar sesión" isAbstract="false" isLeaf="false">
+        <description>Incio de sesión mediante usuario y contraseña</description>
+        <elementDefinition Id="c98e290c-77c1-4775-9b55-1a45307902a9" />
+        <subjects>
+          <subsystemMoniker Id="4244101b-4a18-49e5-8942-e282183f29c5" LastKnownName="Login" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="ae7aaa7f-5bca-4d02-bb2f-37b64973fbfe" name="Recuperar contraseña" isAbstract="false" isLeaf="false">
+        <description>Si el usuario olvido su contraseña puede solicitar una nueva</description>
+        <elementDefinition Id="0d8b05f0-d322-473f-8404-912ec11ab80e" />
+        <extendedCases>
+          <extend Id="6079c2fb-4373-4907-b926-c3c0a4321531">
+            <useCaseMoniker Id="d7c41175-1fa0-44c3-9da2-20487b6a1959" LastKnownName="Iniciar sesión" />
+            <elementDefinition Id="cbaf1eb3-61ab-41d4-bbcd-47d2c241d0a8" />
+          </extend>
+        </extendedCases>
+        <additions>
+          <include Id="307e58bb-429f-47cc-bc11-da154d247145">
+            <useCaseMoniker Id="09ee8efb-bbdd-4336-bbe2-fce30e793e0f" LastKnownName="Responder pregunta secreta" />
+            <elementDefinition Id="e36eca27-5e4a-4dcd-be88-fb702693fbf2" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="4244101b-4a18-49e5-8942-e282183f29c5" LastKnownName="Login" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="09ee8efb-bbdd-4336-bbe2-fce30e793e0f" name="Responder pregunta secreta" isAbstract="false" isLeaf="false">
+        <description>Responder la pregunta secreta para poder envierle una nueva contraseña al usuario</description>
+        <elementDefinition Id="aa0f0e49-b00d-4822-945b-a8713306ac89" />
+        <subjects>
+          <subsystemMoniker Id="4244101b-4a18-49e5-8942-e282183f29c5" LastKnownName="Login" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="ca9aae0d-ad83-4e8d-bc4e-88eb46e735b9" name="ArquitecturaRegulacion">
+    <elementDefinition Id="bbf1f705-94be-4163-a204-54625a5bf3a3" />
+    <profileInstances>
+      <packageHasProfileInstances Id="82b22484-41e1-41fa-8158-8f49800b51be">
+        <profileInstance Id="c7edcb6a-45c1-4e52-a4c0-913354d14871" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="f127996b-8514-4765-99b4-18e5ce0ddd6d">
+        <profileInstance Id="384fe6a7-2952-433e-b685-90b9205c5ca6" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</useCaseModelRoot>

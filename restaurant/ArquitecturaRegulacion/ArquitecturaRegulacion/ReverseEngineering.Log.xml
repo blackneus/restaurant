@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 11.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/ReverseEngineeringLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Registro de generación de código/transformación de texto">
+  <MessageClass Name="Message" Label="Mensaje" Option="Mostrar mensajes informativos" />
+  <MessageClass Name="Warning" Label="Advertencia" Option="Mostrar advertencias" />
+  <MessageClass Name="Error" Label="Error" Option="Mostrar errores" />
+  <MessageClass Name="Property" Label="Propiedad" Option="Mostrar metadatos" />
+  <MessageClass Name="Diagnostic" Label="Mensaje" Option="Mostrar mensajes de diagnóstico" />
+  <Message Timestamp="2013-01-23T17:23:47" Importance="High" Text="Se inició la ingeniería inversa." />
+  <Error Timestamp="2013-01-23T17:23:48" Importance="High" Text="El proceso de ingeniería inversa de La longitud no puede ser inferior a cero.&#xD;&#xA;Nombre del parámetro: length se detuvo." />
+  <Message Timestamp="2013-01-23T17:23:48" Importance="Diagnostic" Text="Se realizó ingeniería inversa del elemento en el modelo UML: 'ArquitecturaRegulacion::Regulacion' -  (Package)" />
+  <Message Timestamp="2013-01-23T17:23:48" Importance="Diagnostic" Text="Se realizó ingeniería inversa del elemento en el modelo UML: 'ArquitecturaRegulacion::Regulacion::Negocio' -  (Package)" />
+  <Message Timestamp="2013-01-23T17:23:48" Importance="Diagnostic" Text="Se realizó ingeniería inversa del elemento en el modelo UML: 'ArquitecturaRegulacion::Regulacion::Negocio::clUsuario' -  (Class)  (ingeniería inversa parcial, definición no actualizada) " />
+  <Message Timestamp="2013-01-23T17:23:48" Importance="Diagnostic" Text="Se realizó ingeniería inversa del elemento en el modelo UML: 'ArquitecturaRegulacion::Regulacion::Negocio::clUsuario::clUsuario' -  (Operation)" />
+  <Message Timestamp="2013-01-23T17:23:48" Importance="Diagnostic" Text="Se realizó ingeniería inversa del elemento en el modelo UML: 'ArquitecturaRegulacion::Regulacion::Negocio::clUsuario::clUsuario::stUserName' -  (Parameter)" />
+  <Message Timestamp="2013-01-23T17:23:48" Importance="Diagnostic" Text="Se realizó ingeniería inversa del elemento en el modelo UML: 'ArquitecturaRegulacion::Regulacion::Negocio::clUsuario::GetBloqued' -  (Operation)" />
+  <Message Timestamp="2013-01-23T17:23:48" Importance="Diagnostic" Text="Se realizó ingeniería inversa del elemento en el modelo UML: 'ArquitecturaRegulacion::Regulacion::Negocio::clUsuario::GetBloqued::intid' -  (Parameter)" />
+  <Message Timestamp="2013-01-23T17:23:48" Importance="Diagnostic" Text="Se realizó ingeniería inversa del elemento en el modelo UML: 'ArquitecturaRegulacion::Regulacion::Negocio::clUsuario::GetLanguage' -  (Operation)" />
+  <Message Timestamp="2013-01-23T17:23:48" Importance="Diagnostic" Text="Se realizó ingeniería inversa del elemento en el modelo UML: 'ArquitecturaRegulacion::Regulacion::Negocio::clUsuario::GetPregunta' -  (Operation)" />
+  <Message Timestamp="2013-01-23T17:23:48" Importance="Diagnostic" Text="Se realizó ingeniería inversa del elemento en el modelo UML: 'ArquitecturaRegulacion::Regulacion::Negocio::clUsuario::GetPregunta::stUserName' -  (Parameter)" />
+  <Message Timestamp="2013-01-23T17:23:48" Importance="Diagnostic" Text="Se realizó ingeniería inversa del elemento en el modelo UML: 'ArquitecturaRegulacion::Regulacion::Negocio::clUsuario::GetPreguntas' -  (Operation)" />
+  <Message Timestamp="2013-01-23T17:23:48" Importance="Diagnostic" Text="Se realizó ingeniería inversa del elemento en el modelo UML: 'ArquitecturaRegulacion::Regulacion::Negocio::clUsuario::getUsuario' -  (Operation)" />
+  <Message Timestamp="2013-01-23T17:23:48" Importance="Diagnostic" Text="Se realizó ingeniería inversa del elemento en el modelo UML: 'ArquitecturaRegulacion::Regulacion::Negocio::clUsuario::getUsuario::stUserName' -  (Parameter)" />
+  <Message Timestamp="2013-01-23T17:23:48" Importance="Diagnostic" Text="Se realizó ingeniería inversa del elemento en el modelo UML: 'ArquitecturaRegulacion::Regulacion::Negocio::clUsuario::GetUsuariosAdministrar' -  (Operation)" />
+  <Message Timestamp="2013-01-23T17:23:48" Importance="Diagnostic" Text="Se realizó ingeniería inversa del elemento en el modelo UML: 'ArquitecturaRegulacion::Regulacion::Negocio::clUsuario::GetUsuariosAdministrar::stUserName' -  (Parameter)" />
+  <Message Timestamp="2013-01-23T17:23:48" Importance="Diagnostic" Text="Se realizó ingeniería inversa del elemento en el modelo UML: 'ArquitecturaRegulacion::Regulacion::Negocio::clUsuario::SetActiveOff' -  (Operation)" />
+  <Message Timestamp="2013-01-23T17:23:48" Importance="Diagnostic" Text="Se realizó ingeniería inversa del elemento en el modelo UML: 'ArquitecturaRegulacion::Regulacion::Negocio::clUsuario::SetActiveOff::intaccion' -  (Parameter)" />
+  <Message Timestamp="2013-01-23T17:23:48" Importance="Diagnostic" Text="Se realizó ingeniería inversa del elemento en el modelo UML: 'ArquitecturaRegulacion::Regulacion::Negocio::clUsuario::SetActiveOff::intid' -  (Parameter)" />
+  <Message Timestamp="2013-01-23T17:23:48" Importance="Diagnostic" Text="Se realizó ingeniería inversa del elemento en el modelo UML: 'ArquitecturaRegulacion::Regulacion::Negocio::clUsuario::SetActiveOn' -  (Operation)" />
+  <Message Timestamp="2013-01-23T17:23:48" Importance="Diagnostic" Text="Se realizó ingeniería inversa del elemento en el modelo UML: 'ArquitecturaRegulacion::Regulacion::Negocio::clUsuario::SetActiveOn::intaccion' -  (Parameter)" />
+  <Message Timestamp="2013-01-23T17:23:48" Importance="Diagnostic" Text="Se realizó ingeniería inversa del elemento en el modelo UML: 'ArquitecturaRegulacion::Regulacion::Negocio::clUsuario::SetActiveOn::intid' -  (Parameter)" />
+  <Message Timestamp="2013-01-23T17:23:48" Importance="Diagnostic" Text="Se realizó ingeniería inversa del elemento en el modelo UML: 'ArquitecturaRegulacion::Regulacion::Negocio::clUsuario::SetBloquedOff' -  (Operation)" />
+  <Message Timestamp="2013-01-23T17:23:48" Importance="Diagnostic" Text="Se realizó ingeniería inversa del elemento en el modelo UML: 'ArquitecturaRegulacion::Regulacion::Negocio::clUsuario::SetBloquedOff::intaccion' -  (Parameter)" />
+  <Message Timestamp="2013-01-23T17:23:48" Importance="Diagnostic" Text="Se realizó ingeniería inversa del elemento en el modelo UML: 'ArquitecturaRegulacion::Regulacion::Negocio::clUsuario::SetBloquedOff::intid' -  (Parameter)" />
+  <Message Timestamp="2013-01-23T17:23:48" Importance="Diagnostic" Text="Se realizó ingeniería inversa del elemento en el modelo UML: 'ArquitecturaRegulacion::Regulacion::Negocio::clUsuario::SetBloquedOn' -  (Operation)" />
+  <Message Timestamp="2013-01-23T17:23:48" Importance="Diagnostic" Text="Se realizó ingeniería inversa del elemento en el modelo UML: 'ArquitecturaRegulacion::Regulacion::Negocio::clUsuario::SetBloquedOn::intaccion' -  (Parameter)" />
+  <Message Timestamp="2013-01-23T17:23:48" Importance="Diagnostic" Text="Se realizó ingeniería inversa del elemento en el modelo UML: 'ArquitecturaRegulacion::Regulacion::Negocio::clUsuario::SetBloquedOn::intid' -  (Parameter)" />
+  <Message Timestamp="2013-01-23T17:23:48" Importance="Diagnostic" Text="Se realizó ingeniería inversa del elemento en el modelo UML: 'ArquitecturaRegulacion::Regulacion::Negocio::clUsuario::SetDeleted' -  (Operation)" />
+  <Message Timestamp="2013-01-23T17:23:48" Importance="Diagnostic" Text="Se realizó ingeniería inversa del elemento en el modelo UML: 'ArquitecturaRegulacion::Regulacion::Negocio::clUsuario::SetDeleted::intaccion' -  (Parameter)" />
+  <Message Timestamp="2013-01-23T17:23:48" Importance="Diagnostic" Text="Se realizó ingeniería inversa del elemento en el modelo UML: 'ArquitecturaRegulacion::Regulacion::Negocio::clUsuario::SetDeleted::intid' -  (Parameter)" />
+  <Message Timestamp="2013-01-23T17:23:48" Importance="Diagnostic" Text="Se realizó ingeniería inversa del elemento en el modelo UML: 'ArquitecturaRegulacion::Regulacion::Negocio::clUsuario::SetInternalOff' -  (Operation)" />
+  <Message Timestamp="2013-01-23T17:23:48" Importance="Diagnostic" Text="Se realizó ingeniería inversa del elemento en el modelo UML: 'ArquitecturaRegulacion::Regulacion::Negocio::clUsuario::SetInternalOff::intaccion' -  (Parameter)" />
+  <Message Timestamp="2013-01-23T17:23:48" Importance="Diagnostic" Text="Se realizó ingeniería inversa del elemento en el modelo UML: 'ArquitecturaRegulacion::Regulacion::Negocio::clUsuario::SetInternalOff::intid' -  (Parameter)" />
+  <Message Timestamp="2013-01-23T17:23:48" Importance="Diagnostic" Text="Se realizó ingeniería inversa del elemento en el modelo UML: 'ArquitecturaRegulacion::Regulacion::Negocio::clUsuario::SetInternalOn' -  (Operation)" />
+  <Message Timestamp="2013-01-23T17:23:48" Importance="Diagnostic" Text="Se realizó ingeniería inversa del elemento en el modelo UML: 'ArquitecturaRegulacion::Regulacion::Negocio::clUsuario::SetInternalOn::intaccion' -  (Parameter)" />
+  <Message Timestamp="2013-01-23T17:23:48" Importance="Diagnostic" Text="Se realizó ingeniería inversa del elemento en el modelo UML: 'ArquitecturaRegulacion::Regulacion::Negocio::clUsuario::SetInternalOn::intid' -  (Parameter)" />
+  <Message Timestamp="2013-01-23T17:23:48" Importance="Diagnostic" Text="Se realizó ingeniería inversa del elemento en el modelo UML: 'ArquitecturaRegulacion::Regulacion::Negocio::clUsuario::ValidaPregunta' -  (Operation)" />
+  <Message Timestamp="2013-01-23T17:23:48" Importance="Diagnostic" Text="Se realizó ingeniería inversa del elemento en el modelo UML: 'ArquitecturaRegulacion::Regulacion::Negocio::clUsuario::ValidaPregunta::stAnswer' -  (Parameter)" />
+  <Message Timestamp="2013-01-23T17:23:48" Importance="Diagnostic" Text="Se realizó ingeniería inversa del elemento en el modelo UML: 'ArquitecturaRegulacion::Regulacion::Negocio::clUsuario::ValidaPregunta::stUserName' -  (Parameter)" />
+  <Message Timestamp="2013-01-23T17:23:48" Importance="Diagnostic" Text="Se realizó ingeniería inversa del elemento en el modelo UML: 'ArquitecturaRegulacion::System' -  (Package)" />
+  <Message Timestamp="2013-01-23T17:23:48" Importance="Diagnostic" Text="Se realizó ingeniería inversa del elemento en el modelo UML: 'ArquitecturaRegulacion::System::Data' -  (Package)" />
+  <Message Timestamp="2013-01-23T17:23:48" Importance="Diagnostic" Text="Se realizó ingeniería inversa del elemento en el modelo UML: 'ArquitecturaRegulacion::System::Data::DataTable' -  (Class)  (ingeniería inversa parcial, definición no actualizada) " />
+  <Message Timestamp="2013-01-23T17:23:48" Importance="Diagnostic" Text="Se realizó ingeniería inversa del elemento en el modelo UML: 'Boolean' -  (PrimitiveType)" />
+  <Message Timestamp="2013-01-23T17:23:48" Importance="Diagnostic" Text="Se realizó ingeniería inversa del elemento en el modelo UML: 'Integer' -  (PrimitiveType)" />
+  <Message Timestamp="2013-01-23T17:23:48" Importance="Diagnostic" Text="Se realizó ingeniería inversa del elemento en el modelo UML: 'String' -  (PrimitiveType)" />
+  <Message Timestamp="2013-01-23T17:23:48" Importance="High" Text="Se realizó ingeniería inversa total de los siguientes tipos: (0)." />
+  <Message Timestamp="2013-01-23T17:23:48" Importance="High" Text="Se realizó ingeniería inversa parcial de los siguientes tipos: (2). Estos tipos no se incluyeron en la selección original, por lo que no se realizó ingeniería inversa de sus definiciones completas. En su lugar, esta operación superficial se limita a asegurarse de que estos tipos existen en el modelo UML porque son necesarios para describir a otros elementos por completo." />
+  <Message Timestamp="2013-01-23T17:23:48" Importance="High" Text="La operación de ingeniería inversa se completó con (1) errores y (0) advertencias." />
+</Log>

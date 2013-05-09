@@ -1,0 +1,256 @@
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MainReg.Master" AutoEventWireup="true"
+    CodeBehind="Mesero.aspx.cs" Inherits="Restaurant.Pages.Pantalla.Mesero" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="cc1" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="Masterhead" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="MasterContentPlaceHolder" runat="server">
+    &nbsp;<cc1:ToolkitScriptManager ID="ToolkitScriptManager1" runat="server">
+    </cc1:ToolkitScriptManager>
+    
+    <div class="row-fluid">
+        <div class="span3">
+            <cc1:Accordion ID="Accordion1" runat="server" CssClass="accordion" HeaderCssClass="accordionHeader"
+                HeaderSelectedCssClass="accordionHeaderSelected" ContentCssClass="accordionContent"
+                OnItemDataBound="Accordion1_ItemDataBound">
+                <HeaderTemplate>
+                    <span>
+                        <%#Eval("mesas_nombre")%></span>
+                </HeaderTemplate>
+                <ContentTemplate>
+                    <asp:HiddenField ID="hdfCodigo" runat="server" Value='<%# DataBinder.Eval(Container.DataItem, "id_mesas") %>' />
+                    <asp:HiddenField ID="Hdfsillas" runat="server" Value='<%# DataBinder.Eval(Container.DataItem, "mesas_sillas") %>' />
+                    <asp:Panel ID="PnlInside" runat="server">
+                    </asp:Panel>
+                </ContentTemplate>
+            </cc1:Accordion>
+        </div>
+        <div class="span9 hero-unit">
+            <div class="row-fluid">
+                <div class="span2">
+                    <span class="label label-warning">Mesa</span>
+                </div>
+                <div class="span2">
+                    <asp:Label ID="LblMesa" runat="server" Text="" CssClass="label-warning"></asp:Label>
+                </div>
+                <div class="span2">
+                    <span class="label label-warning">Silla</span>
+                </div>
+                <div class="span2">
+                    <asp:Label ID="LblSilla" runat="server" Text="" CssClass="label-warning"></asp:Label>
+                </div>
+                <div class="span4">
+                 
+                </div>
+            </div>
+            <div class="row-fluid">
+                <div class="span3">
+                    <asp:Label ID="Label1" runat="server" Text="Turno"></asp:Label>
+                </div>
+                <div class="span9">
+                    <asp:DropDownList ID="DDLTurno" runat="server">
+                    </asp:DropDownList>
+                </div>
+            </div>
+            <div class="row-fluid">
+                <div class="span3">
+                    <asp:Label ID="Label2" runat="server" Text="Bebida"></asp:Label>
+                </div>
+                <div class="span9">
+                    <asp:DropDownList ID="DDLBebida" runat="server">
+                    </asp:DropDownList>
+                </div>
+            </div>
+            <div class="row-fluid">
+                <div class="span3">
+                    <asp:Label ID="Label3" runat="server" Text="Platillo"></asp:Label>
+                </div>
+                <div class="span9">
+                    <asp:DropDownList ID="DDLPlatillo" runat="server">
+                    </asp:DropDownList>
+                </div>
+            </div>
+            <div class="row-fluid">
+                <div class="span3">
+                    <asp:Label ID="Label4" runat="server" Text="Guarnicion"></asp:Label>
+                </div>
+                <div class="span9">
+                    <asp:DropDownList ID="DDLGuarnicion" runat="server">
+                    </asp:DropDownList>
+                </div>
+            </div>
+            <div class="row-fluid">
+                <div class="span2">
+                    <asp:Button ID="BtnAgregar" runat="server" Text="Agregar" CssClass="btn btn-primary"
+                        OnClick="BtnAgregar_Click" />
+                </div>
+                <div class="span3">
+                    <asp:Button ID="BtnPedirCocina" runat="server" Text="Pedir Cocina" CssClass="btn btn-info"
+                        OnClick="BtnPedirCocina_Click" />
+                </div>
+                <div class="span3">
+                    <asp:Button ID="BtnCerrarPedido" runat="server" Text="Cerrar Pedido" CssClass="btn btn-info"
+                        OnClick="BtnCerrarPedido_Click" /> 
+                        </div>
+                        <div  class="span4">
+                        <asp:Button ID="BtnCancelarPedido" runat="server" Text="Cancelar Pedido" 
+                                CssClass="btn btn-warning" onclick="BtnCancelarPedido_Click"/>
+                </div>
+            </div>
+            <div class="hero-unit">
+                <asp:GridView ID="GViewPedido" runat="server" CellPadding="4" 
+                    ForeColor="#333333" AutoGenerateColumns="False" 
+                    AutoGenerateDeleteButton="True" onrowdeleting="GViewPedido_RowDeleting">
+                    <AlternatingRowStyle BackColor="White" />
+                    <Columns>
+                        <asp:BoundField DataField="id_pedido" HeaderText="id_pedido" Visible="false" />
+                        <asp:BoundField DataField="id_suplementos" HeaderText="id_suplementos" Visible="false" />
+                        <asp:BoundField DataField="id_horario" HeaderText="id_horario" Visible="false" />
+                        <asp:BoundField DataField="id_mesas" HeaderText="Mesa" />
+                        <asp:BoundField DataField="pedido_silla" HeaderText="Silla" />
+                        <asp:BoundField DataField="id_platillos" HeaderText="id_platillos" Visible="false" />
+                        <asp:BoundField DataField="platillos_nombre" HeaderText="Platillo" />
+                        <asp:BoundField DataField="suplementos_nombre" HeaderText="Suplemento" />
+                        <asp:BoundField DataField="pedido_cocina" HeaderText="Hecho" ReadOnly="True" />
+                    </Columns>
+                    <EditRowStyle BackColor="#2461BF" />
+                    <FooterStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" />
+                    <HeaderStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" />
+                    <PagerStyle BackColor="#2461BF" ForeColor="White" HorizontalAlign="Center" />
+                    <RowStyle BackColor="#EFF3FB" />
+                    <SelectedRowStyle BackColor="#D1DDF1" Font-Bold="True" ForeColor="#333333" />
+                    <SortedAscendingCellStyle BackColor="#F5F7FB" />
+                    <SortedAscendingHeaderStyle BackColor="#6D95E1" />
+                    <SortedDescendingCellStyle BackColor="#E9EBEF" />
+                    <SortedDescendingHeaderStyle BackColor="#4870BE" />
+                </asp:GridView>
+            </div>
+            <asp:HiddenField ID="HdFMesaSilla" runat="server" />
+        </div>
+    </div>
+ 
+    <cc1:ModalPopupExtender ID="ModalPopupExtender1" runat="server" TargetControlID="HiddenField1" PopupControlID="PanelPrincipal" BackgroundCssClass="modalBackground">         
+    </cc1:ModalPopupExtender>
+     <asp:HiddenField ID="HiddenField1" runat="server" />
+    <asp:Panel ID="PanelPrincipal" runat="server">
+   
+    <asp:UpdatePanel ID="UPDatosPago" runat="server" UpdateMode="Conditional">
+        <ContentTemplate>
+            <table>
+                <tr>
+                    <td>
+                        <asp:Label ID="Label6" runat="server" Text="Tipo de Recibo"></asp:Label>
+                    </td>
+                    <td>
+                        <asp:DropDownList ID="DDLNota" runat="server" 
+                            >
+                            <asp:ListItem Value="1">Nota</asp:ListItem>
+                            <asp:ListItem Value="2">Factura</asp:ListItem>
+                        </asp:DropDownList>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <asp:Panel ID="PnlDatosUsuario" runat="server">
+                            <table>
+                            <tr>
+                            <td>Total de la cuenta:</td>
+                            <td> <asp:Label ID="LblTotal" runat="server" Text="" CssClass="label-warning"></asp:Label></td>
+                            </tr>
+                             <tr>
+
+                                    <td>
+                                        <asp:Label ID="Label12" runat="server" Text="RFC"></asp:Label>
+                                    </td>
+                                    <td>
+                                        <asp:TextBox ID="TBoxRFC" runat="server" CssClass="input-small" 
+                                            ></asp:TextBox>
+                                        <asp:Button ID="BtnBuscar" runat="server" Text="Buscar" 
+                    CssClass="btn btn-primary" onclick="BtnBuscar_Click" CausesValidation="False"/>
+                                        <asp:HiddenField ID="HdFid_Cliente" runat="server" />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <asp:Label ID="Label5" runat="server" Text="Razon Social"></asp:Label>
+                                    </td>
+                                    <td>
+                                        <asp:TextBox ID="TBoxRazonSocial" runat="server" CssClass="input-medium" 
+                                            ></asp:TextBox>
+                                    </td>
+                                </tr>
+                                 <tr>
+                                    <td>
+                                        <asp:Label ID="Label7" runat="server" Text="Direccion"></asp:Label>
+                                    </td>
+                                    <td>
+                                        <asp:TextBox ID="TBoxDireccion" runat="server" CssClass="input-medium"></asp:TextBox>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <asp:Label ID="Label8" runat="server" Text="Colonia"></asp:Label>
+                                    </td>
+                                    <td>
+                                        <asp:TextBox ID="TBoxColonia" runat="server" CssClass="input-medium"></asp:TextBox>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <asp:Label ID="Label9" runat="server" Text="Delegacion"></asp:Label>
+                                    </td>
+                                    <td>
+                                        <asp:TextBox ID="TBoxDelegacion" runat="server" CssClass="input-medium"></asp:TextBox>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <asp:Label ID="Label10" runat="server" Text="Ciudad"></asp:Label>
+                                    </td>
+                                    <td>
+                                        <asp:TextBox ID="TBoxCiudad" runat="server" CssClass="input-medium"></asp:TextBox>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <asp:Label ID="Label11" runat="server" Text="CP"></asp:Label>
+                                    </td>
+                                    <td>
+                                        <asp:TextBox ID="TBoxCP" runat="server" CssClass="input-small"></asp:TextBox>
+                                    </td>
+                                </tr>
+                                
+                            </table>
+                        </asp:Panel> </td> </tr>
+             <tr>
+                                  <td>  </td>
+                                  <td>
+                                   <asp:Button ID="BtnAgregarUsuario" runat="server" Text="Agregar Usuario" 
+                    CssClass="btn btn-primary" onclick="BtnAgregarUsuario_Click" CausesValidation="False" 
+                                          />
+                 <asp:Button ID="BtnCancelar" runat="server" Text="Salir" CssClass="btn btn-danger" 
+                                          onclick="BtnCancelar_Click" CausesValidation="False" />
+                                  </td>
+                                 
+                                  </tr>
+            </table>
+           
+   
+        </ContentTemplate>
+       <Triggers>
+     
+       <asp:AsyncPostBackTrigger ControlID="BtnBuscar" />
+       </Triggers>
+    </asp:UpdatePanel>
+
+     </asp:Panel>
+ 
+     
+        <div class="modal-footer">
+                <asp:Button ID="BtnAceptar" runat="server" Text="Aceptar" 
+                    CssClass="btn btn-primary" onclick="BtnAceptar_Click"
+                     />
+                <asp:Button ID="btnSalir" runat="server" Text="Salir" CssClass="btn btn-danger" />
+            </div>
+    
+</asp:Content>

@@ -1,0 +1,374 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{E4E513C3-7DA5-4F9F-8FF7-A84FBDEF4134}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Restaurant</RootNamespace>
+    <AssemblyName>Restaurant</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <IncludeIisSettings>true</IncludeIisSettings>
+    <DeployIisAppPhysicalPath>C:\inetpub\wwwroot\DNC\</DeployIisAppPhysicalPath>
+    <CodeAnalysisRuleSet>BasicCorrectnessRules.ruleset</CodeAnalysisRuleSet>
+    <IncludeAppPool>true</IncludeAppPool>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=4.1.40412.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Utilities\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="ephtmltopdf">
+      <HintPath>Utilities\ephtmltopdf.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Administration, Version=7.9.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Utilities\Microsoft.Web.Administration.dll</HintPath>
+    </Reference>
+    <Reference Include="OrgChart, Version=3.5.1.1, Culture=neutral, PublicKeyToken=a2f0d108daf694ef, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Utilities\OrgChart.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UltimateEditor">
+      <HintPath>Utilities\UltimateEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="UltimateSpell">
+      <HintPath>Utilities\UltimateSpell.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\bootstrap-responsive.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\bootstrap-responsive.min.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\bootstrap.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\bootstrap.min.css">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\site.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="images\1.png" />
+    <Content Include="images\2.png" />
+    <Content Include="images\aqua.jpg" />
+    <Content Include="images\azul.jpg" />
+    <Content Include="images\botones\btn_01.png" />
+    <Content Include="images\botones\btn_02.png" />
+    <Content Include="images\botones\btn_03.png" />
+    <Content Include="images\candado.png" />
+    <Content Include="images\completo.png" />
+    <Content Include="images\linea_azul.jpg" />
+    <Content Include="images\morada.jpg" />
+    <Content Include="images\naranja.jpg" />
+    <Content Include="images\roja.jpg" />
+    <Content Include="images\rosa.jpg" />
+    <Content Include="images\verde.jpg" />
+    <Content Include="Global.asax" />
+    <Content Include="images\animation_progress.gif" />
+    <Content Include="images\icon_edit.gif" />
+    <Content Include="images\icon_htmlbox_closeall.gif" />
+    <Content Include="images\icon_htmlbox_openall.gif" />
+    <Content Include="images\icon_preview_html.gif" />
+    <Content Include="Pages\Configuracion\ActualizaDatosPersonales.aspx" />
+    <Content Include="Pages\Configuracion\Admin.aspx" />
+    <Content Include="Pages\Configuracion\AdministraUsuarios.aspx" />
+    <Content Include="Pages\Configuracion\AgregarRol.aspx" />
+    <Content Include="Pages\Configuracion\AgregarUserRol.aspx" />
+    <Content Include="Pages\Configuracion\CambiarContraseña.aspx" />
+    <Content Include="Pages\Configuracion\CambiarPermisosRoles.aspx" />
+    <Content Include="Pages\Configuracion\CambiarPregunta.aspx" />
+    <Content Include="Pages\Configuracion\Config.aspx" />
+    <Content Include="Pages\Configuracion\Inicio.aspx" />
+    <Content Include="Pages\Configuracion\NuevoUsuario.aspx" />
+    <Content Include="Pages\Logins\Login.aspx" />
+    <Content Include="Pages\Logins\Pregunta.aspx" />
+    <Content Include="Pages\Pantalla\Cocina.aspx" />
+    <Content Include="Pages\Pantalla\Mesero.aspx" />
+    <Content Include="Pages\Pantalla\Pagar.aspx" />
+    <Content Include="Scripts\bootbox.js" />
+    <Content Include="Scripts\bootbox.min.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\jquery-1.8.3-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.8.3.js" />
+    <Content Include="Scripts\jquery-1.8.3.min.js" />
+    <Content Include="Scripts\site.js">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Utilities\AjaxControlToolkit.dll" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_GlobalResources\Resource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Clases\clExcepcion.cs" />
+    <Compile Include="Clases\clSessionPage.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Clases\clPasswordPolicy.cs" />
+    <Compile Include="Clases\clTraducir.cs" />
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="MainReg.Master.cs">
+      <DependentUpon>MainReg.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MainReg.Master.designer.cs">
+      <DependentUpon>MainReg.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Configuracion\ActualizaDatosPersonales.aspx.cs">
+      <DependentUpon>ActualizaDatosPersonales.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Configuracion\ActualizaDatosPersonales.aspx.designer.cs">
+      <DependentUpon>ActualizaDatosPersonales.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Configuracion\Admin.aspx.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Configuracion\Admin.aspx.designer.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Configuracion\AdministraUsuarios.aspx.cs">
+      <DependentUpon>AdministraUsuarios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Configuracion\AdministraUsuarios.aspx.designer.cs">
+      <DependentUpon>AdministraUsuarios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Configuracion\AgregarRol.aspx.cs">
+      <DependentUpon>AgregarRol.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Configuracion\AgregarRol.aspx.designer.cs">
+      <DependentUpon>AgregarRol.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Configuracion\AgregarUserRol.aspx.cs">
+      <DependentUpon>AgregarUserRol.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Configuracion\AgregarUserRol.aspx.designer.cs">
+      <DependentUpon>AgregarUserRol.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Configuracion\CambiarContraseña.aspx.cs">
+      <DependentUpon>CambiarContraseña.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Configuracion\CambiarContraseña.aspx.designer.cs">
+      <DependentUpon>CambiarContraseña.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Configuracion\CambiarPermisosRoles.aspx.cs">
+      <DependentUpon>CambiarPermisosRoles.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Configuracion\CambiarPermisosRoles.aspx.designer.cs">
+      <DependentUpon>CambiarPermisosRoles.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Configuracion\CambiarPregunta.aspx.cs">
+      <DependentUpon>CambiarPregunta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Configuracion\CambiarPregunta.aspx.designer.cs">
+      <DependentUpon>CambiarPregunta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Configuracion\Config.aspx.cs">
+      <DependentUpon>Config.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Configuracion\Config.aspx.designer.cs">
+      <DependentUpon>Config.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Configuracion\Inicio.aspx.cs">
+      <DependentUpon>Inicio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Configuracion\Inicio.aspx.designer.cs">
+      <DependentUpon>Inicio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Configuracion\NuevoUsuario.aspx.cs">
+      <DependentUpon>NuevoUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Configuracion\NuevoUsuario.aspx.designer.cs">
+      <DependentUpon>NuevoUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Logins\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Logins\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Logins\Pregunta.aspx.cs">
+      <DependentUpon>Pregunta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Logins\Pregunta.aspx.designer.cs">
+      <DependentUpon>Pregunta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Pantalla\Cocina.aspx.cs">
+      <DependentUpon>Cocina.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Pantalla\Cocina.aspx.designer.cs">
+      <DependentUpon>Cocina.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Pantalla\Mesero.aspx.cs">
+      <DependentUpon>Mesero.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Pantalla\Mesero.aspx.designer.cs">
+      <DependentUpon>Mesero.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Pantalla\Pagar.aspx.cs">
+      <DependentUpon>Pagar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Pantalla\Pagar.aspx.designer.cs">
+      <DependentUpon>Pagar.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReportesMaster.master.cs">
+      <DependentUpon>ReportesMaster.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReportesMaster.master.designer.cs">
+      <DependentUpon>ReportesMaster.master</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MainReg.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\PublishProfiles\IIS Local.pubxml" />
+    <Content Include="ReportesMaster.master" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Regulacion.Negocio\Restaurant.Negocio.csproj">
+      <Project>{7576F3C0-903E-4F82-9500-304B56618C2A}</Project>
+      <Name>Restaurant.Negocio</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_GlobalResources\Resource.resx">
+      <Generator>GlobalResourceProxyGenerator</Generator>
+      <LastGenOutput>Resource.Designer.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>19959</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:15706/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

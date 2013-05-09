@@ -1,0 +1,2571 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="eafbb0fc-4bd6-4a6e-aeae-b0a4008d8414"
+  name="Logins"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="ea0dbc30-3d51-4f29-8447-287be98f71ec"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DRegulacion.Pages.Logins"
+      tag="ViewCode" />
+  </referencesInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="1bfdb6d9-a9e9-4fee-b348-a4480f97e3a1">
+      <profileInstance
+        Id="0cea0005-88ad-4fd7-b351-c433e3978695"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="56202f97-e5d2-4e07-a6b4-9588ed30db3f"
+        name="Pregunta"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="96a0596f-27a9-4c52-9680-478cd11fc761"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion%2Fbin%2FRegulacion.dll&quot; Namespace%3DRegulacion.Pages.Logins Type%3DPregunta"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="08393916-d70e-4901-8518-e35dff8e7a05"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1c2cc12f-1e43-48a2-a7bf-40890547d66e">
+                <propertyInstance
+                  Id="4b275537-2c12-4df0-940b-d7980fea841f"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="6a5632c8-0e51-4138-b506-91782f5a5786">
+                <propertyInstance
+                  Id="fb817451-5253-4492-a895-dc3460856808"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="78bcbb84-acf5-43b5-928d-e5ee1d94467a">
+                <propertyInstance
+                  Id="2d43c548-4a70-465c-8af4-36b650366eb8"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="cfadfc5c-010b-4608-9d0b-3ea0506d1ef8">
+                <propertyInstance
+                  Id="c4f6038a-93f2-4ff1-97de-9dbd1c3aa7f2"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="40169f42-55ae-4049-891a-3083fb587ba6">
+                <propertyInstance
+                  Id="434ef44c-5e22-4794-a026-a947c2e891dc"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="ce4eea0a-60f2-4249-ac42-f2403656e784"
+            isSubstitutable="false">
+            <classMoniker
+              Id="ff98b2a6-19c6-4d7b-9e05-809d47275608"
+              LastKnownName="Page"
+              LastKnownLocation="Package5_1350.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="306212c0-84fe-4997-99f2-e52b331aa6d3"
+            name="ScriptManager1"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="2a21d5c1-1ac3-4cb6-ad45-5b78c4ff808a"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion%2Fbin%2FRegulacion.dll&quot; Namespace%3DRegulacion.Pages.Logins Type%3DPregunta Member%3DScriptManager1"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="053952fd-e72b-4657-98b5-8e6d1f179f9c"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="78b9ccf4-ea4c-4f0a-be72-0863ab2dee58">
+                    <propertyInstance
+                      Id="20e303d3-20cc-43e9-a056-e0fe969d81b2"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="813fc9da-5ed8-46d6-8950-91eee7944736">
+                    <propertyInstance
+                      Id="8943ad65-bbc9-4d19-b9d2-da20cbdceac0"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f91c6b2e-e9e5-47de-a9c0-c3cd82222a1b">
+                    <propertyInstance
+                      Id="08244a09-e555-412d-a15c-924a024e41a3"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8a341402-86f3-45cb-9d4e-ba021bd7abc5">
+                    <propertyInstance
+                      Id="62068a69-8d3b-483c-b3a5-d89bcb5f5b7d"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6967f983-e682-4999-8491-36c000574b5c">
+                    <propertyInstance
+                      Id="7c32330e-c937-4a05-be0b-8167b1f07f3f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="0db128ad-db86-4a13-bc72-8dc06f8fa6d2"
+                LastKnownName="ScriptManager"
+                LastKnownLocation="Package5_1350.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="c6c4a570-c4bc-4537-b88d-52114f6b8e2e"
+            name="panScheduleSearch"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="da725a99-a950-4e84-8664-ecdfff046fce"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion%2Fbin%2FRegulacion.dll&quot; Namespace%3DRegulacion.Pages.Logins Type%3DPregunta Member%3DpanScheduleSearch"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="3c875e04-9f28-4702-a7d0-cf3e0de5f166"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4933ae94-97e7-41bc-8872-26094e9da6e1">
+                    <propertyInstance
+                      Id="8187821b-17b0-4cec-abda-a0cb69a2b87f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="42f71c93-5169-450c-a050-a2ca620f0981">
+                    <propertyInstance
+                      Id="c7c0ae09-feb3-4e63-86f1-8c0c577d816e"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2b3ae4e4-6281-4121-a051-e845998f88c2">
+                    <propertyInstance
+                      Id="11946ac3-e8e8-41ab-8f77-e7226b47331c"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1cf52cc6-a278-47e2-b9ee-214b2189acc4">
+                    <propertyInstance
+                      Id="4d61fc96-d3d6-4cff-8f04-a2dabbeb59b8"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="91e0f2bc-a6c3-497a-8086-7e2ea760c7ac">
+                    <propertyInstance
+                      Id="5e41b1ef-8596-4deb-b7a9-a6a2db8a4734"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="8557b44a-f2b4-4834-8441-2df05593e79a"
+                LastKnownName="UpdatePanel"
+                LastKnownLocation="Package5_1350.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="d146f2bb-9037-488f-b07f-73f313483f4f"
+            name="Label1"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="818b45a4-ed1f-4777-b216-ff2023eebd5d"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion%2Fbin%2FRegulacion.dll&quot; Namespace%3DRegulacion.Pages.Logins Type%3DPregunta Member%3DLabel1"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="4de8c9c9-df00-4f59-8ff9-bed2c1a0d383"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b526d747-6d96-44b1-982d-56b09dc5c706">
+                    <propertyInstance
+                      Id="c87272e3-f30b-4a98-9c99-9e79462629de"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5987cbe8-bfac-4da0-8d95-e668ddbd16eb">
+                    <propertyInstance
+                      Id="83b3ddcd-c82f-4ba4-a091-7a7bf44d55c3"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="779f2751-7c84-4c5f-a32f-d1b44abcfb09">
+                    <propertyInstance
+                      Id="99819593-a073-4499-8da9-d9a14a6ca9d3"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="902b0a78-3cd9-447b-9ab2-154ffebdb675">
+                    <propertyInstance
+                      Id="7906af6b-8b3e-4999-bff0-40fb434fff07"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="642beadd-6d5b-4a9e-87c9-9b349093095a">
+                    <propertyInstance
+                      Id="d77140f7-997b-4cb5-abcb-35dfffcf574c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="a209a717-e071-4985-b1ce-34b02c4a7dc5"
+                LastKnownName="Label"
+                LastKnownLocation="Package6_1350.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="77641368-bc2f-42f6-b41a-3934e40e85ba"
+            name="TBoxUsuario"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="53f8010e-422e-4e47-8a89-5b04a1741910"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion%2Fbin%2FRegulacion.dll&quot; Namespace%3DRegulacion.Pages.Logins Type%3DPregunta Member%3DTBoxUsuario"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e558d74f-4bbd-497e-af86-bd9bde3b7f24"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="94a5ec6d-177b-4489-a977-64a20670d0e8">
+                    <propertyInstance
+                      Id="3613b589-8ea7-4e7c-b883-7339cc1c4bcf"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b4fe207b-e46a-4d31-a047-11529aededbc">
+                    <propertyInstance
+                      Id="39f806c4-c9d4-4f8b-bc1e-e1f0fcb0209c"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4c7327c6-016a-486e-8d0f-8586001269f6">
+                    <propertyInstance
+                      Id="0c9f88c2-7ad4-4352-a452-92189519f9ab"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ac8f309b-6fb6-4353-bd61-d7ddb658e2e9">
+                    <propertyInstance
+                      Id="e65e7bc0-aa2e-4c83-bcfd-dc5d555564fb"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cff15120-2fed-4fd7-8ea2-53562583a345">
+                    <propertyInstance
+                      Id="ec0c9bcc-2840-455e-8283-88ee72968e3b"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="366d8082-aae8-48b9-91d0-6f8f754556b8"
+                LastKnownName="TextBox"
+                LastKnownLocation="Package6_1350.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="ed01320e-42f5-43a9-a501-768718a7e859"
+            name="BtnBuscar"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="05003de4-9f90-4174-ac33-f032045f109a"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion%2Fbin%2FRegulacion.dll&quot; Namespace%3DRegulacion.Pages.Logins Type%3DPregunta Member%3DBtnBuscar"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="7dce1b2e-2155-490f-8b62-d61e9ac36fad"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="78fbd6b1-83b2-4d9d-aed3-1eadf966067f">
+                    <propertyInstance
+                      Id="ca0a420b-0754-4058-94a5-a5c3c1ea144b"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bbaa9b7f-c847-41cc-808f-bad5ddf0b1f4">
+                    <propertyInstance
+                      Id="ea864e74-510f-4d14-8d79-f820f5887a11"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="18082776-712b-45a5-bc4b-4c27530da3f2">
+                    <propertyInstance
+                      Id="9177c868-1a17-4c76-ad5e-4bd6f567821a"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a69be0a8-b1a2-47c1-90cd-a184d6c42b45">
+                    <propertyInstance
+                      Id="5532f484-2862-4c09-ba17-5308cd50b158"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d1553051-0a22-4b7e-b86e-c13bc6363f81">
+                    <propertyInstance
+                      Id="955a3cc1-50ed-4133-a466-f109e2977655"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="08bca8e7-4af2-4373-9192-1b4dd96ba56f"
+                LastKnownName="Button"
+                LastKnownLocation="Package6_1350.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="77319807-81d8-4880-a8d0-04068d7f079a"
+            name="LblPregunta"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="ec89d31f-6fce-41af-872b-e8273fd4fd1d"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion%2Fbin%2FRegulacion.dll&quot; Namespace%3DRegulacion.Pages.Logins Type%3DPregunta Member%3DLblPregunta"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="4a4a0134-1c43-4454-8e92-bac62b536630"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="23efda47-aaf9-4011-afaa-1678488f4865">
+                    <propertyInstance
+                      Id="7074adee-de65-444d-8ff6-ed32dd2aa2ce"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b0efad28-c7eb-4ad0-a209-b05f98957f50">
+                    <propertyInstance
+                      Id="ec0771e2-b281-4c55-8da7-83170a99d649"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ce44b7d7-44fc-47af-823f-8aa0f203d8cb">
+                    <propertyInstance
+                      Id="5273401b-c207-4390-a15c-6c6ffabe9495"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="48ea3ed6-37fe-4fe6-94e2-d780b5ffd66b">
+                    <propertyInstance
+                      Id="2a9b999e-2722-473c-b62a-404510d4adb0"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6ca8aaed-f7c6-46c4-b968-20627137a763">
+                    <propertyInstance
+                      Id="d1c43a46-e5b6-4359-a06a-5b0370dd7452"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="a209a717-e071-4985-b1ce-34b02c4a7dc5"
+                LastKnownName="Label"
+                LastKnownLocation="Package6_1350.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="b2a62b9f-84c8-4a23-b8d2-d670eba642c9"
+            name="TBoxPregunta"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="a74383e3-f594-4502-8e84-cd6a5c9912ef"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion%2Fbin%2FRegulacion.dll&quot; Namespace%3DRegulacion.Pages.Logins Type%3DPregunta Member%3DTBoxPregunta"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="2ed37c4e-6a19-40cb-9794-823b09674c5c"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="04643019-233b-454f-90dd-d9baa3befa19">
+                    <propertyInstance
+                      Id="e4b5c2ef-bd06-4a9d-b9bc-11cfa9b2b379"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b423b069-a3cb-401f-a723-0410b5b45d34">
+                    <propertyInstance
+                      Id="1892bb2e-53a1-4e96-b5f7-21319af07c89"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9d4c373c-fde2-4a36-a06d-14e5738f5ac2">
+                    <propertyInstance
+                      Id="bda56fe1-673e-4f5c-85e9-83de8958d945"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f38ea3ba-5cd7-4218-8ae8-fb9779747e55">
+                    <propertyInstance
+                      Id="f3aec750-4fce-4f7a-9bb3-26de062db168"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f16db437-7cd6-4f90-b4ad-ce842ce1f75a">
+                    <propertyInstance
+                      Id="9c1eb655-66ac-4a4e-a4c2-bcdaf848c5d7"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="366d8082-aae8-48b9-91d0-6f8f754556b8"
+                LastKnownName="TextBox"
+                LastKnownLocation="Package6_1350.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="be1892d5-6986-4c88-9a9b-21da250037a3"
+            name="LblRespuesta"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="a30b5da6-d981-4936-8ccb-b34dcbc93585"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion%2Fbin%2FRegulacion.dll&quot; Namespace%3DRegulacion.Pages.Logins Type%3DPregunta Member%3DLblRespuesta"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="10541345-0080-423a-9c4b-7afadf19044d"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5cba023d-fdc7-4697-b85d-ad75f6d5b921">
+                    <propertyInstance
+                      Id="1cb7a01b-2847-435f-a0c8-ab734330d005"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8906ec9a-034d-4cec-a179-58f578acd2e7">
+                    <propertyInstance
+                      Id="f2fc30a6-161a-4623-9c45-27e53284883d"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f2ec65bc-b232-4202-9911-62b6a01ca9d4">
+                    <propertyInstance
+                      Id="37e480ca-aa96-44a7-ac12-e0c2ca6691ab"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="59ae07d3-72e7-40c8-b02a-c0d9ea0b1091">
+                    <propertyInstance
+                      Id="46212ef1-9e9d-484d-b44b-5bc7a1b2daeb"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="13fdd130-fd70-4244-bae2-85abdb7c9db2">
+                    <propertyInstance
+                      Id="b2cb1ddc-5536-4014-81f6-98c5507acb25"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="a209a717-e071-4985-b1ce-34b02c4a7dc5"
+                LastKnownName="Label"
+                LastKnownLocation="Package6_1350.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="950f75ec-2c4d-4ecb-b126-aa1c18c773fa"
+            name="TBoxRespuesta"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="7213c0c5-a59f-4ab1-a366-af71a45352b2"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion%2Fbin%2FRegulacion.dll&quot; Namespace%3DRegulacion.Pages.Logins Type%3DPregunta Member%3DTBoxRespuesta"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e4777511-ec52-4976-9906-5a2bdab34fde"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cd4b4a3f-26e2-43fb-a547-2da0b3e7c08b">
+                    <propertyInstance
+                      Id="fddc270f-1fb3-47e3-8826-73856ee595d3"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2bfca5b4-6854-430c-9c45-119ba94b2cac">
+                    <propertyInstance
+                      Id="2cf2a477-a6af-45a4-a96e-7db6ae471cf6"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="920fd45e-0c92-4dae-9877-ca25b60043fe">
+                    <propertyInstance
+                      Id="3086ee71-a84f-416e-930f-66352fc619ea"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="da827740-3315-4f90-ab7d-083dc073de25">
+                    <propertyInstance
+                      Id="dcf3dcb6-32b2-499b-8eef-98b3c5f402c4"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="46caed1c-485a-41ea-8de3-54a41647d3d3">
+                    <propertyInstance
+                      Id="6048782d-ca04-4255-b306-e4f27757b0e3"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="366d8082-aae8-48b9-91d0-6f8f754556b8"
+                LastKnownName="TextBox"
+                LastKnownLocation="Package6_1350.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="2cfcbd35-b677-4595-bc9c-dd1456d04ac1"
+            name="BtnRestaurar"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="43868fe2-7f7d-4fee-a853-1396bd2c7a7e"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion%2Fbin%2FRegulacion.dll&quot; Namespace%3DRegulacion.Pages.Logins Type%3DPregunta Member%3DBtnRestaurar"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="85506a31-23f1-437a-b196-bf6379241a70"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a1b2685c-d940-4c78-983d-36f2e0fa73a5">
+                    <propertyInstance
+                      Id="9a19fa5b-dc12-4b0d-9c49-cf92f7973ee0"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6bbdbb98-e3a0-4a5e-a8cb-bf8eccff0de5">
+                    <propertyInstance
+                      Id="2c16d2aa-315c-4c62-b849-d3af1008524b"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ad5ceddf-2234-4d64-8587-3fbcd92fdc30">
+                    <propertyInstance
+                      Id="8ae42f94-591d-403f-aabe-e710b7b08b6c"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="40974ee5-344b-4aca-ada3-de8798ca0036">
+                    <propertyInstance
+                      Id="718352ba-c4a1-4839-b4e2-75a506f65a10"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ced6bfdc-1c8f-4ad5-935f-c80f2438e13c">
+                    <propertyInstance
+                      Id="1368c534-9004-4ff2-a14a-a4c879418baf"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="08bca8e7-4af2-4373-9192-1b4dd96ba56f"
+                LastKnownName="Button"
+                LastKnownLocation="Package6_1350.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="53e30ce1-ebf2-40ad-bb4a-db31861affba"
+            name="BtnCancelar"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="349ba4ef-5d84-4107-a9ad-bfb32b3eefba"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion%2Fbin%2FRegulacion.dll&quot; Namespace%3DRegulacion.Pages.Logins Type%3DPregunta Member%3DBtnCancelar"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="0f08a062-47b8-4c84-ae9e-0192eaec0e48"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="80c5e389-dda4-4362-87bc-942f10521b25">
+                    <propertyInstance
+                      Id="b67d7a78-06a1-4e0d-9f20-58c02f1e87b0"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="00727e4f-1a83-4aae-9375-41e56d751e46">
+                    <propertyInstance
+                      Id="d53f4998-598b-44bc-b25d-f280f1fdced8"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="53344e8e-b4a5-4c0b-86fa-d047f064319d">
+                    <propertyInstance
+                      Id="d4b2d7c9-c7be-4ed2-957d-cbf0ccbf2249"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7a7991c6-1e67-496c-8626-04898d6461ad">
+                    <propertyInstance
+                      Id="9b18d897-ade1-4949-a074-ac655856313d"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7fe48d30-df00-46eb-a609-3c4dede0a9b4">
+                    <propertyInstance
+                      Id="925ca54b-7042-40bf-b385-b4c49dabbe7a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="08bca8e7-4af2-4373-9192-1b4dd96ba56f"
+                LastKnownName="Button"
+                LastKnownLocation="Package6_1350.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="663ca271-d6d3-48c0-b8cd-718540172f12"
+            name="Page_Load"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="d5655184-6f03-4032-87b5-aa88c54cf838"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion%2Fbin%2FRegulacion.dll&quot; Namespace%3DRegulacion.Pages.Logins Type%3DPregunta Member%3D(Name%3DPage_Load OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="7c74f007-faa2-4436-8085-cf86e9686ad7"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1debf626-becd-4d15-8c5f-f16091508f11">
+                    <propertyInstance
+                      Id="c4d7340f-e7c9-45f6-94ce-4a81ef5604ec"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dca8f455-c143-410b-9c9d-3b81bd56f6a3">
+                    <propertyInstance
+                      Id="ecc423f9-7771-4113-855c-e081976aa9a8"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="50278bd1-ebde-4719-a498-70af4e33ff18">
+                    <propertyInstance
+                      Id="fd6b4d50-b945-4ba8-b8e2-c06c5059ae64"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fb4d5bf9-7227-49db-a6b9-51cf3de41431">
+                    <propertyInstance
+                      Id="63a03320-b6ad-4ddb-855d-6112d9d6d694"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="86585bd3-8dd9-46f3-a482-0a8b88ebcd24">
+                    <propertyInstance
+                      Id="6d17c5e3-3b66-4a34-b654-d0141eaa972a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6a359f18-524d-4552-a43b-3d0512802765">
+                    <propertyInstance
+                      Id="2d89530d-f30f-4790-9a39-38d5dbcc3dba"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="1b13e886-417c-4b2e-b1c7-196cb5aeddc1"
+                  name="sender"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="756ccb08-93b8-47d0-9bd1-3859b2a9b4c3"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion%2Fbin%2FRegulacion.dll&quot; Namespace%3DRegulacion.Pages.Logins Type%3DPregunta Member%3D(Name%3DPage_Load OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3Dsender"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="6e834389-d394-442a-aced-504545537ba9"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package3_1350.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="20360d9f-7c0f-4c1e-8422-08605154898c"
+                  name="e"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="d7b2aede-ea96-4e82-a9dc-c5eb16f82088"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion%2Fbin%2FRegulacion.dll&quot; Namespace%3DRegulacion.Pages.Logins Type%3DPregunta Member%3D(Name%3DPage_Load OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3De"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="ca2769ed-8fb4-4620-bd69-6eee57e0f84a"
+                      LastKnownName="EventArgs"
+                      LastKnownLocation="Package3_1350.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="45396c7e-1e20-4cfa-93f9-8b91c1d9f6ae"
+            name="btnBuscar_Click"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="b990c8a5-015e-4b2a-9ee3-9ff470f9c496"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion%2Fbin%2FRegulacion.dll&quot; Namespace%3DRegulacion.Pages.Logins Type%3DPregunta Member%3D(Name%3DbtnBuscar_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="7be41a8d-a51a-4308-8b90-914200839fd4"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e2deef53-59d7-4b2e-a2a5-a3c4e6a0784d">
+                    <propertyInstance
+                      Id="3ea64f1f-bc4d-4a8a-836b-526ee1a88146"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="74e2ebaa-0161-405d-b9e0-ba2fd7808cd6">
+                    <propertyInstance
+                      Id="99b316fa-56f1-4aef-8b90-5302dbab3af0"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e501072e-54dd-4443-a96c-34e631f94c3e">
+                    <propertyInstance
+                      Id="bd3dbb06-8bd9-46e4-ada2-6c758656d819"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9de8eb3b-e2c2-4d3e-8070-2b1194b71f43">
+                    <propertyInstance
+                      Id="3a378287-3ffd-4c77-a89d-cccbd847d49e"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="bef3e3d0-1238-4108-be5c-983f77d4d7a9">
+                    <propertyInstance
+                      Id="c2343c3e-5988-4ca5-8e9f-737496652656"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9a42e726-d5c2-45be-85f2-cb52eb4da5ad">
+                    <propertyInstance
+                      Id="8ce01577-0549-4813-aed3-d122a0b258fc"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="b0a86019-8b4e-4efe-a2bb-4a19e50f164d"
+                  name="sender"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="c8d06db8-2da0-413d-af39-0e941517e33b"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion%2Fbin%2FRegulacion.dll&quot; Namespace%3DRegulacion.Pages.Logins Type%3DPregunta Member%3D(Name%3DbtnBuscar_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3Dsender"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="6e834389-d394-442a-aced-504545537ba9"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package3_1350.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="feebfaa5-b6ea-44c7-bd91-4b637fd7d13b"
+                  name="e"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="633b6fa6-25e2-47ef-a27b-42e187f46763"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion%2Fbin%2FRegulacion.dll&quot; Namespace%3DRegulacion.Pages.Logins Type%3DPregunta Member%3D(Name%3DbtnBuscar_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3De"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="ca2769ed-8fb4-4620-bd69-6eee57e0f84a"
+                      LastKnownName="EventArgs"
+                      LastKnownLocation="Package3_1350.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="75f289e2-9983-42f9-a97a-f1783c082031"
+            name="btnRestaurar_Click"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="94cfb34d-78f5-46a5-bf1e-22f6b730c365"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion%2Fbin%2FRegulacion.dll&quot; Namespace%3DRegulacion.Pages.Logins Type%3DPregunta Member%3D(Name%3DbtnRestaurar_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="ae67a1f5-9bcd-4b70-be3f-b1054ce75109"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0814eb5c-a59a-4b96-bed7-00aba02d4012">
+                    <propertyInstance
+                      Id="50d173fd-a16e-4b2e-b751-3826f8f5d25d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0611aa5c-81c6-4b42-bf39-8cac5e08ba23">
+                    <propertyInstance
+                      Id="ec892d45-792d-4640-8f3e-0accd51d94ae"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="84484da2-fa45-4e3c-b769-285f5c90e70b">
+                    <propertyInstance
+                      Id="9ccff08e-b548-4978-bba9-97b1a965f340"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e0b67b38-e7a9-4f96-a5bb-b8a7040f46b2">
+                    <propertyInstance
+                      Id="77babd1d-b1ac-4284-a680-b828b97a0dda"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="97abd7bc-1b8c-4e66-beff-58ec2d2ad8f4">
+                    <propertyInstance
+                      Id="198a1258-7844-40f7-86a2-b2d23191c619"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="10078de0-4cc8-48a4-a969-25f9f835df3b">
+                    <propertyInstance
+                      Id="aa818bc4-2d69-4053-adb0-4cc29dce2179"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="1533cbd2-be16-4389-b4d5-1a05a8576e69"
+                  name="sender"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="8a991b98-f057-4a9e-a180-48f46a60859d"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion%2Fbin%2FRegulacion.dll&quot; Namespace%3DRegulacion.Pages.Logins Type%3DPregunta Member%3D(Name%3DbtnRestaurar_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3Dsender"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="6e834389-d394-442a-aced-504545537ba9"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package3_1350.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="e9d7271d-68f8-4420-b240-e56ef6ec56bc"
+                  name="e"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="8837dc85-78d2-4eac-8425-5d81bbc11e4e"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion%2Fbin%2FRegulacion.dll&quot; Namespace%3DRegulacion.Pages.Logins Type%3DPregunta Member%3D(Name%3DbtnRestaurar_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3De"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="ca2769ed-8fb4-4620-bd69-6eee57e0f84a"
+                      LastKnownName="EventArgs"
+                      LastKnownLocation="Package3_1350.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="0917323e-fa19-4a50-935d-4876b92b40cc"
+            name="BtnCancelar_Click"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="2e16fc30-900e-4036-b018-e4207b9ced30"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion%2Fbin%2FRegulacion.dll&quot; Namespace%3DRegulacion.Pages.Logins Type%3DPregunta Member%3D(Name%3DBtnCancelar_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="10ff40f6-1300-4a5f-9358-900c93ed3a08"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="acfa19d1-9f30-4829-9065-1b3a2477f5dd">
+                    <propertyInstance
+                      Id="8f7967e8-b757-421e-a802-213254e3d99d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="111b2eec-9588-4837-a62a-9d6c3005e2a9">
+                    <propertyInstance
+                      Id="e69a4169-216f-417b-98f1-6a19d30f6248"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5855479a-5dd4-45d5-abff-f553c0a96db0">
+                    <propertyInstance
+                      Id="be410e62-e451-42e2-a283-70dace265747"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4f58e733-3708-42e2-bb35-7d9a355160e6">
+                    <propertyInstance
+                      Id="bbf0709b-1a0d-48cc-993e-00bb80c9a68b"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5351265f-f6f4-4bde-b314-819add1b2fa4">
+                    <propertyInstance
+                      Id="1960d815-8751-40b0-8093-68180d328231"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="59f5d88b-c422-4b59-b451-62bf38861948">
+                    <propertyInstance
+                      Id="38e25c2a-cbcb-4180-b8c5-04507ee166d2"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="00a2ac45-9a74-4a09-a571-88c8de00f397"
+                  name="sender"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="f5f5f653-cc6d-4155-a8d1-ffde55790d2e"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion%2Fbin%2FRegulacion.dll&quot; Namespace%3DRegulacion.Pages.Logins Type%3DPregunta Member%3D(Name%3DBtnCancelar_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3Dsender"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="6e834389-d394-442a-aced-504545537ba9"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package3_1350.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="892c0631-89b0-4a3e-b8fc-71dc3dd55643"
+                  name="e"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="3d9c3ee5-0c1b-4c43-97b3-7c83258b62ed"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion%2Fbin%2FRegulacion.dll&quot; Namespace%3DRegulacion.Pages.Logins Type%3DPregunta Member%3D(Name%3DBtnCancelar_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3De"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="ca2769ed-8fb4-4620-bd69-6eee57e0f84a"
+                      LastKnownName="EventArgs"
+                      LastKnownLocation="Package3_1350.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="60b168c9-997f-4929-8723-fd38a6919d31"
+            name="Pregunta"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="2ca6de8c-5a3f-4c53-bdf2-f9b2738e1750"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion%2Fbin%2FRegulacion.dll&quot; Namespace%3DRegulacion.Pages.Logins Type%3DPregunta Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="df2f8c35-d92c-43f7-90c0-97778b8cf67c"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="671d65c3-243e-4242-95c1-e421f55a237c">
+                    <propertyInstance
+                      Id="f7f27f08-91c9-422b-b57d-7f4efd4150eb"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="be918576-0a19-469c-9f1a-6b1a842454e1">
+                    <propertyInstance
+                      Id="0cd8d0c4-c526-435c-b1b9-dcfa7379e83d"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="593c1726-cbe6-4318-81cf-8a4cef6e8f4a">
+                    <propertyInstance
+                      Id="70cd9312-8291-4a6f-bf8c-76828e5152e1"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="03cd9fe5-926e-4738-ac00-5876039f50ad">
+                    <propertyInstance
+                      Id="f5f3b67a-0bd7-461b-ae5b-925a80d1d7e4"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a3e52e64-67ed-4b9f-92df-4af6966e8b95">
+                    <propertyInstance
+                      Id="e3187cc8-a78d-42bb-b678-7a6b75f7550a"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0cd7f3fd-ed80-4ad7-9e8b-340b27d426ea">
+                    <propertyInstance
+                      Id="1fa6828c-51ef-4623-99fe-daa090988b16"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="df3095cc-6334-4367-84a9-2fb343987f9c"
+        name="Login"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="16444850-58ae-48b1-9739-27e4ed30413d"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion%2Fbin%2FRegulacion.dll&quot; Namespace%3DRegulacion.Pages.Logins Type%3DLogin"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="41d14522-34c9-466c-9312-ea837e3fc78c"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="e9050554-1e03-45d3-91b0-ae033c78c6ad">
+                <propertyInstance
+                  Id="79287f47-7050-4bb8-aed5-83fdfa0c8aec"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="25b86de7-7790-4a9e-9a24-7630bc954b51">
+                <propertyInstance
+                  Id="f7885ea5-be4f-4c70-abe6-cf8d60116300"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="93ad9d65-d0bd-4fde-84e4-9c3cee934678">
+                <propertyInstance
+                  Id="2695c30c-e818-4ea1-8a45-1ca5656bc576"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="456bc2e0-45fb-4d9b-a755-bf0e2a53845c">
+                <propertyInstance
+                  Id="a4e46de3-70cb-403f-84d2-26a2cbe060b3"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="499f3aaf-e9a4-49f3-9ab5-d12503ef2aa8">
+                <propertyInstance
+                  Id="4a8b598f-9876-4ed2-83fa-41a39795fe0f"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="5f93a139-ed24-4e54-9862-0fbc2382080a"
+            isSubstitutable="false">
+            <classMoniker
+              Id="ff98b2a6-19c6-4d7b-9e05-809d47275608"
+              LastKnownName="Page"
+              LastKnownLocation="Package5_1350.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedAttributesInternal>
+          <property
+            Id="b4287b5e-528e-43eb-9961-8789eb98a843"
+            name="error"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="b3e3fc86-6eab-4537-b852-77576e37b4d1"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion%2Fbin%2FRegulacion.dll&quot; Namespace%3DRegulacion.Pages.Logins Type%3DLogin Member%3Derror"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="d2c38baa-b9e9-48c9-abe0-f2b36cfc30db"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="612e3e11-e520-4401-82ff-f045236446b6">
+                    <propertyInstance
+                      Id="36642be2-369c-470c-bfe9-bf74fd9e0598"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ca55354f-652b-4c56-9966-cccd28604b90">
+                    <propertyInstance
+                      Id="c1fb6e74-6a96-48f0-a099-9ef9eaeb48af"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5980b611-2182-4d8e-89ee-0987445cfcd3">
+                    <propertyInstance
+                      Id="14047334-505f-4a0a-9475-f04f27ccf208"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dd566a1b-be33-4ec5-b3de-33cabd39b5dd">
+                    <propertyInstance
+                      Id="0aaea5a0-2165-421c-bea2-1fd593b75ef9"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1384d343-eddc-4bf9-8b3b-f8b9f23615b0">
+                    <propertyInstance
+                      Id="3a092052-de56-4ef3-945a-5c7c6bb4df7b"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <primitiveTypeMoniker
+                Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                LastKnownName="String"
+                LastKnownLocation="ModelingProjectRegulacion.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="47e73684-5177-452d-b71f-04d2afe11a41"
+            name="Head1"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="f4de571b-ed8d-4a31-bfe4-175ee7b948a2"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion%2Fbin%2FRegulacion.dll&quot; Namespace%3DRegulacion.Pages.Logins Type%3DLogin Member%3DHead1"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="ef1b14c4-c8bb-4db3-a8da-aa9210dc3a34"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="74563984-5931-4a22-83f1-4e389849d0c8">
+                    <propertyInstance
+                      Id="a46f4da3-196c-4d5c-990b-96a218d4697e"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="18c48fb1-dade-437f-98a2-36ee8f929679">
+                    <propertyInstance
+                      Id="7f10d1b4-5d68-45e5-9d3e-ff8dcaf84d84"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9616844c-11e5-426b-ae6b-5388d5115a2f">
+                    <propertyInstance
+                      Id="79fcd472-11d0-4990-8dd2-58842147ef68"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="515e9e4d-a728-4f16-9581-982ca44a491a">
+                    <propertyInstance
+                      Id="da5a0935-974b-4813-84ff-32b287bd5373"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="28fdaae6-3bce-4618-a806-f5f9e3f1e85d">
+                    <propertyInstance
+                      Id="9def38db-34c8-4d26-b39e-c5af9060ec71"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="639f3a1b-88f0-4cfd-8037-c819cd0f845d"
+                LastKnownName="HtmlHead"
+                LastKnownLocation="Package1_1401.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="eab09e4e-2b0f-4192-96b8-724ce696282a"
+            name="form1"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="ea2fb54f-269c-4ba1-8cc4-2a938b15cb75"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion%2Fbin%2FRegulacion.dll&quot; Namespace%3DRegulacion.Pages.Logins Type%3DLogin Member%3Dform1"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="7a734b85-4b70-4d1d-984e-14887099c22f"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="817b7c89-85d1-431c-85e0-6bdc66a3313d">
+                    <propertyInstance
+                      Id="935589a1-724c-4ddc-a1f5-be47e0d13c16"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ecc2e202-16bc-401a-b310-74ce7ba6908a">
+                    <propertyInstance
+                      Id="664911c3-55aa-47e1-9a1d-647b9842dfcd"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7d9e99b3-a8a9-4aa7-a1ed-a0df3f780a0e">
+                    <propertyInstance
+                      Id="2e1cbebd-0a2f-43c4-befa-58635c3a71aa"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6aff4875-c90b-4ef5-8a6b-232c7118ff4e">
+                    <propertyInstance
+                      Id="572c72b0-cb0b-4b95-8906-142517f49cb9"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="12c5f098-24c5-4eb3-ba87-fc56c1e7011a">
+                    <propertyInstance
+                      Id="b55c50a2-f3b7-4cab-822e-8e26ef0c778b"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="df193cab-918a-4142-924c-d3e3a6dc28fe"
+                LastKnownName="HtmlForm"
+                LastKnownLocation="Package1_1401.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="c6babeec-9ced-4272-98f4-6c6dfb410823"
+            name="Img1"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="bf2e0760-5e51-472d-9bbe-3622d74404ac"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion%2Fbin%2FRegulacion.dll&quot; Namespace%3DRegulacion.Pages.Logins Type%3DLogin Member%3DImg1"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="394683d9-046c-4da0-81c8-1f7d8c1f937e"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2a235fa2-7470-47c9-a031-d57c0f0bd978">
+                    <propertyInstance
+                      Id="2ecec9ef-1cb7-4eb0-b151-7842aecac481"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="79a518f6-42df-425e-866e-10778254d1ba">
+                    <propertyInstance
+                      Id="fa22b45f-c689-4db4-aabc-ff48c6175ecd"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="70064bce-72ce-44af-9c08-c57c822befe7">
+                    <propertyInstance
+                      Id="7344cf73-4958-4754-927b-47e5d9c6f9d7"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2d57c089-d9d2-40a9-9195-01b7430d14f9">
+                    <propertyInstance
+                      Id="9b72a555-1262-40d7-af9b-2ee51d77a46e"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f1e533bd-ec92-401e-a1b6-82cdd4988c7b">
+                    <propertyInstance
+                      Id="c2821fef-bfac-453f-9506-a41eed65b5bf"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="b2956e9b-f7d3-420e-a4dc-d09eb4121f47"
+                LastKnownName="HtmlImage"
+                LastKnownLocation="Package1_1401.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="e48a64ce-ac7e-4333-a042-2a7981c48f7b"
+            name="Img2"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="49d7c8c2-cb2e-480d-9da4-a46035eb0912"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion%2Fbin%2FRegulacion.dll&quot; Namespace%3DRegulacion.Pages.Logins Type%3DLogin Member%3DImg2"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c1e46d33-4d8f-4640-9c97-e675b2abe93e"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="29e49ff7-cb48-4688-96e3-f87777af9111">
+                    <propertyInstance
+                      Id="5ca9556f-a4fd-495d-b9fe-c1e495d11350"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="de400f12-2d1f-45a2-aedf-6289fe44f92a">
+                    <propertyInstance
+                      Id="0dbfd9ea-c4d9-4e5d-b4ce-d8ed48d328c9"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="17e0827a-f9b0-4605-a0bf-a97786a22c28">
+                    <propertyInstance
+                      Id="0fae1186-1825-472a-9a89-f8378cbf3406"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6e8f1ddf-fea2-4008-bf75-3b86df64f886">
+                    <propertyInstance
+                      Id="81a35b4a-46de-4889-b483-79b0de7098b7"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4aa0b74f-9c72-4d07-a6f3-1d919401bc33">
+                    <propertyInstance
+                      Id="b5591724-8211-4080-80cd-be9c6fe17968"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="b2956e9b-f7d3-420e-a4dc-d09eb4121f47"
+                LastKnownName="HtmlImage"
+                LastKnownLocation="Package1_1401.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="debcb175-fcc2-43ca-b975-a9c94bd19944"
+            name="TBoxUsuario"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="d70d31d8-1588-400a-b32a-8d136d55c3c0"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion%2Fbin%2FRegulacion.dll&quot; Namespace%3DRegulacion.Pages.Logins Type%3DLogin Member%3DTBoxUsuario"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="31cef90d-4ac6-41da-81c3-d7608b5855e4"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4ac3d075-80f9-4add-93a9-59bf61579162">
+                    <propertyInstance
+                      Id="5124ba8b-3cb3-42bb-a4c0-35d5072690e6"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cef6b1d0-af62-4d5f-b68f-fd005351d8f9">
+                    <propertyInstance
+                      Id="da21c5db-46e4-439c-9e4e-08abebef1dbe"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3e83cb76-8f37-4e59-9ecb-2787354ac796">
+                    <propertyInstance
+                      Id="e70a4087-6994-4fdd-b6c8-290d657c9647"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="260b8dce-f4b3-4a17-8aef-edbd95d83b57">
+                    <propertyInstance
+                      Id="f06a6c96-3508-4917-8487-62b9706a43a9"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="724b85da-7a58-44b9-ad67-e09f1836ed25">
+                    <propertyInstance
+                      Id="ef7905e0-fafb-4ea0-be44-e9fd3cc5c30d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="366d8082-aae8-48b9-91d0-6f8f754556b8"
+                LastKnownName="TextBox"
+                LastKnownLocation="Package6_1350.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="1862fa5d-65ae-4e27-89ff-46239d7bc0ca"
+            name="TBoxPassword"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="a4350cbf-433d-42f9-a664-f78f2cbc2c44"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion%2Fbin%2FRegulacion.dll&quot; Namespace%3DRegulacion.Pages.Logins Type%3DLogin Member%3DTBoxPassword"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="b3b4771b-8b66-4c01-9162-4ebfdc84a39d"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="996e5ee5-0547-4a1a-86d4-9dff07e0f515">
+                    <propertyInstance
+                      Id="f72f5128-9022-42ef-9075-c62a94ddc1c3"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8000a420-0d39-4f4c-9e79-2bb86abb2c51">
+                    <propertyInstance
+                      Id="33c7be1b-bac4-4359-88bd-f0d95777d9fe"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ada4f654-3304-42c8-a81e-ceef82176e7e">
+                    <propertyInstance
+                      Id="665402af-7485-447a-9966-175a9e8247ec"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="1b1fac45-ad2a-4d60-9eca-c9fb89f6907a">
+                    <propertyInstance
+                      Id="789e2992-32fc-480c-bb6e-197871d5402e"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="81d6ba4d-16f2-4fc5-9561-1b01830a6269">
+                    <propertyInstance
+                      Id="bd8dd518-c97c-418c-be20-013c536f3c9f"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="366d8082-aae8-48b9-91d0-6f8f754556b8"
+                LastKnownName="TextBox"
+                LastKnownLocation="Package6_1350.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="4c1d52af-6d5a-4ebd-b164-36351a8f5b75"
+            name="LKBRecuperar"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="6c94178b-fdf0-422e-a354-d32f1fa2f8a7"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion%2Fbin%2FRegulacion.dll&quot; Namespace%3DRegulacion.Pages.Logins Type%3DLogin Member%3DLKBRecuperar"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="81dcfa9b-9fd4-4b0b-abc1-a80a145bc55d"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5b7ffb17-11bf-4d76-897b-a2593e6779f3">
+                    <propertyInstance
+                      Id="d4d79457-b17f-4948-bc1f-dbe010cb5dbe"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="6e6d727d-3177-4126-ab94-5a1af7fd2a1e">
+                    <propertyInstance
+                      Id="c0273425-7a86-4277-a2f0-d1193d7bc40e"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5838d53a-3c16-4856-964b-8a20cd56c7b2">
+                    <propertyInstance
+                      Id="60ee2e13-53d5-494d-9bac-71be140c5fe3"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="86d111e3-b4a6-4d17-b5a8-353ae1b87e91">
+                    <propertyInstance
+                      Id="3d7e26aa-a606-4828-8faa-4aa94e36a6ef"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b907d42a-9ac9-49b7-8291-e646f8e27906">
+                    <propertyInstance
+                      Id="a3e213a8-a664-4c0e-bff0-f4735b35c1c9"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="113982ed-a364-4816-a05f-bd07d2ee51c4"
+                LastKnownName="LinkButton"
+                LastKnownLocation="Package6_1350.uml" />
+            </type_NamedElement>
+          </property>
+          <property
+            Id="bdbe6b40-21ae-4871-b3c7-17f033440c48"
+            name="BtnAcceder"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isReadOnly="false"
+            isDerived="false"
+            isDerivedUnion="false"
+            aggregation="None"
+            isComposite="false">
+            <referencesInternal>
+              <reference
+                Id="20d2291d-0955-4961-b870-a9b99a638fc8"
+                handle="viewcode://./CodeSchema_Field?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion%2Fbin%2FRegulacion.dll&quot; Namespace%3DRegulacion.Pages.Logins Type%3DLogin Member%3DBtnAcceder"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="265c4144-edb9-436d-b9f1-911a650b9a52"
+                name="field"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="adf800f5-365b-401a-ac71-ee291860359f">
+                    <propertyInstance
+                      Id="a40dd78e-2fb2-4ef6-b262-2e3188403c6d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="db1a5440-a063-4d86-a6e9-062b3f901f76">
+                    <propertyInstance
+                      Id="cf663aba-fe4b-4fe5-8c41-739555cb35ff"
+                      name="IsConst"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="457b1674-806f-4424-8d80-24030f86b4ad">
+                    <propertyInstance
+                      Id="0d7cc1de-6591-4e2d-acc0-889eff2991ab"
+                      name="IsNullable"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f83370d1-ccb0-4750-841c-de48fe5a7d70">
+                    <propertyInstance
+                      Id="40306f6a-c1de-4c4c-a693-6ad73c7a00fe"
+                      name="IsVolatile"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9c49476a-eff8-4b74-a5b6-3775d88ebb0e">
+                    <propertyInstance
+                      Id="5b1a11d4-0411-4f32-92bd-a686af371fa8"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <type_NamedElement>
+              <classMoniker
+                Id="08bca8e7-4af2-4373-9192-1b4dd96ba56f"
+                LastKnownName="Button"
+                LastKnownLocation="Package6_1350.uml" />
+            </type_NamedElement>
+          </property>
+        </ownedAttributesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="71351e1f-fff4-43bd-8d3f-0e847369deb5"
+            name="Page_Load"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="283f9dd0-ead1-4fa6-8db9-75f934d92822"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion%2Fbin%2FRegulacion.dll&quot; Namespace%3DRegulacion.Pages.Logins Type%3DLogin Member%3D(Name%3DPage_Load OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a7abca77-16dd-46a3-8ebe-89cb2b25e95b"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2eca1662-d10b-49a3-8b98-ca0f07b607a3">
+                    <propertyInstance
+                      Id="822a5f77-334f-4b84-b116-0a7da0954b04"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="337d7378-6629-4da8-a4a0-7b60e1bc90a9">
+                    <propertyInstance
+                      Id="6eca8ce0-cf89-4a17-9a42-d41392d051a7"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0621f45e-f9e6-4585-888d-05896ec6f3cd">
+                    <propertyInstance
+                      Id="c0daf6dc-30e7-4e96-a931-6852a872bf91"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e833b628-c161-4031-a9ad-4817eff404a3">
+                    <propertyInstance
+                      Id="dfcc96b2-afab-430b-b6c9-7f1d59898cb8"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="fed4c422-a6fc-4857-bc15-aaeb0c259be1">
+                    <propertyInstance
+                      Id="2af7cc23-e6ce-4eaf-8679-9310c35d1b06"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="43220735-ceb8-4a83-b6e6-74f6d6e81e59">
+                    <propertyInstance
+                      Id="afb1ab36-1594-4758-b873-7206a193066f"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="21b3a050-76b0-4473-a944-95634069b38a"
+                  name="sender"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="7cc4a1a3-cdeb-4313-a61c-a3a51f66c963"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion%2Fbin%2FRegulacion.dll&quot; Namespace%3DRegulacion.Pages.Logins Type%3DLogin Member%3D(Name%3DPage_Load OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3Dsender"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="6e834389-d394-442a-aced-504545537ba9"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package3_1350.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="cdd838fd-d539-4a39-a144-28db99ee8cbd"
+                  name="e"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="9ade19c8-aa0a-4d73-814f-10cfc4746394"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion%2Fbin%2FRegulacion.dll&quot; Namespace%3DRegulacion.Pages.Logins Type%3DLogin Member%3D(Name%3DPage_Load OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3De"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="ca2769ed-8fb4-4620-bd69-6eee57e0f84a"
+                      LastKnownName="EventArgs"
+                      LastKnownLocation="Package3_1350.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="cf2808a1-8234-419f-bda6-a681a45336e1"
+            name="btnRestaurar_Click"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="687798f0-c7e5-4602-98b1-63a01326bd6a"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion%2Fbin%2FRegulacion.dll&quot; Namespace%3DRegulacion.Pages.Logins Type%3DLogin Member%3D(Name%3DbtnRestaurar_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f75a3704-1fd9-4784-a7ae-e608a5961061"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0f878eb4-920c-4abf-89aa-d2cf18fb026c">
+                    <propertyInstance
+                      Id="01f8254a-f1c7-46e3-8c30-86fd2aed3b78"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0bfc89fa-3e20-4631-84b0-1086ea12b221">
+                    <propertyInstance
+                      Id="5ed96471-94c6-478d-8ca9-e9422568431a"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2e72094c-0255-42a8-abb9-b5c28eab0680">
+                    <propertyInstance
+                      Id="df7d24f2-9097-4ac5-9d7e-ba710fda77a9"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="15446e57-d00e-4821-ab21-c6e0271262cc">
+                    <propertyInstance
+                      Id="a813013d-fefe-4311-b202-bd77c367ef32"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f6411377-5765-4a82-8693-35110bd8f031">
+                    <propertyInstance
+                      Id="a9bd0e7d-980f-424d-8be0-dc8c633f1eec"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8455767d-2b4b-4715-bd6b-2ced2451ff26">
+                    <propertyInstance
+                      Id="bbcbfc8d-33a5-4834-9dcd-8dae4d08d044"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="bc3cbe0c-65fe-4b12-99f4-20486c090520"
+                  name="sender"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="a2699129-f4c1-4980-abde-9b023a4e496b"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion%2Fbin%2FRegulacion.dll&quot; Namespace%3DRegulacion.Pages.Logins Type%3DLogin Member%3D(Name%3DbtnRestaurar_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3Dsender"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="6e834389-d394-442a-aced-504545537ba9"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package3_1350.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="06eee27b-ea0f-4034-a9c7-4e6e06708d00"
+                  name="e"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="e145813c-9f4d-43ab-8708-351ff431376e"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion%2Fbin%2FRegulacion.dll&quot; Namespace%3DRegulacion.Pages.Logins Type%3DLogin Member%3D(Name%3DbtnRestaurar_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3De"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="ca2769ed-8fb4-4620-bd69-6eee57e0f84a"
+                      LastKnownName="EventArgs"
+                      LastKnownLocation="Package3_1350.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="a42784aa-d629-4d43-8657-fa95374f7374"
+            name="LKBRecuperar_Click"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="5f9f8ef2-3c42-4a91-841d-986d8ee6cf5b"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion%2Fbin%2FRegulacion.dll&quot; Namespace%3DRegulacion.Pages.Logins Type%3DLogin Member%3D(Name%3DLKBRecuperar_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="8d5e5330-4d30-42ac-b22f-80f9d122e55c"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b80533b7-4c0f-4fb3-8a73-24e31289c1c8">
+                    <propertyInstance
+                      Id="4e3acebe-e13e-4fe6-9753-39cce97bb41f"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e9430fc7-0b4a-42b2-9877-a79d0c9cf2e0">
+                    <propertyInstance
+                      Id="779909b9-4053-44d0-83da-37df43e1476f"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2aab82f4-176e-48f3-bbc8-d7c5a846cfd2">
+                    <propertyInstance
+                      Id="642c2033-21bc-424e-81cf-56d61ca9ecb1"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e7f3ccf8-cc8b-426a-a2d8-8c7c5999bac5">
+                    <propertyInstance
+                      Id="1296a272-ddee-45e7-b7f6-7a4c1a270ccb"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0dede8df-c0cb-4d2b-89ce-b5c90e8b12bc">
+                    <propertyInstance
+                      Id="c7e8ad12-d203-4d9b-90ed-ad7a52ad72bc"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="76e54f81-9f22-4953-a67e-89ed506de04b">
+                    <propertyInstance
+                      Id="a3805c28-4a8d-425c-9ad8-6e516206c8cf"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="c7d2b080-e4ba-4c4d-86bb-9a697e5fadfc"
+                  name="sender"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="15686054-03fe-4bef-9f80-3246a6867cf0"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion%2Fbin%2FRegulacion.dll&quot; Namespace%3DRegulacion.Pages.Logins Type%3DLogin Member%3D(Name%3DLKBRecuperar_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3Dsender"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="6e834389-d394-442a-aced-504545537ba9"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package3_1350.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="29987eb8-8a4a-45f1-b028-c9cd88f72d15"
+                  name="e"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="11f00905-5226-4b21-94cb-ca516844ab58"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion%2Fbin%2FRegulacion.dll&quot; Namespace%3DRegulacion.Pages.Logins Type%3DLogin Member%3D(Name%3DLKBRecuperar_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3De"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="ca2769ed-8fb4-4620-bd69-6eee57e0f84a"
+                      LastKnownName="EventArgs"
+                      LastKnownLocation="Package3_1350.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="784cd02d-a22b-4b16-9faf-09a0d8e6d6a2"
+            name="BtnAcceder_Click"
+            visibility="Protected"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="30dd226b-0660-46a6-8c06-a6b44f7a3e19"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion%2Fbin%2FRegulacion.dll&quot; Namespace%3DRegulacion.Pages.Logins Type%3DLogin Member%3D(Name%3DBtnAcceder_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="08242579-62be-4112-a237-f1092cce93f2"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="334ed0f8-dd22-457e-8457-90207994e844">
+                    <propertyInstance
+                      Id="ad193e80-78e8-4837-b94e-d3089661e85d"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="52176dcd-d4d7-464b-987d-bef7698988d9">
+                    <propertyInstance
+                      Id="8bf799f2-2ecf-4e57-9835-bbe3d7e11d78"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="79c70a14-e12f-4cf5-8712-6703bdf7c191">
+                    <propertyInstance
+                      Id="6e9b122c-93f2-42f6-9e00-e0b0b400c3b1"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="9834919a-ce51-4611-8cbf-f8864911891a">
+                    <propertyInstance
+                      Id="9a2f658a-d2c5-46f4-afd6-ae53dbaac054"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2185f462-a675-491b-b1ac-98136c5af767">
+                    <propertyInstance
+                      Id="e6d0c109-5a10-4cb2-8ec2-acfc31a68685"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2bafaf90-db70-4e5a-8020-c4affb742fa7">
+                    <propertyInstance
+                      Id="86b73fd3-4ab8-4415-b22d-e1d88a97c5ac"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="4a6957e8-e08c-48f1-8131-f0557b260707"
+                  name="sender"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="d534f25d-0362-44f4-a1b2-8a84ad4a5673"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion%2Fbin%2FRegulacion.dll&quot; Namespace%3DRegulacion.Pages.Logins Type%3DLogin Member%3D(Name%3DBtnAcceder_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3Dsender"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="6e834389-d394-442a-aced-504545537ba9"
+                      LastKnownName="Object"
+                      LastKnownLocation="Package3_1350.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="f591db96-db9f-4aaf-a320-effec715d81a"
+                  name="e"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="ddb42c65-f25d-4391-9779-59a3c2791d36"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion%2Fbin%2FRegulacion.dll&quot; Namespace%3DRegulacion.Pages.Logins Type%3DLogin Member%3D(Name%3DBtnAcceder_Click OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DObject)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DEventArgs)]) ParameterIdentifier%3De"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="ca2769ed-8fb4-4620-bd69-6eee57e0f84a"
+                      LastKnownName="EventArgs"
+                      LastKnownLocation="Package3_1350.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="b37bda47-bb5f-413a-84ed-1a0b78d08d49"
+            name="CargarSession"
+            visibility="Private"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="54eb7e2e-b883-4c44-b8e3-37cc64a1a806"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion%2Fbin%2FRegulacion.dll&quot; Namespace%3DRegulacion.Pages.Logins Type%3DLogin Member%3D(Name%3DCargarSession OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="4e7f1094-477f-4e5f-9143-3f55746a6ed6"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f45c9248-a24a-4cd2-aa70-e276b560c861">
+                    <propertyInstance
+                      Id="f89232f6-2c57-4c03-aa4e-8a41aeec6f46"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3f1bf148-1a44-4034-ad3e-5869d75701cc">
+                    <propertyInstance
+                      Id="6b85518a-d1a3-4d3a-a317-4fd525d694de"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="45af3f50-d53a-48ab-b6c9-2e4a16afd87b">
+                    <propertyInstance
+                      Id="ee1f38c3-2d21-4471-ab3c-0b2485fa4603"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="78fcb07f-fa2e-4394-8810-785a359b0954">
+                    <propertyInstance
+                      Id="d65fff7c-5514-493c-9510-e188819bc4b4"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="18c5d516-532b-4952-8686-528c7db7a559">
+                    <propertyInstance
+                      Id="65cb148c-89b3-4b83-a04e-b7cc9bcd063c"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="70e263db-da36-4c00-963a-22b59228ddb0">
+                    <propertyInstance
+                      Id="c277f935-5975-4cf7-8f59-7ca309753107"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="3c125724-1fe0-41b0-affb-e879eb772ea3"
+                  name="stUsuario"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="ca9f1157-9482-4140-a252-ff40fa30ef7b"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion%2Fbin%2FRegulacion.dll&quot; Namespace%3DRegulacion.Pages.Logins Type%3DLogin Member%3D(Name%3DCargarSession OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DstUsuario"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProjectRegulacion.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="b9782704-0fd9-4b6c-a6d3-6ce93c5937ee"
+            name="Login"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="43971335-ab33-4b3f-bf31-fc3998a9d88b"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion%2Fbin%2FRegulacion.dll&quot; Namespace%3DRegulacion.Pages.Logins Type%3DLogin Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f6e25636-b4ed-4449-9919-50851d6725f1"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="7e9b35bb-2dcb-484b-8fb3-64356200f951">
+                    <propertyInstance
+                      Id="0c403207-f524-463a-af5f-282444687553"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c634faed-47ba-477f-9ffb-07a951278738">
+                    <propertyInstance
+                      Id="3bd32032-c95b-4de1-9295-f2839ca20cc6"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="eebe66a7-7950-466f-9657-316b514a5e0a">
+                    <propertyInstance
+                      Id="961dd573-1e1b-4208-9a17-a5542bac7bc3"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="34ae8288-26d4-429a-a57a-e6d99c7bdd00">
+                    <propertyInstance
+                      Id="b7b66bcb-b768-439c-b02c-8d426fe36acf"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="10cc2582-63ea-4434-9d72-a25bd1a8c1df">
+                    <propertyInstance
+                      Id="5f44a1fe-9902-4233-a7ec-259ced97732d"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3eb5c48f-e2a8-4d58-9715-4d9c4531126c">
+                    <propertyInstance
+                      Id="aa0fe660-9b19-4b64-a9f9-9f8de6109c52"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

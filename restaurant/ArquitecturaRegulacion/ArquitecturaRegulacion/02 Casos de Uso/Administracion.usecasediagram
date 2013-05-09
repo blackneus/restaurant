@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="08464b16-d9d7-4744-884d-f8a4a3bc2b0d" name="Administracion" linkedPackageId="e7b90473-cad6-4261-8ea8-c9a1694ce7d4" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <profileInstances>
+    <packageHasProfileInstances Id="1a930f1c-90f1-4e74-b8b3-338f3191fd29">
+      <profileInstance Id="50eb82bc-12f8-4280-a6ce-db0e6568dde9" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="83376cb8-08b8-48dc-9086-669371ea552b">
+      <profileInstance Id="d69fac1f-6da5-4c7a-a836-72a5668605c8" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="ba77e27d-555e-4a9e-af11-8884d98f8403" name="Administrador" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="41b217d9-bfe8-4fb6-b5ca-6bc59994dcfa" />
+        <targetEnds>
+          <association Id="32e8c3cf-c5dc-4c43-a876-2e3317231408" isDerived="false" sourceEndRoleName="Administrador" targetEndRoleName="Administrar usuarios" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="7c1ef5c8-084b-4e2e-995b-2e1c2fd6a6ed" LastKnownName="Administrar usuarios" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="4be45d3d-dd37-452a-aaa8-8b602f9427c7" name="Administrador" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="929cf17f-dfc1-47a4-ab7f-a7a589935f99" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b70b349a-7377-4270-8ca4-15cb1bd36964" name="Administrar usuarios" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="3071ba43-01b7-4e3a-ac8f-c9f8e814b133" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="4cd686cb-90ee-4e3f-acd8-0dfc3e36bcb7" />
+          </association>
+          <association Id="86fa62ab-fb4c-49b9-bbf3-f80b9aa9843a" isDerived="false" sourceEndRoleName="Administrador" targetEndRoleName="Administrar catálogos" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="93016b6c-8cfe-4cb6-85bf-7d71a2af0be1" LastKnownName="Administrar catálogos" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6bde4ebb-b396-4bcd-9afc-aaa9a4083e1c" name="Administrador" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="e8cc9aae-f8ed-4383-a51c-38c7232cd069" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="213b733a-073b-4588-be4e-da7aab946113" name="Administrar catálogos" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="a3bbbdc7-bb63-45a0-8fed-178501bf4745" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="8a2f71ae-03af-471d-8df0-7d59bac87bab" />
+          </association>
+          <association Id="3616b6c7-60fe-4e7c-a773-7478b3ea811b" isDerived="false" sourceEndRoleName="Administrador" targetEndRoleName="Administrar roles" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="ef262c2c-ebbc-421e-91a8-1384a3f617c2" LastKnownName="Administrar roles" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="a7c68e06-a0b3-415d-bb73-ccc03a4f03e6" name="Administrador" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="37bd6017-ea02-42c2-b19d-ab75186ebba5" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="04df9dcc-5c5f-4882-aac7-3423a24adf3c" name="Administrar roles" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="02043463-3ecb-4339-ac32-ca5110c88719" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="97ad181a-6b63-4f1a-abfa-65bb297f89b5" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <subsystem Id="15011434-868f-428a-8234-8be514088533" name="Administracion" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="f31d2787-8abf-49cd-9f20-1b29faa7f0ba" />
+      </subsystem>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="7c1ef5c8-084b-4e2e-995b-2e1c2fd6a6ed" name="Administrar usuarios" isAbstract="false" isLeaf="false">
+        <description>Administracion de los usuarios del sistema</description>
+        <elementDefinition Id="0c85c005-486a-4ff7-b09e-736421b1eded" />
+        <additions>
+          <include Id="dab3f8e9-8b49-4b33-85f2-740960a3785d">
+            <useCaseMoniker Id="de745edd-c099-402e-92e4-edab49973cc6" LastKnownName="Registrar nuevos usuarios" />
+            <elementDefinition Id="7219920e-ccc2-4175-a68a-34f100035438" />
+          </include>
+          <include Id="97053b01-b2ee-4073-8f73-3b699172429f">
+            <useCaseMoniker Id="355983d3-22f3-4657-9dde-9daca19d0d9a" LastKnownName="Asignar Roles" />
+            <elementDefinition Id="a531ca3f-dbb5-4983-a63d-395ddd6e4128" />
+          </include>
+          <include Id="ba3274dc-97f0-473a-8245-8de12976c7fa">
+            <useCaseMoniker Id="5100694a-b9ca-45c4-aa41-38f4abe2e712" LastKnownName="Desactivar/activar cuentas de usuarios" />
+            <elementDefinition Id="5155ea9b-9a4f-480a-81f7-9982a7da9c73" />
+          </include>
+          <include Id="46714aec-bd8f-4a91-bd81-1b0871859872">
+            <useCaseMoniker Id="435c1a5a-f751-4a33-82d1-35b88fdf23d7" LastKnownName="Eliminar cuentas de usuario" />
+            <elementDefinition Id="8c77b8a7-0803-40ce-aaa7-4645497639c4" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="15011434-868f-428a-8234-8be514088533" LastKnownName="Administracion" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="de745edd-c099-402e-92e4-edab49973cc6" name="Registrar nuevos usuarios" isAbstract="false" isLeaf="false">
+        <description>Al registrar un nuevo usario se genera la contraseña en base a als politicas.</description>
+        <elementDefinition Id="44225cea-8e91-49cb-a49e-6d3b23a88869" />
+        <subjects>
+          <subsystemMoniker Id="15011434-868f-428a-8234-8be514088533" LastKnownName="Administracion" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="355983d3-22f3-4657-9dde-9daca19d0d9a" name="Asignar Roles" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="a46275d5-7ef1-4a24-ac2b-3631ecc47a40" />
+        <subjects>
+          <subsystemMoniker Id="15011434-868f-428a-8234-8be514088533" LastKnownName="Administracion" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="5100694a-b9ca-45c4-aa41-38f4abe2e712" name="Desactivar/activar cuentas de usuarios" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="648cdc6a-cc00-45aa-b375-682ac82b887f" />
+        <subjects>
+          <subsystemMoniker Id="15011434-868f-428a-8234-8be514088533" LastKnownName="Administracion" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="435c1a5a-f751-4a33-82d1-35b88fdf23d7" name="Eliminar cuentas de usuario" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="fc8b1332-676f-4da9-baec-2cc61bbb4b7a" />
+        <subjects>
+          <subsystemMoniker Id="15011434-868f-428a-8234-8be514088533" LastKnownName="Administracion" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="93016b6c-8cfe-4cb6-85bf-7d71a2af0be1" name="Administrar catálogos" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="7c3a26ad-7d6d-4f71-af08-6fd0cc6ba354" />
+        <additions>
+          <include Id="e9ac7034-0fbd-4350-a258-0e09338a3659">
+            <useCaseMoniker Id="f1486ea4-e693-4a4c-95e2-30ff7432f0f3" LastKnownName="Agregar entradas" />
+            <elementDefinition Id="42cf873d-d8be-4319-a440-7ec63e869fee" />
+          </include>
+          <include Id="f2572f9e-7af5-47ca-95f3-b160d3702c2b">
+            <useCaseMoniker Id="d2929ba7-4a3c-45cc-8b21-8d7f54e02251" LastKnownName="Modificar entradas" />
+            <elementDefinition Id="94b2a9bd-ba57-4cc0-8e13-33dc7892dfb3" />
+          </include>
+          <include Id="5b00301b-938a-4e34-89ed-2d10d5d64e8d">
+            <useCaseMoniker Id="ac2c86df-b1fd-4950-a9c2-4101e4ee02fa" LastKnownName="Desactivar entradas" />
+            <elementDefinition Id="1c313283-d8be-41fe-abcf-a97124fade43" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="15011434-868f-428a-8234-8be514088533" LastKnownName="Administracion" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="f1486ea4-e693-4a4c-95e2-30ff7432f0f3" name="Agregar entradas" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="8f79909f-44b4-4409-ac3f-569554b52af2" />
+        <subjects>
+          <subsystemMoniker Id="15011434-868f-428a-8234-8be514088533" LastKnownName="Administracion" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="d2929ba7-4a3c-45cc-8b21-8d7f54e02251" name="Modificar entradas" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="cd1ea79d-bc5e-478b-b8da-4605e4d42d17" />
+        <subjects>
+          <subsystemMoniker Id="15011434-868f-428a-8234-8be514088533" LastKnownName="Administracion" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="ac2c86df-b1fd-4950-a9c2-4101e4ee02fa" name="Desactivar entradas" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="dff6fa6c-a290-481e-aca1-ed9d63ab97ba" />
+        <subjects>
+          <subsystemMoniker Id="15011434-868f-428a-8234-8be514088533" LastKnownName="Administracion" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="ef262c2c-ebbc-421e-91a8-1384a3f617c2" name="Administrar roles" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="3eb3d4c8-24a1-4221-a135-366390463dde" />
+        <additions>
+          <include Id="91412cff-6fee-47d5-a7b3-1c664cf85ad9">
+            <useCaseMoniker Id="11cd6327-8503-4a0b-87db-fc2f90e86a02" LastKnownName="Crear nuevos roles" />
+            <elementDefinition Id="68ac8301-ee41-4762-8aa5-df45292e7e21" />
+          </include>
+          <include Id="5144686f-d89c-40e7-8ae2-731fa1d92aef">
+            <useCaseMoniker Id="09fccc81-9910-4e1a-bcb7-8f0a5e7244d9" LastKnownName="Modificar roles" />
+            <elementDefinition Id="86a6f2c6-3dc8-4123-bdbe-237393b2cd90" />
+          </include>
+          <include Id="073a5f67-3137-46d7-9ace-83daf10712dd">
+            <useCaseMoniker Id="56fb4371-8bc7-4991-8987-7c74a7cf10ba" LastKnownName="Desactivar roles" />
+            <elementDefinition Id="445706fe-cf29-4820-af25-45e4a196cc14" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="15011434-868f-428a-8234-8be514088533" LastKnownName="Administracion" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="11cd6327-8503-4a0b-87db-fc2f90e86a02" name="Crear nuevos roles" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="aece25d9-f4ae-4b22-93fa-63a2e5c5a5d8" />
+        <extendedCases>
+          <extend Id="32541208-735d-4e01-b2f9-fed58f38e3b9">
+            <useCaseMoniker Id="38bc34ed-681a-4585-b1ef-22bdee85f618" LastKnownName="Asignar permisos" />
+            <elementDefinition Id="e2174e0b-5c8f-487f-8fad-4549b4682426" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="15011434-868f-428a-8234-8be514088533" LastKnownName="Administracion" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="09fccc81-9910-4e1a-bcb7-8f0a5e7244d9" name="Modificar roles" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="f1acfa87-0953-429c-8efb-f818de1371a9" />
+        <extendedCases>
+          <extend Id="fecd75c9-2d30-44bc-bc5b-8e714371c7a7">
+            <useCaseMoniker Id="38bc34ed-681a-4585-b1ef-22bdee85f618" LastKnownName="Asignar permisos" />
+            <elementDefinition Id="6f989ab6-926b-4e4e-8b36-6123bfff49f0" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="15011434-868f-428a-8234-8be514088533" LastKnownName="Administracion" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="56fb4371-8bc7-4991-8987-7c74a7cf10ba" name="Desactivar roles" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="3f818c3f-0130-4bef-a178-edb4cdd91bf6" />
+        <subjects>
+          <subsystemMoniker Id="15011434-868f-428a-8234-8be514088533" LastKnownName="Administracion" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="38bc34ed-681a-4585-b1ef-22bdee85f618" name="Asignar permisos" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="89c947b1-30ea-4d50-ac30-eb619f358554" />
+        <subjects>
+          <subsystemMoniker Id="15011434-868f-428a-8234-8be514088533" LastKnownName="Administracion" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="e7b90473-cad6-4261-8ea8-c9a1694ce7d4" name="ArquitecturaRegulacion">
+    <elementDefinition Id="bbf1f705-94be-4163-a204-54625a5bf3a3" />
+  </package>
+</useCaseModelRoot>

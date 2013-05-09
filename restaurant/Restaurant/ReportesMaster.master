@@ -1,0 +1,37 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/MainReg.Master" AutoEventWireup="true" CodeBehind="ReportesMaster.master.cs" Inherits="Restaurant.ReportesMaster" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="Masterhead" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="MasterContentPlaceHolder" runat="server">
+
+    <br />
+    <div class="row-fluid">
+        <div class="navbar navbar-inverse">
+            <div class="span2">
+                <div class="sidebar-nav">
+                   <ul class="nav nav-list" >
+                        <li class="nav-header">Reportes</li>
+                        <li id="Pormesero" style="min-width:130px"><a id="A1" runat="server" href="~/Pages/Configuracion/ActualizaDatospersonales.aspx">
+                           <i class="icon-play"></i> Por Mesero</a></li>
+                        <li id="PorPlatillo" style="min-width:130px"><a id="A2" runat="server" href="~/Pages/Configuracion/CambiarContraseña.aspx">
+                           <i class="icon-play"></i> Por Platillo</a></li>
+                        <li id="PorPromocion" style="min-width:130px"><a id="A3" runat="server" href="~/Pages/Configuracion/CambiarPregunta.aspx">
+                            <i class="icon-play"></i>Por Promocion</a></li>
+                        <li id="PorMonto" style="min-width:130px"><a id="A4" runat="server" href="~/Pages/Configuracion/CambiarPregunta.aspx">
+                            <i class="icon-play"></i>Por Monto Vendido</a></li>
+                        <li id="CorteCaja" style="min-width:130px"><a id="A5" runat="server" href="~/Pages/Configuracion/CambiarPregunta.aspx">
+                            <i class="icon-play"></i>Corte de Caja</a></li>
+                     </ul>
+              </div>
+            </div>
+            <%-- <div class="span9">
+             </div>--%>
+        </div>
+          <div  id="divFondoConfig" class="span10" style="border-width:2px; border-style: solid;border-color:#C8C8C8;background-color:white;min-height:250px;margin-top:-10px;border-collapse:separate;resize:inherit">
+          <%--  <asp:Image id="ImagenCuadros" runat="server" ImageUrl="/images/pantallas_img/5actualizar_datos/imagen_cuadros.png"/>--%>
+            <asp:ContentPlaceHolder ID="PropertiesContentPlaceHolder" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+
+            </div>
+
+</asp:Content>

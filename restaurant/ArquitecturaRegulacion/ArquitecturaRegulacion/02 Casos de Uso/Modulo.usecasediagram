@@ -1,0 +1,311 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="cc62614e-10fc-4fe4-927b-c25885cfefc8" name="Modulo" linkedPackageId="ac6e2c82-a21c-4286-ac1f-051a1b6fa5b3" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="038b341c-a284-412e-b370-a8925053b395" name="Administrador" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="41b217d9-bfe8-4fb6-b5ca-6bc59994dcfa" />
+        <targetEnds>
+          <association Id="9839cb16-02e5-4eb8-b2d7-9ee258c5144d" isDerived="false" sourceEndRoleName="Administrador" targetEndRoleName="Agregar Rubro" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="7e11cc77-151c-4534-8236-bc1b58ade6d4" LastKnownName="Generar estructura de entregables" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="5469db26-ad23-401b-ad16-0f9deb4f1f4b" name="Administrador" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="4a3581a3-2ec4-40a9-8170-e42215206359" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="b777c1ce-2feb-4347-bfe2-08d994c22492" name="Agregar Rubro" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="24de703b-e5f8-49b1-a18b-4deb1a07a50d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="e9f32d4d-57bb-4974-b85b-68ad945b06d7" />
+          </association>
+          <association Id="77288372-ab1a-43e6-8074-99471df7b8cb" isDerived="false" sourceEndRoleName="Administrador" targetEndRoleName="Asignar responsable a rubro" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="d1c1b9ec-350e-48e8-b2eb-7c799a711dd4" LastKnownName="Asignar responsable a rubro" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="261a1442-0fe8-4566-be01-bbb7b4a847ba" name="Administrador" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="c5356512-7fb2-4545-87d9-53c62299ad09" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="49fbebe2-bc3a-4493-a46d-0e6c4da5575f" name="Asignar responsable a rubro" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="2ee58724-a11b-454e-9bd7-08e6a710a53f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="564fd63a-5f0f-4b0c-a175-f4722b3c522f" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="8160b36c-3e87-4e42-8772-9a23424e644c" name="Usuario PEP" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="1482b193-652d-49e1-8806-ae8912fadd26" />
+        <targetEnds>
+          <association Id="5fce596e-0450-40d5-8f68-5899ae9879be" isDerived="false" sourceEndRoleName="Usuario PEP" targetEndRoleName="Atender rubro asignado" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="849b5e13-534e-46be-9e03-710cfccc6e28" LastKnownName="Atender rubro asignado" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="271eef70-ba67-4837-8acb-18064bc78723" name="Usuario PEP" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="83e26df8-5d3a-46f8-815e-434b0c645c72" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="9f1896f3-5a1d-45bb-88cb-a7c6e4a880a1" name="Atender rubro asignado" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="a21871ba-efba-4951-a707-11d6da28fdbd" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="d843fc45-cbac-4900-be6d-fd1075d4109e" />
+          </association>
+          <association Id="33e36314-2e1c-4580-8b86-931d0b74b913" isDerived="false" sourceEndRoleName="Usuario PEP" targetEndRoleName="Asignar revisor" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="9d579176-4497-4133-ab32-6daad3222790" LastKnownName="Asignar revisor" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="afe59352-7041-40aa-af1a-24099721f0db" name="Usuario PEP" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="157f9cfb-816c-4f76-90f7-7656e8b4b449" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ff24ece4-faf0-4af5-ac8c-c5c606303296" name="Asignar revisor" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="1e22ebc9-f46f-4908-9095-80c31521d4b5" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="a08512de-e194-473e-89e2-ab4274834676" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <subsystem Id="9504a562-b0fa-4d1c-bbeb-a84d240afc37" name="Módulo" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="537fc7d9-191b-4d97-8cfb-dd22316ae3d9" />
+      </subsystem>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="7e11cc77-151c-4534-8236-bc1b58ade6d4" name="Generar estructura de entregables" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="c91083c1-890b-4ebd-aed8-cb0ad57f7331" />
+        <subjects>
+          <subsystemMoniker Id="9504a562-b0fa-4d1c-bbeb-a84d240afc37" LastKnownName="Módulo" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="d1c1b9ec-350e-48e8-b2eb-7c799a711dd4" name="Asignar responsable a rubro" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="7fb3542e-a021-4f04-85b2-c97e851cf9a0" />
+        <additions>
+          <include Id="4f1cf5b9-14e4-4f5a-9d4a-15278631a02c">
+            <useCaseMoniker Id="ed6918d6-faee-435b-8e74-d6319c7b8cc7" LastKnownName="Notificar al responsable" />
+            <elementDefinition Id="be0546e2-eab1-44b1-ae8e-e92ed462325c" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="9504a562-b0fa-4d1c-bbeb-a84d240afc37" LastKnownName="Módulo" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="ed6918d6-faee-435b-8e74-d6319c7b8cc7" name="Notificar al responsable" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="7e9c75ca-51e9-4ee0-a54f-9fe3274ffc00" />
+        <subjects>
+          <subsystemMoniker Id="9504a562-b0fa-4d1c-bbeb-a84d240afc37" LastKnownName="Módulo" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="849b5e13-534e-46be-9e03-710cfccc6e28" name="Atender rubro asignado" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="2eb7b5cc-8714-4d22-b4df-22416907f283" />
+        <additions>
+          <include Id="7a77892e-1e24-48fb-b29e-fdc857a9ece3">
+            <useCaseMoniker Id="83ea80b2-7369-4173-a22a-8a8297428e0e" LastKnownName="Descargar plantilla" />
+            <elementDefinition Id="c8353c0e-89a9-4ce2-9d08-f4a407f74c5e" />
+          </include>
+          <include Id="8b2e2c7c-e2e1-4059-b992-90ca9a1504ba">
+            <useCaseMoniker Id="569850ab-82fa-4db0-a050-58b482adb4aa" LastKnownName="Cargar archivos" />
+            <elementDefinition Id="20807288-896c-45cb-922b-aeeba6426091" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="9504a562-b0fa-4d1c-bbeb-a84d240afc37" LastKnownName="Módulo" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="83ea80b2-7369-4173-a22a-8a8297428e0e" name="Descargar plantilla" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="3ace8404-93ea-4ba5-bfda-2b5486f733ed" />
+        <subjects>
+          <subsystemMoniker Id="9504a562-b0fa-4d1c-bbeb-a84d240afc37" LastKnownName="Módulo" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="2fda9ab7-9b5f-4984-a3c9-a52f760772eb" name="Cargar plantilla" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="6cc5c00d-224c-486d-a4a7-f484b7bba8c8" />
+        <extendedCases>
+          <extend Id="10702ce6-817a-47e7-bff7-ed0f35e228ba">
+            <useCaseMoniker Id="7e11cc77-151c-4534-8236-bc1b58ade6d4" LastKnownName="Generar estructura de entregables" />
+            <elementDefinition Id="11febb66-37a7-4cca-ab9a-57a6eda49d3a" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker Id="9504a562-b0fa-4d1c-bbeb-a84d240afc37" LastKnownName="Módulo" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="569850ab-82fa-4db0-a050-58b482adb4aa" name="Cargar archivos" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="b4750031-5ee2-4777-b621-0d0d9f4cd25d" />
+        <subjects>
+          <subsystemMoniker Id="9504a562-b0fa-4d1c-bbeb-a84d240afc37" LastKnownName="Módulo" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="b85c42a1-2256-4c51-96fe-79040bbe0333" name="Generar versionamiento" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="fd6c066a-216d-4ea7-94fa-a10e083c66c2" />
+        <suppliersInternal>
+          <dependency Id="fc076d09-59f4-45b4-a3b6-d0a6c850b69e">
+            <useCaseMoniker Id="569850ab-82fa-4db0-a050-58b482adb4aa" LastKnownName="Cargar archivos" />
+            <elementDefinition Id="8646462a-f12e-44f0-93b1-0c20422bf461" />
+          </dependency>
+          <dependency Id="ce1af1ab-69e5-49a0-8e79-842d1626b13d">
+            <useCaseMoniker Id="9a1c6993-c4ed-4f80-a6af-6ffa216dd1b1" LastKnownName="Modificar entregabe" />
+            <elementDefinition Id="8dca4e0c-003b-460b-8187-253d8d793b35" />
+          </dependency>
+        </suppliersInternal>
+        <subjects>
+          <subsystemMoniker Id="9504a562-b0fa-4d1c-bbeb-a84d240afc37" LastKnownName="Módulo" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="9d579176-4497-4133-ab32-6daad3222790" name="Asignar revisor" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="bffd24ed-72f4-4549-bb87-af7d3bf706a1" />
+        <additions>
+          <include Id="80f84fe5-b173-41a6-969d-47b6b5d9cf58">
+            <useCaseMoniker Id="e027f6f2-095a-441f-8cbe-f45b4498c3df" LastKnownName="Notificar al revisor responsable" />
+            <elementDefinition Id="6a08f517-a0b0-4f65-a6f9-9d286f676c4c" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="9504a562-b0fa-4d1c-bbeb-a84d240afc37" LastKnownName="Módulo" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="e027f6f2-095a-441f-8cbe-f45b4498c3df" name="Notificar al revisor responsable" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="6ddc677b-1711-4467-bcca-d575b8016ec8" />
+        <subjects>
+          <subsystemMoniker Id="9504a562-b0fa-4d1c-bbeb-a84d240afc37" LastKnownName="Módulo" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <useCaseModelRootHasTypes>
+      <actor Id="55e018b1-64cc-4eec-90f8-1bbbd0bff92b" name="Usuario PEP(Revisor)" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="f26321b3-d289-48f7-9e0e-70c2aa72ef29" />
+        <targetEnds>
+          <association Id="ea60a8b1-4af8-4145-94f7-a283d124e6a9" isDerived="false" sourceEndRoleName="Usuario PEP(Revisor)" targetEndRoleName="Revisar entregable" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="be058279-ca69-4e1b-9b80-25f3f92eaf60" LastKnownName="Revisar entregable" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6f1f5a5a-416a-490b-978c-9031a3814682" name="Usuario PEP(Revisor)" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="3eb84adc-184c-4587-9355-704ee65c4e8f" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c584da13-a1b0-4434-a028-206755734986" name="Revisar entregable" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="7c23ac58-48a4-4dfb-8e3b-e8841b48e6ac" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="7022f74e-5422-4638-a9d1-1aae6097c64a" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="be058279-ca69-4e1b-9b80-25f3f92eaf60" name="Revisar entregable" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="f478508b-79b5-4f1d-a0ea-68c56adb4abb" />
+        <additions>
+          <include Id="b91f067a-c922-404c-b038-d7c9bae8d977">
+            <useCaseMoniker Id="a5fb548e-a657-4266-99e9-ec7a7e4346dc" LastKnownName="Publicar entregable" />
+            <elementDefinition Id="891c86c9-4473-4a22-8b38-349c126f3da8" />
+          </include>
+          <include Id="22bdc76b-1f3e-4492-8062-c84c3b1729ab">
+            <useCaseMoniker Id="9a1c6993-c4ed-4f80-a6af-6ffa216dd1b1" LastKnownName="Modificar entregabe" />
+            <elementDefinition Id="e0d43979-32a8-46ff-b8ab-fab9df477ff1" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="9504a562-b0fa-4d1c-bbeb-a84d240afc37" LastKnownName="Módulo" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="a5fb548e-a657-4266-99e9-ec7a7e4346dc" name="Publicar entregable" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="93fff2f3-d011-4759-adf4-7275395d7f8a" />
+        <subjects>
+          <subsystemMoniker Id="9504a562-b0fa-4d1c-bbeb-a84d240afc37" LastKnownName="Módulo" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="9a1c6993-c4ed-4f80-a6af-6ffa216dd1b1" name="Modificar entregabe" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="8cd89905-bc92-475f-ae8c-e336c9054bab" />
+        <subjects>
+          <subsystemMoniker Id="9504a562-b0fa-4d1c-bbeb-a84d240afc37" LastKnownName="Módulo" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <useCaseModelRootHasTypes>
+      <actor Id="d5cc7f00-aceb-4d73-b26a-6a0af89390c6" name="Usuario CNH" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="7f3649a3-6041-46e0-901b-c198692bc6d4" />
+        <targetEnds>
+          <association Id="e1715809-6774-4521-9c5f-a9de75c1c249" isDerived="false" sourceEndRoleName="Usuario CNH" targetEndRoleName="Consultar entregable" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="b13b75e4-606f-420d-9049-678567b7f142" LastKnownName="Consultar entregables" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="5bb1921a-076e-4c1a-83f0-ca937b01f957" name="Usuario CNH" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="0f0edac7-637e-40fc-9868-2d8a7fcd42de" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="dcc2acfc-f0b6-469b-ab76-4b0b4c77b925" name="Consultar entregable" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="f5a6ee2a-03b2-4e4a-bb97-02696542a9d3" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="4a4d16db-c817-4313-8945-047a2e5977fd" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="b13b75e4-606f-420d-9049-678567b7f142" name="Consultar entregables" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="e5369169-c965-46e1-a912-306cf321e1ad" />
+        <subjects>
+          <subsystemMoniker Id="9504a562-b0fa-4d1c-bbeb-a84d240afc37" LastKnownName="Módulo" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="ac6e2c82-a21c-4286-ac1f-051a1b6fa5b3" name="ArquitecturaRegulacion">
+    <elementDefinition Id="bbf1f705-94be-4163-a204-54625a5bf3a3" />
+    <profileInstances>
+      <packageHasProfileInstances Id="eef38346-654e-4efe-9ae4-b285be1c8045">
+        <profileInstance Id="9dfe3a94-e64c-4704-a6e7-fce563df047a" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="bc690980-70d0-4612-bcbf-aee778989f0a">
+        <profileInstance Id="78d8e0ac-8369-44da-821d-25e522b9ebe8" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</useCaseModelRoot>

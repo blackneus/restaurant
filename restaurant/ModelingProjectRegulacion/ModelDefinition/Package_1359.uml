@@ -1,0 +1,350 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="54cce400-5381-4d27-a96d-b0370f4793be"
+  name="Negocio"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="cccf7e5e-332f-48f9-b167-44705c149057"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DRegulacion.Negocio"
+      tag="ViewCode" />
+  </referencesInternal>
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="955be37f-5620-4c28-a569-cdf1d4879a6e">
+      <profileInstance
+        Id="0f847773-21e5-4b1e-92ec-04edd5c6b876"
+        name="CSharpProfile" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="128ac1f8-10fb-4e33-845a-6ed3182fcbfa"
+        name="clUsuario"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="4229283d-86c0-400d-8518-5552f25c560c"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion.Negocio%2Fbin%2FDebug%2FRegulacion.Negocio.dll&quot; Namespace%3DRegulacion.Negocio Type%3DclUsuario"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="5d97f8bd-a488-4716-a0a2-5a5ebeb274df"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1a798300-4444-484f-8aa8-2df0d35a7f83">
+                <propertyInstance
+                  Id="1b78899a-2731-4b73-b2d7-6b5996dd2ebd"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d49d6ca3-6e73-4aa7-8e60-31f9272114a8">
+                <propertyInstance
+                  Id="c76b7e5e-e376-482a-a6df-6b517403402b"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a0930b99-727c-4f29-a66b-620b305173d5">
+                <propertyInstance
+                  Id="5c287db3-3e0d-4711-bec8-77b5231881c0"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b3ce9bd5-ca2e-409c-95a3-a739b98cf7a7">
+                <propertyInstance
+                  Id="31556143-e889-44ad-913d-191f1c89b5d2"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="85bd815f-2ff3-4197-8d57-dfd20e2b28e7">
+                <propertyInstance
+                  Id="6036460b-7137-4365-97bb-617c14929464"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="4d09d91d-da66-49f0-835b-d1dc7a87a88c"
+            name="clUsuario"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="f477b228-af84-42c1-b694-4a34815330bf"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion.Negocio%2Fbin%2FDebug%2FRegulacion.Negocio.dll&quot; Namespace%3DRegulacion.Negocio Type%3DclUsuario Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="869e2677-7eee-4597-8924-2372681b64c3"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="451fc17d-190d-4398-aa63-a67edd08bd05">
+                    <propertyInstance
+                      Id="d603195f-bb3c-4143-9f28-0fd0e9169b50"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5daaf976-8525-4089-9b8d-5eec1577bf3e">
+                    <propertyInstance
+                      Id="8258c4a2-c1db-438f-94c9-79d3499e3558"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a9d3112f-d5f8-475b-9233-cb501e46c511">
+                    <propertyInstance
+                      Id="77aec66b-b44a-430a-a61a-202c721941e5"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b4d51d8f-0437-4331-bb79-6c57131ca146">
+                    <propertyInstance
+                      Id="fa6f681c-0ca8-472d-a3f7-3b618585fb8b"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b3465148-4647-4242-a44c-3a70168860ed">
+                    <propertyInstance
+                      Id="4f13ef6e-0dad-45a6-bc14-9642200aa0e3"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0b9a20db-fa1e-46da-9920-f380fe0cbddf">
+                    <propertyInstance
+                      Id="15ae9d57-70b6-4eaf-82b5-a9fd4c56f374"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+          <operation
+            Id="05e11802-3d33-4ed3-940d-c93b3cfd6977"
+            name="getUsuario"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="a8808151-55d1-4d83-b7a7-0f9fd40e793a"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion.Negocio%2Fbin%2FDebug%2FRegulacion.Negocio.dll&quot; Namespace%3DRegulacion.Negocio Type%3DclUsuario Member%3D(Name%3DgetUsuario OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="dad02934-de86-4cfb-8cce-06173f5b47b6"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0959f750-25e6-46d5-9dbb-7086a22e908e">
+                    <propertyInstance
+                      Id="f8a29743-bffb-4fc9-95dc-d61160bd9f62"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="53937fa9-eb97-4401-8c57-4722dec70b08">
+                    <propertyInstance
+                      Id="d349d8f4-d09c-409f-848f-fd680cc2e284"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="99316aa1-59ec-400a-ade1-c018dfbfbe33">
+                    <propertyInstance
+                      Id="57824020-8f78-4f50-981c-5392764defc6"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a67b3f01-5165-432e-977e-0c2b6e9e23fa">
+                    <propertyInstance
+                      Id="591508f1-ac4e-4c5d-91c9-f454564c2240"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="beed0ccc-8229-49c8-8c45-d0323453b0a9">
+                    <propertyInstance
+                      Id="d5325ec7-208e-4ba9-9114-3d8c2b30753e"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a55bda0d-c6f0-4fa9-bf4e-c28a91081b9c">
+                    <propertyInstance
+                      Id="0ebec042-e274-4b17-b0ce-d6a881cfade8"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="4bb087ca-1dec-4b54-afcf-7a995ee01664"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="128ac1f8-10fb-4e33-845a-6ed3182fcbfa"
+                      LastKnownName="clUsuario"
+                      LastKnownLocation="Package_1359.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="8ea4063f-1523-4932-aec6-39ab99eda6e9"
+                  name="stUserName"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="3b07a694-3db5-40b5-ba88-a05a71f63563"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion.Negocio%2Fbin%2FDebug%2FRegulacion.Negocio.dll&quot; Namespace%3DRegulacion.Negocio Type%3DclUsuario Member%3D(Name%3DgetUsuario OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DstUserName"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProjectRegulacion.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="3a4cee49-a28d-4960-a75d-e4b0783b0754"
+            name="ValidaAcceso"
+            isLeaf="false"
+            isStatic="true"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="4347bac6-a725-41f6-b022-29d4b169eedf"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion.Negocio%2Fbin%2FDebug%2FRegulacion.Negocio.dll&quot; Namespace%3DRegulacion.Negocio Type%3DclUsuario Member%3D(Name%3DValidaAcceso OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)])"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="f0256101-90aa-450b-935c-2adcfaca5995"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a83ea845-d1e8-4089-b944-a3ed92311e31">
+                    <propertyInstance
+                      Id="585d9561-521e-4895-aa09-2bd18a8e9944"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="23702603-6d81-4c0f-80d2-e297fe3f696b">
+                    <propertyInstance
+                      Id="007f576d-bce1-4d9b-be54-b4b2d151e165"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="04d16cd6-e9d8-479f-8f32-4cce7a005127">
+                    <propertyInstance
+                      Id="9154c3cb-0a9e-4d85-8351-443e9bec1df9"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e8da6fe0-c3f3-4f51-adbf-bc29d8c63810">
+                    <propertyInstance
+                      Id="30b65758-6610-4e75-9c4b-e45a74b40aec"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="d5ef4d3b-8ceb-478e-b71c-16e4df18544e">
+                    <propertyInstance
+                      Id="037f6032-25a8-41ae-8d29-b84ddf9e7618"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4c504da8-db32-416f-9b9c-b570be52567a">
+                    <propertyInstance
+                      Id="094b5285-9e18-4574-beff-3d408f276e71"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="ec7cd883-1456-4382-9bbc-8e79bd3f4b4b"
+                  direction="Return">
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+                      LastKnownName="Boolean"
+                      LastKnownLocation="ModelingProjectRegulacion.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="fbface19-0667-47fa-86c3-c04196e6c183"
+                  name="stUserName"
+                  direction="In">
+                  <referencesInternal>
+                    <reference
+                      Id="7b33e7c9-c01c-4bb1-aeb5-b713064e2a36"
+                      handle="viewcode://./CodeSchema_Parameter?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion.Negocio%2Fbin%2FDebug%2FRegulacion.Negocio.dll&quot; Namespace%3DRegulacion.Negocio Type%3DclUsuario Member%3D(Name%3DValidaAcceso OverloadingParameters%3D[(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)%2C(Assembly%3D&quot;file:%2F%2F%2FC:%2FProgram Files (x86)%2FReference Assemblies%2FMicrosoft%2FFramework%2F.NETFramework%2Fv4.0%2Fmscorlib.dll&quot; Namespace%3DSystem Type%3DString)]) ParameterIdentifier%3DstUserName"
+                      tag="ViewCode" />
+                  </referencesInternal>
+                  <type_NamedElement>
+                    <primitiveTypeMoniker
+                      Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+                      LastKnownName="String"
+                      LastKnownLocation="ModelingProjectRegulacion.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="c884d01f-178a-4645-bc33-728909f6b661"
+                  name="Parameter1"
+                  direction="In" />
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

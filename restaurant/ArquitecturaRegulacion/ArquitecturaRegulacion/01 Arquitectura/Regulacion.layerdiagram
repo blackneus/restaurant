@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<layerModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="901b178b-652e-48d4-9c31-25a782cd0e86" xmlns="http://schemas.microsoft.com/VisualStudio/TeamArchitect/LayerDesigner">
+  <layers>
+    <layer Id="fba940c2-a883-4fde-bce6-e7bde40a2a68" name="Presentation">
+      <description>Capa de presentación del sistema</description>
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="e17ca5c1-8631-4c32-983e-f7b4dc13fc2c" direction="Forward">
+          <layerMoniker Id="6af6964a-11f3-41a0-924c-cb9a191fcf0a" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="93eb1a47-17c7-4f39-bc27-1c129114d59c" direction="Forward">
+          <layerMoniker Id="e55b569d-f696-4d0b-b103-92cd7877ac2f" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <childLayers>
+        <layer Id="77b3709a-f73a-419f-80ad-ce7785132fcb" name="MasterPages" />
+        <layer Id="585f2645-cc90-4c2e-922e-8390cb1e83c1" name="Pages" />
+        <layer Id="9c1876c6-cce8-4826-9d2a-e47110a9d848" name="UserControls" />
+      </childLayers>
+    </layer>
+    <layer Id="6af6964a-11f3-41a0-924c-cb9a191fcf0a" name="Bussiness">
+      <description>Capa de negocio, la cual realiza el procesamiento, validaciones y acciones</description>
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="a72619c7-c27b-48cc-ae9b-a5695e174a26" direction="Forward">
+          <layerMoniker Id="66b69805-7ec5-462c-9deb-c9cb8719fa12" />
+        </dependencyFromLayerToLayer>
+        <dependencyFromLayerToLayer Id="34ed8619-27c7-4299-b41a-c57c2aeecdc7" direction="Forward">
+          <layerMoniker Id="e55b569d-f696-4d0b-b103-92cd7877ac2f" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <childLayers>
+        <layer Id="9f98b7ce-9405-446c-ad26-2101411c9ac2" name="Services" />
+        <layer Id="a6e562da-2efd-40a4-aa98-b85381890542" name="Class" />
+      </childLayers>
+    </layer>
+    <layer Id="66b69805-7ec5-462c-9deb-c9cb8719fa12" name="Data">
+      <description>Capa de acceso de datos</description>
+    </layer>
+    <layer Id="e55b569d-f696-4d0b-b103-92cd7877ac2f" name="Log">
+      <description>Capa para llevar un registro tanto de errores como de acciones del ususrio dentor del sistema</description>
+      <dependencyToLayers>
+        <dependencyFromLayerToLayer Id="d7d71c08-edb9-4262-a68f-7e8b5bf9f98f" direction="Forward">
+          <layerMoniker Id="66b69805-7ec5-462c-9deb-c9cb8719fa12" />
+        </dependencyFromLayerToLayer>
+      </dependencyToLayers>
+      <childLayers>
+        <layer Id="0d8d3a3d-bacc-4346-9d50-69952f792583" name="ExceptionsLog" />
+        <layer Id="663bca0b-dfc3-4637-85d7-ce655d15c663" name="UserActionLog" />
+      </childLayers>
+    </layer>
+  </layers>
+</layerModel>

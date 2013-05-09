@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="35c4147c-6310-4e0f-8b4e-0450a06769ff"
+  name="Pages"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="4599ab06-746f-4617-8167-2f30db393f80"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DRegulacion.Pages"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="8784e498-4a3a-481c-8d14-0e49b0adafdc"
+        LastKnownName="Configuracion"
+        LastKnownLocation="Package2_1350.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="eafbb0fc-4bd6-4a6e-aeae-b0a4008d8414"
+        LastKnownName="Logins"
+        LastKnownLocation="Package_1401.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

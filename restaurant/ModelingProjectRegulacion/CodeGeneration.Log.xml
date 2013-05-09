@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/PROGRAM FILES (X86)/MICROSOFT VISUAL STUDIO 11.0/COMMON7/IDE/EXTENSIONS/MICROSOFT/ARCHITECTURE TOOLS/EXTENSIBILITY/Logging/CodeGenLog.xslt"?>
+<Log xmlns="http://schemas.microsoft.com/VisualStudio/2010/CodeGen.RE.Log" Label="Registro de generación de código/transformación de texto">
+  <MessageClass Name="Message" Label="Mensaje" Option="Mostrar mensajes informativos" />
+  <MessageClass Name="Warning" Label="Advertencia" Option="Mostrar advertencias" />
+  <MessageClass Name="Error" Label="Error" Option="Mostrar errores" />
+  <MessageClass Name="Property" Label="Propiedad" Option="Mostrar metadatos" />
+  <MessageClass Name="Diagnostic" Label="Mensaje" Option="Mostrar mensajes de diagnóstico" />
+  <Message Timestamp="2013-01-18T13:52:32" Importance="High" Text="Se inició la generación de código o la transformación de texto." />
+  <Error Timestamp="2013-01-18T13:52:32" Importance="High" Text="No se encontraron plantillas para procesar. Para configurar plantillas, elija &quot;Configuración predeterminada de generación de código...&quot; en el menú &quot;Arquitectura&quot; o cambie la selección para la que se inicia la generación de código." />
+  <Message Timestamp="2013-01-18T13:52:32" Importance="Diagnostic" Text="La selección incluía 1 elementos que no estaban enlazados a una plantilla." />
+  <Warning Timestamp="2013-01-18T13:52:32" Importance="Medium" Text="'ModelingProjectRegulacion::Regulacion::Pages::Configuracion::ActualizaPerfil' -  (Class): sin plantilla enlazada." />
+  <Message Timestamp="2013-01-18T13:52:32" Importance="High" Text="Generación de código completa. Errores: 1. Advertencias: 1." />
+</Log>

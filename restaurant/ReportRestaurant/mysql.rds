@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="mysql">
+  <ConnectionProperties>
+    <Extension>MYSQL</Extension>
+    <ConnectString>Server=localhost;Port=3306;Database=restaurant;User=root;
+Password=cbtcbt;</ConnectString>
+  </ConnectionProperties>
+  <DataSourceID>97d01d58-82ee-489e-8399-8bcf073e5703</DataSourceID>
+</RptDataSource>

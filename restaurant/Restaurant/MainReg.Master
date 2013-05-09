@@ -1,0 +1,59 @@
+﻿<%@ Master Language="C#" AutoEventWireup="True" CodeBehind="MainReg.Master.cs" Inherits="Restaurant.MainReg" %>
+
+<%@ Register Assembly="AjaxControlToolkit" Namespace="AjaxControlToolkit" TagPrefix="asp" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="~/Content/Site.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/bootstrap-responsive.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/bootstrap.css" rel="stylesheet" type="text/css" />
+    <script src="/Scripts/jquery-1.8.3.js" type="text/javascript"></script>
+    <script src="/Scripts/bootstrap.js" type="text/javascript"></script>
+    <script src="/Scripts/bootbox.js" type="text/javascript"></script>
+    <asp:ContentPlaceHolder ID="Masterhead" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div>
+        <form id="form1" runat="server" method="post">
+        <!-- Header insertion -->
+        <div class="container-fluid">
+            <div class="row-fluid">
+                <div class="brand-header-blue" align="right">
+                </div>
+                <div class="help-block" align="right" style="margin-right: 1%">
+                    <h5>
+                        <asp:LinkButton ID="LkBBienvenido" CssClass="mute" runat="server" Text="Bienvenido:      "
+                            OnClick="LkBBienvenido_Click"></asp:LinkButton>
+                        <asp:Label ID="LblNombre" runat="server" CssClass="mute" Text=""></asp:Label>
+                        <br />
+                        <asp:LinkButton ID="LkBAdministracion" CssClass="mute" runat="server" Text="Administración"
+                            OnClick="LkBAdministracion_Click" Visible="false"></asp:LinkButton>
+                        <asp:LinkButton ID="LkBConfiguracion" CssClass="mute" runat="server" Text="Reportes"
+                            OnClick="LkBConfiguracion_Click" Visible="false"></asp:LinkButton>
+                        <asp:LinkButton ID="LKBCerrar" CssClass="mute" runat="server" Text="Cerrar Sesión"
+                            OnClick="LKBCerrar_Click"></asp:LinkButton>
+                    </h5>
+                </div>
+            </div>
+            </div> </div>
+            <!-- ContentPlaceHolder -->
+            <div id="DivFondo" class="container-fluid" style="min-width:944px; min-height:337px">
+                <asp:ContentPlaceHolder ID="MasterContentPlaceHolder" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <!-- Footer Insertion -->
+            <div class="row-fluid">
+                <div class="brand-footer span12">
+                    <div class="brand-footer-bot">
+                        <div class="brand-footer-bg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </form>
+    </div>
+</body>
+</html>

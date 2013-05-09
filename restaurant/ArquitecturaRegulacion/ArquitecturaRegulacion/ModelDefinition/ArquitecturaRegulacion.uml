@@ -1,0 +1,1610 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modelStoreModel xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/SimpleShapesModel" xmlns:dm9="http://schemas.microsoft.com/dsltools/UseCaseModel"
+  dslVersion="1.0.0.0"
+  Id="bbf1f705-94be-4163-a204-54625a5bf3a3"
+  name="ArquitecturaRegulacion" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <profileInstances>
+    <packageHasProfileInstances
+      Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b">
+      <profileInstance
+        Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791"
+        name="StandardProfileL2" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances
+      Id="29349502-908c-4fda-9054-c48619c59ed0">
+      <profileInstance
+        Id="532ea607-fb19-44b8-8502-3351b05452be"
+        name="StandardProfileL3" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <packageHasNamedElement>
+      <actor
+        Id="7f3649a3-6041-46e0-901b-c198692bc6d4"
+        name="Usuario CNH"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="c4319493-bd27-4e9a-9307-0516e9beace1"
+            isDerived="false"
+            sourceEndRoleName="Usuario CNH"
+            targetEndRoleName="Iniciar sesión"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="c98e290c-77c1-4775-9b55-1a45307902a9"
+              LastKnownName="Iniciar sesión"
+              LastKnownLocation="ArquitecturaRegulacion.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="4c07ea5b-b06d-471f-86a5-53f4443c3a71"
+                  name="Usuario CNH"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="eab80d0d-1bc7-4e15-b579-16ee8384760a"
+                  name="Iniciar sesión"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="cecaf669-9b28-4ef5-b90e-252b3e75db09"
+            isDerived="false"
+            sourceEndRoleName="Usuario CNH"
+            targetEndRoleName="Recuperar contraseña"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="0d8b05f0-d322-473f-8404-912ec11ab80e"
+              LastKnownName="Recuperar contraseña"
+              LastKnownLocation="ArquitecturaRegulacion.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="e3fe3fc8-bd8b-437b-946f-b2464d70cdff"
+                  name="Usuario CNH"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="b329b596-0e9d-42fa-b8c6-1098b419bf94"
+                  name="Recuperar contraseña"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="d8e9bf3b-7197-40bc-9488-badb84adf5bb"
+            isDerived="false"
+            sourceEndRoleName="Usuario CNH"
+            targetEndRoleName="Actualizar datos"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="5f89b9e4-15a8-437c-a7b2-1a918f211352"
+              LastKnownName="Actualizar datos"
+              LastKnownLocation="ArquitecturaRegulacion.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="1d91165c-07a0-4abc-bb00-adfb11b521f8"
+                  name="Usuario CNH"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="50f7dca2-542f-402a-b7f1-6a732e2f5141"
+                  name="Actualizar datos"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="b63699e0-5582-44a9-8959-b14233fa86a8"
+            isDerived="false"
+            sourceEndRoleName="Usuario CNH"
+            targetEndRoleName="Cambiar contraseña"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="ec6e062c-f9e3-4dfe-b1cc-e0ddb0ea41dc"
+              LastKnownName="Cambiar contraseña"
+              LastKnownLocation="ArquitecturaRegulacion.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="84a6568f-986f-452f-9c52-a6984398778d"
+                  name="Usuario CNH"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="83f6f4b3-a720-492b-a3c4-84b4daa57820"
+                  name="Cambiar contraseña"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="4a4d16db-c817-4313-8945-047a2e5977fd"
+            isDerived="false"
+            sourceEndRoleName="Usuario CNH"
+            targetEndRoleName="Consultar entregable"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="e5369169-c965-46e1-a912-306cf321e1ad"
+              LastKnownName="Consultar entregables"
+              LastKnownLocation="ArquitecturaRegulacion.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="0f0edac7-637e-40fc-9868-2d8a7fcd42de"
+                  name="Usuario CNH"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="f5a6ee2a-03b2-4e4a-bb97-02696542a9d3"
+                  name="Consultar entregable"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="1482b193-652d-49e1-8806-ae8912fadd26"
+        name="Usuario PEP"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="36ccf4df-7122-4108-b810-c6b3c079b491"
+            isDerived="false"
+            sourceEndRoleName="Usuario PEP"
+            targetEndRoleName="Iniciar sesión"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="c98e290c-77c1-4775-9b55-1a45307902a9"
+              LastKnownName="Iniciar sesión"
+              LastKnownLocation="ArquitecturaRegulacion.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="db606b5b-c1cf-4b0b-b34b-5078f030fba9"
+                  name="Usuario PEP"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="322034a1-6e1c-47eb-9ad0-11eb5a658f5c"
+                  name="Iniciar sesión"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="b8448bad-10ff-4889-b419-cadf0cac949e"
+            isDerived="false"
+            sourceEndRoleName="Usuario PEP"
+            targetEndRoleName="Recuperar contraseña"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="0d8b05f0-d322-473f-8404-912ec11ab80e"
+              LastKnownName="Recuperar contraseña"
+              LastKnownLocation="ArquitecturaRegulacion.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="96c1538c-795e-448f-9330-1d47aa50edec"
+                  name="Usuario PEP"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="8cd386e4-8a62-47f6-b8f6-9eb7b9d9a75f"
+                  name="Recuperar contraseña"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="15b9a8cc-f7e4-49fe-80b2-c217b29eb265"
+            isDerived="false"
+            sourceEndRoleName="Usuario PEP"
+            targetEndRoleName="Actualizar datos"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="5f89b9e4-15a8-437c-a7b2-1a918f211352"
+              LastKnownName="Actualizar datos"
+              LastKnownLocation="ArquitecturaRegulacion.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="b9062f11-d908-4afe-a610-aaf13851ba29"
+                  name="Usuario PEP"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="9e0ea1c3-a1bb-4810-8ba1-45496537113a"
+                  name="Actualizar datos"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="5a7a456b-3bde-4064-95b5-a0d3f266383e"
+            isDerived="false"
+            sourceEndRoleName="Usuario PEP"
+            targetEndRoleName="Cambiar contraseña"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="ec6e062c-f9e3-4dfe-b1cc-e0ddb0ea41dc"
+              LastKnownName="Cambiar contraseña"
+              LastKnownLocation="ArquitecturaRegulacion.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="05fd0caf-b900-4e3c-9b7c-7863b78cc643"
+                  name="Usuario PEP"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="261eb971-505b-4374-90d2-3bb9dbb026f2"
+                  name="Cambiar contraseña"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="d843fc45-cbac-4900-be6d-fd1075d4109e"
+            isDerived="false"
+            sourceEndRoleName="Usuario PEP"
+            targetEndRoleName="Atender rubro asignado"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="2eb7b5cc-8714-4d22-b4df-22416907f283"
+              LastKnownName="Atender rubro asignado"
+              LastKnownLocation="ArquitecturaRegulacion.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="83e26df8-5d3a-46f8-815e-434b0c645c72"
+                  name="Usuario PEP"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a21871ba-efba-4951-a707-11d6da28fdbd"
+                  name="Atender rubro asignado"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="a08512de-e194-473e-89e2-ab4274834676"
+            isDerived="false"
+            sourceEndRoleName="Usuario PEP"
+            targetEndRoleName="Asignar revisor"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="bffd24ed-72f4-4549-bb87-af7d3bf706a1"
+              LastKnownName="Asignar revisor"
+              LastKnownLocation="ArquitecturaRegulacion.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="157f9cfb-816c-4f76-90f7-7656e8b4b449"
+                  name="Usuario PEP"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="1e22ebc9-f46f-4908-9095-80c31521d4b5"
+                  name="Asignar revisor"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="41b217d9-bfe8-4fb6-b5ca-6bc59994dcfa"
+        name="Administrador"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="f1780a03-82b0-4383-bf02-ea5efe5fdfb0"
+            isDerived="false"
+            sourceEndRoleName="Administrador"
+            targetEndRoleName="Iniciar sesión"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="c98e290c-77c1-4775-9b55-1a45307902a9"
+              LastKnownName="Iniciar sesión"
+              LastKnownLocation="ArquitecturaRegulacion.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="e64a3e4a-8566-4176-baea-fbfaffe9f989"
+                  name="Administrador"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a11e3df5-27f6-4d64-a3bd-dce913b81933"
+                  name="Iniciar sesión"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="e8f475c2-39cc-4804-bf8e-cf6c1a23e512"
+            isDerived="false"
+            sourceEndRoleName="Administrador"
+            targetEndRoleName="Recuperar contraseña"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="0d8b05f0-d322-473f-8404-912ec11ab80e"
+              LastKnownName="Recuperar contraseña"
+              LastKnownLocation="ArquitecturaRegulacion.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="448eacf0-ecf6-4f7e-9b20-6e56bbc3603f"
+                  name="Administrador"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="fbff2b6e-d907-47ad-a882-f7fbafd6394a"
+                  name="Recuperar contraseña"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="e412cd91-4c38-411b-8271-e43693de05f6"
+            isDerived="false"
+            sourceEndRoleName="Administrador"
+            targetEndRoleName="Actualizar datos"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="5f89b9e4-15a8-437c-a7b2-1a918f211352"
+              LastKnownName="Actualizar datos"
+              LastKnownLocation="ArquitecturaRegulacion.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="e38c58bc-c82e-4545-bc6a-a1b8f05d8cdd"
+                  name="Administrador"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a31493f2-7e17-4f9e-8bdc-634072fefb20"
+                  name="Actualizar datos"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="9d4913c6-fcf0-498d-9a14-da3ba8266005"
+            isDerived="false"
+            sourceEndRoleName="Administrador"
+            targetEndRoleName="Cambiar contraseña"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="ec6e062c-f9e3-4dfe-b1cc-e0ddb0ea41dc"
+              LastKnownName="Cambiar contraseña"
+              LastKnownLocation="ArquitecturaRegulacion.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="d24a5c54-c230-4731-ae53-3f0cc91f04cd"
+                  name="Administrador"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="08dafbe3-f3be-44e2-9344-c42f4b2c270c"
+                  name="Cambiar contraseña"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="4cd686cb-90ee-4e3f-acd8-0dfc3e36bcb7"
+            isDerived="false"
+            sourceEndRoleName="Administrador"
+            targetEndRoleName="Administrar usuarios"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="0c85c005-486a-4ff7-b09e-736421b1eded"
+              LastKnownName="Administrar usuarios"
+              LastKnownLocation="ArquitecturaRegulacion.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="929cf17f-dfc1-47a4-ab7f-a7a589935f99"
+                  name="Administrador"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="3071ba43-01b7-4e3a-ac8f-c9f8e814b133"
+                  name="Administrar usuarios"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="8a2f71ae-03af-471d-8df0-7d59bac87bab"
+            isDerived="false"
+            sourceEndRoleName="Administrador"
+            targetEndRoleName="Administrar catálogos"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="7c3a26ad-7d6d-4f71-af08-6fd0cc6ba354"
+              LastKnownName="Administrar catálogos"
+              LastKnownLocation="ArquitecturaRegulacion.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="e8cc9aae-f8ed-4383-a51c-38c7232cd069"
+                  name="Administrador"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="a3bbbdc7-bb63-45a0-8fed-178501bf4745"
+                  name="Administrar catálogos"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="97ad181a-6b63-4f1a-abfa-65bb297f89b5"
+            isDerived="false"
+            sourceEndRoleName="Administrador"
+            targetEndRoleName="Administrar roles"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="3eb3d4c8-24a1-4221-a135-366390463dde"
+              LastKnownName="Administrar roles"
+              LastKnownLocation="ArquitecturaRegulacion.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="37bd6017-ea02-42c2-b19d-ab75186ebba5"
+                  name="Administrador"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="02043463-3ecb-4339-ac32-ca5110c88719"
+                  name="Administrar roles"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="e9f32d4d-57bb-4974-b85b-68ad945b06d7"
+            isDerived="false"
+            sourceEndRoleName="Administrador"
+            targetEndRoleName="Agregar Rubro"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="c91083c1-890b-4ebd-aed8-cb0ad57f7331"
+              LastKnownName="Generar estructura de entregables"
+              LastKnownLocation="ArquitecturaRegulacion.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="4a3581a3-2ec4-40a9-8170-e42215206359"
+                  name="Administrador"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="24de703b-e5f8-49b1-a18b-4deb1a07a50d"
+                  name="Agregar Rubro"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+          <association
+            Id="564fd63a-5f0f-4b0c-a175-f4722b3c522f"
+            isDerived="false"
+            sourceEndRoleName="Administrador"
+            targetEndRoleName="Asignar responsable a rubro"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="7fb3542e-a021-4f04-85b2-c97e851cf9a0"
+              LastKnownName="Asignar responsable a rubro"
+              LastKnownLocation="ArquitecturaRegulacion.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="c5356512-7fb2-4545-87d9-53c62299ad09"
+                  name="Administrador"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="2ee58724-a11b-454e-9bd7-08e6a710a53f"
+                  name="Asignar responsable a rubro"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <subsystem
+        Id="88bfb6dc-99a3-4175-be25-13117a08e7bf"
+        name="Login"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="c98e290c-77c1-4775-9b55-1a45307902a9"
+        name="Iniciar sesión"
+        isAbstract="false"
+        isLeaf="false">
+        <description>Incio de sesión mediante usuario y contraseña</description>
+        <subjects>
+          <subsystemMoniker
+            Id="88bfb6dc-99a3-4175-be25-13117a08e7bf"
+            LastKnownName="Login"
+            LastKnownLocation="ArquitecturaRegulacion.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="0d8b05f0-d322-473f-8404-912ec11ab80e"
+        name="Recuperar contraseña"
+        isAbstract="false"
+        isLeaf="false">
+        <description>Si el usuario olvido su contraseña puede solicitar una nueva</description>
+        <extendedCases>
+          <extend
+            Id="cbaf1eb3-61ab-41d4-bbcd-47d2c241d0a8">
+            <useCaseMoniker
+              Id="c98e290c-77c1-4775-9b55-1a45307902a9"
+              LastKnownName="Iniciar sesión"
+              LastKnownLocation="ArquitecturaRegulacion.uml" />
+          </extend>
+        </extendedCases>
+        <additions>
+          <include
+            Id="e36eca27-5e4a-4dcd-be88-fb702693fbf2">
+            <useCaseMoniker
+              Id="aa0f0e49-b00d-4822-945b-a8713306ac89"
+              LastKnownName="Responder pregunta secreta"
+              LastKnownLocation="ArquitecturaRegulacion.uml" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker
+            Id="88bfb6dc-99a3-4175-be25-13117a08e7bf"
+            LastKnownName="Login"
+            LastKnownLocation="ArquitecturaRegulacion.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="aa0f0e49-b00d-4822-945b-a8713306ac89"
+        name="Responder pregunta secreta"
+        isAbstract="false"
+        isLeaf="false">
+        <description>Responder la pregunta secreta para poder envierle una nueva contraseña al usuario</description>
+        <subjects>
+          <subsystemMoniker
+            Id="88bfb6dc-99a3-4175-be25-13117a08e7bf"
+            LastKnownName="Login"
+            LastKnownLocation="ArquitecturaRegulacion.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <subsystem
+        Id="a1531caf-3bba-4352-bfdf-9c4e2a76558c"
+        name="Preferencias"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="5f89b9e4-15a8-437c-a7b2-1a918f211352"
+        name="Actualizar datos"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="be4455ad-1469-4185-b682-32751ed7f4c3">
+            <useCaseMoniker
+              Id="a2cad301-e2bc-4303-94a4-66373a623851"
+              LastKnownName="Cambiar pregunta de seguridad"
+              LastKnownLocation="ArquitecturaRegulacion.uml" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker
+            Id="a1531caf-3bba-4352-bfdf-9c4e2a76558c"
+            LastKnownName="Preferencias"
+            LastKnownLocation="ArquitecturaRegulacion.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="ec6e062c-f9e3-4dfe-b1cc-e0ddb0ea41dc"
+        name="Cambiar contraseña"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="a1531caf-3bba-4352-bfdf-9c4e2a76558c"
+            LastKnownName="Preferencias"
+            LastKnownLocation="ArquitecturaRegulacion.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="a2cad301-e2bc-4303-94a4-66373a623851"
+        name="Cambiar pregunta de seguridad"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="a1531caf-3bba-4352-bfdf-9c4e2a76558c"
+            LastKnownName="Preferencias"
+            LastKnownLocation="ArquitecturaRegulacion.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <subsystem
+        Id="f31d2787-8abf-49cd-9f20-1b29faa7f0ba"
+        name="Administracion"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="0c85c005-486a-4ff7-b09e-736421b1eded"
+        name="Administrar usuarios"
+        isAbstract="false"
+        isLeaf="false">
+        <description>Administracion de los usuarios del sistema</description>
+        <additions>
+          <include
+            Id="7219920e-ccc2-4175-a68a-34f100035438">
+            <useCaseMoniker
+              Id="44225cea-8e91-49cb-a49e-6d3b23a88869"
+              LastKnownName="Registrar nuevos usuarios"
+              LastKnownLocation="ArquitecturaRegulacion.uml" />
+          </include>
+          <include
+            Id="a531ca3f-dbb5-4983-a63d-395ddd6e4128">
+            <useCaseMoniker
+              Id="a46275d5-7ef1-4a24-ac2b-3631ecc47a40"
+              LastKnownName="Asignar Roles"
+              LastKnownLocation="ArquitecturaRegulacion.uml" />
+          </include>
+          <include
+            Id="5155ea9b-9a4f-480a-81f7-9982a7da9c73">
+            <useCaseMoniker
+              Id="648cdc6a-cc00-45aa-b375-682ac82b887f"
+              LastKnownName="Desactivar/activar cuentas de usuarios"
+              LastKnownLocation="ArquitecturaRegulacion.uml" />
+          </include>
+          <include
+            Id="8c77b8a7-0803-40ce-aaa7-4645497639c4">
+            <useCaseMoniker
+              Id="fc8b1332-676f-4da9-baec-2cc61bbb4b7a"
+              LastKnownName="Eliminar cuentas de usuario"
+              LastKnownLocation="ArquitecturaRegulacion.uml" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker
+            Id="f31d2787-8abf-49cd-9f20-1b29faa7f0ba"
+            LastKnownName="Administracion"
+            LastKnownLocation="ArquitecturaRegulacion.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="44225cea-8e91-49cb-a49e-6d3b23a88869"
+        name="Registrar nuevos usuarios"
+        isAbstract="false"
+        isLeaf="false">
+        <description>Al registrar un nuevo usario se genera la contraseña en base a als politicas.</description>
+        <subjects>
+          <subsystemMoniker
+            Id="f31d2787-8abf-49cd-9f20-1b29faa7f0ba"
+            LastKnownName="Administracion"
+            LastKnownLocation="ArquitecturaRegulacion.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="a46275d5-7ef1-4a24-ac2b-3631ecc47a40"
+        name="Asignar Roles"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="f31d2787-8abf-49cd-9f20-1b29faa7f0ba"
+            LastKnownName="Administracion"
+            LastKnownLocation="ArquitecturaRegulacion.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="648cdc6a-cc00-45aa-b375-682ac82b887f"
+        name="Desactivar/activar cuentas de usuarios"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="f31d2787-8abf-49cd-9f20-1b29faa7f0ba"
+            LastKnownName="Administracion"
+            LastKnownLocation="ArquitecturaRegulacion.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="fc8b1332-676f-4da9-baec-2cc61bbb4b7a"
+        name="Eliminar cuentas de usuario"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="f31d2787-8abf-49cd-9f20-1b29faa7f0ba"
+            LastKnownName="Administracion"
+            LastKnownLocation="ArquitecturaRegulacion.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="7c3a26ad-7d6d-4f71-af08-6fd0cc6ba354"
+        name="Administrar catálogos"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="42cf873d-d8be-4319-a440-7ec63e869fee">
+            <useCaseMoniker
+              Id="8f79909f-44b4-4409-ac3f-569554b52af2"
+              LastKnownName="Agregar entradas"
+              LastKnownLocation="ArquitecturaRegulacion.uml" />
+          </include>
+          <include
+            Id="94b2a9bd-ba57-4cc0-8e13-33dc7892dfb3">
+            <useCaseMoniker
+              Id="cd1ea79d-bc5e-478b-b8da-4605e4d42d17"
+              LastKnownName="Modificar entradas"
+              LastKnownLocation="ArquitecturaRegulacion.uml" />
+          </include>
+          <include
+            Id="1c313283-d8be-41fe-abcf-a97124fade43">
+            <useCaseMoniker
+              Id="dff6fa6c-a290-481e-aca1-ed9d63ab97ba"
+              LastKnownName="Desactivar entradas"
+              LastKnownLocation="ArquitecturaRegulacion.uml" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker
+            Id="f31d2787-8abf-49cd-9f20-1b29faa7f0ba"
+            LastKnownName="Administracion"
+            LastKnownLocation="ArquitecturaRegulacion.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="8f79909f-44b4-4409-ac3f-569554b52af2"
+        name="Agregar entradas"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="f31d2787-8abf-49cd-9f20-1b29faa7f0ba"
+            LastKnownName="Administracion"
+            LastKnownLocation="ArquitecturaRegulacion.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="cd1ea79d-bc5e-478b-b8da-4605e4d42d17"
+        name="Modificar entradas"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="f31d2787-8abf-49cd-9f20-1b29faa7f0ba"
+            LastKnownName="Administracion"
+            LastKnownLocation="ArquitecturaRegulacion.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="dff6fa6c-a290-481e-aca1-ed9d63ab97ba"
+        name="Desactivar entradas"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="f31d2787-8abf-49cd-9f20-1b29faa7f0ba"
+            LastKnownName="Administracion"
+            LastKnownLocation="ArquitecturaRegulacion.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="3eb3d4c8-24a1-4221-a135-366390463dde"
+        name="Administrar roles"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="68ac8301-ee41-4762-8aa5-df45292e7e21">
+            <useCaseMoniker
+              Id="aece25d9-f4ae-4b22-93fa-63a2e5c5a5d8"
+              LastKnownName="Crear nuevos roles"
+              LastKnownLocation="ArquitecturaRegulacion.uml" />
+          </include>
+          <include
+            Id="86a6f2c6-3dc8-4123-bdbe-237393b2cd90">
+            <useCaseMoniker
+              Id="f1acfa87-0953-429c-8efb-f818de1371a9"
+              LastKnownName="Modificar roles"
+              LastKnownLocation="ArquitecturaRegulacion.uml" />
+          </include>
+          <include
+            Id="445706fe-cf29-4820-af25-45e4a196cc14">
+            <useCaseMoniker
+              Id="3f818c3f-0130-4bef-a178-edb4cdd91bf6"
+              LastKnownName="Desactivar roles"
+              LastKnownLocation="ArquitecturaRegulacion.uml" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker
+            Id="f31d2787-8abf-49cd-9f20-1b29faa7f0ba"
+            LastKnownName="Administracion"
+            LastKnownLocation="ArquitecturaRegulacion.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="aece25d9-f4ae-4b22-93fa-63a2e5c5a5d8"
+        name="Crear nuevos roles"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="e2174e0b-5c8f-487f-8fad-4549b4682426">
+            <useCaseMoniker
+              Id="89c947b1-30ea-4d50-ac30-eb619f358554"
+              LastKnownName="Asignar permisos"
+              LastKnownLocation="ArquitecturaRegulacion.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="f31d2787-8abf-49cd-9f20-1b29faa7f0ba"
+            LastKnownName="Administracion"
+            LastKnownLocation="ArquitecturaRegulacion.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="f1acfa87-0953-429c-8efb-f818de1371a9"
+        name="Modificar roles"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="6f989ab6-926b-4e4e-8b36-6123bfff49f0">
+            <useCaseMoniker
+              Id="89c947b1-30ea-4d50-ac30-eb619f358554"
+              LastKnownName="Asignar permisos"
+              LastKnownLocation="ArquitecturaRegulacion.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="f31d2787-8abf-49cd-9f20-1b29faa7f0ba"
+            LastKnownName="Administracion"
+            LastKnownLocation="ArquitecturaRegulacion.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="3f818c3f-0130-4bef-a178-edb4cdd91bf6"
+        name="Desactivar roles"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="f31d2787-8abf-49cd-9f20-1b29faa7f0ba"
+            LastKnownName="Administracion"
+            LastKnownLocation="ArquitecturaRegulacion.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="89c947b1-30ea-4d50-ac30-eb619f358554"
+        name="Asignar permisos"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="f31d2787-8abf-49cd-9f20-1b29faa7f0ba"
+            LastKnownName="Administracion"
+            LastKnownLocation="ArquitecturaRegulacion.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <subsystem
+        Id="537fc7d9-191b-4d97-8cfb-dd22316ae3d9"
+        name="Módulo"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="c91083c1-890b-4ebd-aed8-cb0ad57f7331"
+        name="Generar estructura de entregables"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="537fc7d9-191b-4d97-8cfb-dd22316ae3d9"
+            LastKnownName="Módulo"
+            LastKnownLocation="ArquitecturaRegulacion.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="7fb3542e-a021-4f04-85b2-c97e851cf9a0"
+        name="Asignar responsable a rubro"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="be0546e2-eab1-44b1-ae8e-e92ed462325c">
+            <useCaseMoniker
+              Id="7e9c75ca-51e9-4ee0-a54f-9fe3274ffc00"
+              LastKnownName="Notificar al responsable"
+              LastKnownLocation="ArquitecturaRegulacion.uml" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker
+            Id="537fc7d9-191b-4d97-8cfb-dd22316ae3d9"
+            LastKnownName="Módulo"
+            LastKnownLocation="ArquitecturaRegulacion.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="7e9c75ca-51e9-4ee0-a54f-9fe3274ffc00"
+        name="Notificar al responsable"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="537fc7d9-191b-4d97-8cfb-dd22316ae3d9"
+            LastKnownName="Módulo"
+            LastKnownLocation="ArquitecturaRegulacion.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="2eb7b5cc-8714-4d22-b4df-22416907f283"
+        name="Atender rubro asignado"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="c8353c0e-89a9-4ce2-9d08-f4a407f74c5e">
+            <useCaseMoniker
+              Id="3ace8404-93ea-4ba5-bfda-2b5486f733ed"
+              LastKnownName="Descargar plantilla"
+              LastKnownLocation="ArquitecturaRegulacion.uml" />
+          </include>
+          <include
+            Id="20807288-896c-45cb-922b-aeeba6426091">
+            <useCaseMoniker
+              Id="b4750031-5ee2-4777-b621-0d0d9f4cd25d"
+              LastKnownName="Cargar archivos"
+              LastKnownLocation="ArquitecturaRegulacion.uml" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker
+            Id="537fc7d9-191b-4d97-8cfb-dd22316ae3d9"
+            LastKnownName="Módulo"
+            LastKnownLocation="ArquitecturaRegulacion.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="3ace8404-93ea-4ba5-bfda-2b5486f733ed"
+        name="Descargar plantilla"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="537fc7d9-191b-4d97-8cfb-dd22316ae3d9"
+            LastKnownName="Módulo"
+            LastKnownLocation="ArquitecturaRegulacion.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="6cc5c00d-224c-486d-a4a7-f484b7bba8c8"
+        name="Cargar plantilla"
+        isAbstract="false"
+        isLeaf="false">
+        <extendedCases>
+          <extend
+            Id="11febb66-37a7-4cca-ab9a-57a6eda49d3a">
+            <useCaseMoniker
+              Id="c91083c1-890b-4ebd-aed8-cb0ad57f7331"
+              LastKnownName="Generar estructura de entregables"
+              LastKnownLocation="ArquitecturaRegulacion.uml" />
+          </extend>
+        </extendedCases>
+        <subjects>
+          <subsystemMoniker
+            Id="537fc7d9-191b-4d97-8cfb-dd22316ae3d9"
+            LastKnownName="Módulo"
+            LastKnownLocation="ArquitecturaRegulacion.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="b4750031-5ee2-4777-b621-0d0d9f4cd25d"
+        name="Cargar archivos"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="537fc7d9-191b-4d97-8cfb-dd22316ae3d9"
+            LastKnownName="Módulo"
+            LastKnownLocation="ArquitecturaRegulacion.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="fd6c066a-216d-4ea7-94fa-a10e083c66c2"
+        name="Generar versionamiento"
+        isAbstract="false"
+        isLeaf="false">
+        <suppliersInternal>
+          <dependency
+            Id="8646462a-f12e-44f0-93b1-0c20422bf461">
+            <useCaseMoniker
+              Id="b4750031-5ee2-4777-b621-0d0d9f4cd25d"
+              LastKnownName="Cargar archivos"
+              LastKnownLocation="ArquitecturaRegulacion.uml" />
+          </dependency>
+          <dependency
+            Id="8dca4e0c-003b-460b-8187-253d8d793b35">
+            <useCaseMoniker
+              Id="8cd89905-bc92-475f-ae8c-e336c9054bab"
+              LastKnownName="Modificar entregabe"
+              LastKnownLocation="ArquitecturaRegulacion.uml" />
+          </dependency>
+        </suppliersInternal>
+        <subjects>
+          <subsystemMoniker
+            Id="537fc7d9-191b-4d97-8cfb-dd22316ae3d9"
+            LastKnownName="Módulo"
+            LastKnownLocation="ArquitecturaRegulacion.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="bffd24ed-72f4-4549-bb87-af7d3bf706a1"
+        name="Asignar revisor"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="6a08f517-a0b0-4f65-a6f9-9d286f676c4c">
+            <useCaseMoniker
+              Id="6ddc677b-1711-4467-bcca-d575b8016ec8"
+              LastKnownName="Notificar al revisor responsable"
+              LastKnownLocation="ArquitecturaRegulacion.uml" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker
+            Id="537fc7d9-191b-4d97-8cfb-dd22316ae3d9"
+            LastKnownName="Módulo"
+            LastKnownLocation="ArquitecturaRegulacion.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="6ddc677b-1711-4467-bcca-d575b8016ec8"
+        name="Notificar al revisor responsable"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="537fc7d9-191b-4d97-8cfb-dd22316ae3d9"
+            LastKnownName="Módulo"
+            LastKnownLocation="ArquitecturaRegulacion.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <actor
+        Id="f26321b3-d289-48f7-9e0e-70c2aa72ef29"
+        name="Usuario PEP(Revisor)"
+        isAbstract="false"
+        isLeaf="false">
+        <targetEnds>
+          <association
+            Id="7022f74e-5422-4638-a9d1-1aae6097c64a"
+            isDerived="false"
+            sourceEndRoleName="Usuario PEP(Revisor)"
+            targetEndRoleName="Revisar entregable"
+            isLeaf="false"
+            isAbstract="false">
+            <useCaseMoniker
+              Id="f478508b-79b5-4f1d-a0ea-68c56adb4abb"
+              LastKnownName="Revisar entregable"
+              LastKnownLocation="ArquitecturaRegulacion.uml" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="3eb84adc-184c-4587-9355-704ee65c4e8f"
+                  name="Usuario PEP(Revisor)"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false"
+                  isNavigableOwned="false" />
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd
+                  Id="7c23ac58-48a4-4dfb-8e3b-e8841b48e6ac"
+                  name="Revisar entregable"
+                  isLeaf="false"
+                  isStatic="false"
+                  isReadOnly="false"
+                  isDerived="false"
+                  isDerivedUnion="false"
+                  aggregation="None"
+                  isComposite="false" />
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+          </association>
+        </targetEnds>
+      </actor>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="f478508b-79b5-4f1d-a0ea-68c56adb4abb"
+        name="Revisar entregable"
+        isAbstract="false"
+        isLeaf="false">
+        <additions>
+          <include
+            Id="891c86c9-4473-4a22-8b38-349c126f3da8">
+            <useCaseMoniker
+              Id="93fff2f3-d011-4759-adf4-7275395d7f8a"
+              LastKnownName="Publicar entregable"
+              LastKnownLocation="ArquitecturaRegulacion.uml" />
+          </include>
+          <include
+            Id="e0d43979-32a8-46ff-b8ab-fab9df477ff1">
+            <useCaseMoniker
+              Id="8cd89905-bc92-475f-ae8c-e336c9054bab"
+              LastKnownName="Modificar entregabe"
+              LastKnownLocation="ArquitecturaRegulacion.uml" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker
+            Id="537fc7d9-191b-4d97-8cfb-dd22316ae3d9"
+            LastKnownName="Módulo"
+            LastKnownLocation="ArquitecturaRegulacion.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="93fff2f3-d011-4759-adf4-7275395d7f8a"
+        name="Publicar entregable"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="537fc7d9-191b-4d97-8cfb-dd22316ae3d9"
+            LastKnownName="Módulo"
+            LastKnownLocation="ArquitecturaRegulacion.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="8cd89905-bc92-475f-ae8c-e336c9054bab"
+        name="Modificar entregabe"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="537fc7d9-191b-4d97-8cfb-dd22316ae3d9"
+            LastKnownName="Módulo"
+            LastKnownLocation="ArquitecturaRegulacion.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase
+        Id="e5369169-c965-46e1-a912-306cf321e1ad"
+        name="Consultar entregables"
+        isAbstract="false"
+        isLeaf="false">
+        <subjects>
+          <subsystemMoniker
+            Id="537fc7d9-191b-4d97-8cfb-dd22316ae3d9"
+            LastKnownName="Módulo"
+            LastKnownLocation="ArquitecturaRegulacion.uml" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+  </packagedElements>
+  <primitiveType
+    Id="220a3521-e091-4221-bae9-3ef9018e845c"
+    name="Integer"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="8943dc84-709e-4f62-b15a-a3273aa6f165"
+    name="Boolean"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="59259974-6d55-42c6-b7bd-763d77ac8ef9"
+    name="String"
+    isAbstract="false"
+    isLeaf="false" />
+  <primitiveType
+    Id="3ab42e7d-4969-445a-b209-471f5cb8209c"
+    name="UnlimitedNatural"
+    isAbstract="false"
+    isLeaf="false" />
+</modelStoreModel>

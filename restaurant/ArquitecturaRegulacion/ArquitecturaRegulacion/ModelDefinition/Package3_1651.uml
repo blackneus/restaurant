@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="07379f92-5b67-4de6-abb7-f6e31b8f16ea"
+  name="Datos"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="cda02310-916f-4286-93e2-4e2533834354"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DRegulacion.Datos"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="30320a0a-39c6-467f-8e33-d5a347d69c6f"
+        name="clConexionSQL"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="3f25f79d-e851-4803-82bc-2313e158f124"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FC:%2FUsers%2Firving%2FDocuments%2FVisual Studio 2010%2FProjects%2Fregulacion%2FRegulacion.Datos%2Fbin%2FDebug%2FRegulacion.Datos.dll&quot; Namespace%3DRegulacion.Datos Type%3DclConexionSQL"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="afa21266-07a1-4940-a291-4dbb5fd90590"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="de28d1c4-4f27-4d0c-b0bb-2119f47d1e3f">
+                <propertyInstance
+                  Id="c6515850-04bf-4061-b1cb-172fd545af4f"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="df626097-133a-443d-ad37-5c4943058909">
+                <propertyInstance
+                  Id="63b37645-5db6-403b-b3bb-cc31eb0d0d09"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f010b703-240b-474e-95a1-c699e66e0adf">
+                <propertyInstance
+                  Id="d32c08fd-5548-48e5-b575-5094e719a3a9"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1068c111-fb02-4b37-be41-737f9b33fa3d">
+                <propertyInstance
+                  Id="fe0e7445-b0bc-4336-b663-1173c67e0a7d"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="0df17391-228f-46b2-931d-07f70c00f3d3">
+                <propertyInstance
+                  Id="e1c73d05-16b1-4575-95ef-a029b49ea014"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

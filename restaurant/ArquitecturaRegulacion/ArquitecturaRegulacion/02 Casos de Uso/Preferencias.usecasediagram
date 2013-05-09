@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="ed2611bf-1f74-4597-91fd-843cf02356f5" name="Preferencias" linkedPackageId="b4bd1c2b-2ee5-475c-8e4e-415bfc6a48cb" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <profileInstances>
+    <packageHasProfileInstances Id="3fe26c76-e058-48c3-837b-dfb2fd70b073">
+      <profileInstance Id="26037f79-5e41-43a5-8de9-7a510a51d1a3" name="StandardProfileL2">
+        <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+      </profileInstance>
+      <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+    </packageHasProfileInstances>
+    <packageHasProfileInstances Id="81411ec0-39d8-43c2-a44c-2f2502ea7bcc">
+      <profileInstance Id="98f1353f-a61b-40d3-904e-7d7486819f48" name="StandardProfileL3">
+        <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+      </profileInstance>
+      <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+    </packageHasProfileInstances>
+  </profileInstances>
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="d34abd2b-ad2f-4d97-b1ea-74b80bccf474" name="Administrador" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="41b217d9-bfe8-4fb6-b5ca-6bc59994dcfa" />
+        <targetEnds>
+          <association Id="92a50f0f-2f8c-42aa-b7d0-295b20189195" isDerived="false" sourceEndRoleName="Administrador" targetEndRoleName="Actualizar datos" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="35c60c22-6d6f-41a3-a052-f3bc8679bae0" LastKnownName="Actualizar datos" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="2aca7b9c-1029-410c-9ad0-37f50562ff6b" name="Administrador" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="e38c58bc-c82e-4545-bc6a-a1b8f05d8cdd" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d77c7835-92fd-4221-ac3a-86bb0e940aab" name="Actualizar datos" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="a31493f2-7e17-4f9e-8bdc-634072fefb20" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="e412cd91-4c38-411b-8271-e43693de05f6" />
+          </association>
+          <association Id="9b7e8129-3676-4d7d-9e71-ff9309e6ea92" isDerived="false" sourceEndRoleName="Administrador" targetEndRoleName="Cambiar contraseña" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="6bc21c6a-83a1-4cc2-a927-76198411b3f5" LastKnownName="Cambiar contraseña" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="767e229e-19b0-430b-b6eb-7b45255b58c1" name="Administrador" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="d24a5c54-c230-4731-ae53-3f0cc91f04cd" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c1dc6490-3946-42a3-b2ab-c9748f31be54" name="Cambiar contraseña" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="08dafbe3-f3be-44e2-9344-c42f4b2c270c" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="9d4913c6-fcf0-498d-9a14-da3ba8266005" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="be05e5d6-d799-40b7-83b1-4eb865e0acb7" name="Usuario CNH" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="7f3649a3-6041-46e0-901b-c198692bc6d4" />
+        <targetEnds>
+          <association Id="b6a5c8a6-ae8b-473d-8398-9ae8a9fa3c15" isDerived="false" sourceEndRoleName="Usuario CNH" targetEndRoleName="Actualizar datos" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="35c60c22-6d6f-41a3-a052-f3bc8679bae0" LastKnownName="Actualizar datos" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="f297c359-942a-447e-835e-6e0bc08e1141" name="Usuario CNH" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="1d91165c-07a0-4abc-bb00-adfb11b521f8" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="c5e1a7d7-81e5-4e9d-b147-6a15b1156e3b" name="Actualizar datos" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="50f7dca2-542f-402a-b7f1-6a732e2f5141" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="d8e9bf3b-7197-40bc-9488-badb84adf5bb" />
+          </association>
+          <association Id="3e4a90c1-ae73-4868-a94a-6f6dc4909d29" isDerived="false" sourceEndRoleName="Usuario CNH" targetEndRoleName="Cambiar contraseña" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="6bc21c6a-83a1-4cc2-a927-76198411b3f5" LastKnownName="Cambiar contraseña" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="d301ae1f-34f3-4ea6-a7d3-f5f7d113a297" name="Usuario CNH" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="84a6568f-986f-452f-9c52-a6984398778d" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="6a382052-b7fe-4ecf-9378-00be1cde6413" name="Cambiar contraseña" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="83f6f4b3-a720-492b-a3c4-84b4daa57820" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="b63699e0-5582-44a9-8959-b14233fa86a8" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="d19253e6-ca61-41c0-bc16-a83f88008d4f" name="Usuario PEP" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="1482b193-652d-49e1-8806-ae8912fadd26" />
+        <targetEnds>
+          <association Id="83db33d2-11e0-4b0e-a23a-3e3bcf9e12b3" isDerived="false" sourceEndRoleName="Usuario PEP" targetEndRoleName="Actualizar datos" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="35c60c22-6d6f-41a3-a052-f3bc8679bae0" LastKnownName="Actualizar datos" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="ac5572ae-1f53-45a5-a37d-7b692fd9b4fe" name="Usuario PEP" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="b9062f11-d908-4afe-a610-aaf13851ba29" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="1f35dbd2-d866-4330-90fa-bce2dd6c2990" name="Actualizar datos" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="9e0ea1c3-a1bb-4810-8ba1-45496537113a" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="15b9a8cc-f7e4-49fe-80b2-c217b29eb265" />
+          </association>
+          <association Id="2b22aba8-0973-4345-a9a6-fe01bad9278a" isDerived="false" sourceEndRoleName="Usuario PEP" targetEndRoleName="Cambiar contraseña" isLeaf="false" isAbstract="false">
+            <useCaseMoniker Id="6bc21c6a-83a1-4cc2-a927-76198411b3f5" LastKnownName="Cambiar contraseña" />
+            <relationshipOwnedElementsInternal>
+              <associationHasOwnedEnds>
+                <memberEnd Id="93316f76-354c-4789-b4a6-bbbcce347639" name="Usuario PEP" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false" isNavigableOwned="false">
+                  <elementDefinition Id="05fd0caf-b900-4e3c-9b7c-7863b78cc643" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+              <associationHasOwnedEnds>
+                <memberEnd Id="91029ed0-4881-4776-a787-69656b3e4d73" name="Cambiar contraseña" isLeaf="false" isStatic="false" isReadOnly="false" isDerived="false" isDerivedUnion="false" aggregation="None" isComposite="false">
+                  <elementDefinition Id="261eb971-505b-4374-90d2-3bb9dbb026f2" />
+                </memberEnd>
+              </associationHasOwnedEnds>
+            </relationshipOwnedElementsInternal>
+            <elementDefinition Id="5a7a456b-3bde-4064-95b5-a0d3f266383e" />
+          </association>
+        </targetEnds>
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <subsystem Id="db953fda-e491-44f5-bd85-521d00000208" name="Preferencias" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="a1531caf-3bba-4352-bfdf-9c4e2a76558c" />
+      </subsystem>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="35c60c22-6d6f-41a3-a052-f3bc8679bae0" name="Actualizar datos" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="5f89b9e4-15a8-437c-a7b2-1a918f211352" />
+        <additions>
+          <include Id="43c22c60-59da-4a72-b5a0-3f504c02e98f">
+            <useCaseMoniker Id="4734c5a7-d0ce-4edd-b1ea-fb637d66bcec" LastKnownName="Cambiar pregunta de seguridad" />
+            <elementDefinition Id="be4455ad-1469-4185-b682-32751ed7f4c3" />
+          </include>
+        </additions>
+        <subjects>
+          <subsystemMoniker Id="db953fda-e491-44f5-bd85-521d00000208" LastKnownName="Preferencias" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="6bc21c6a-83a1-4cc2-a927-76198411b3f5" name="Cambiar contraseña" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="ec6e062c-f9e3-4dfe-b1cc-e0ddb0ea41dc" />
+        <subjects>
+          <subsystemMoniker Id="db953fda-e491-44f5-bd85-521d00000208" LastKnownName="Preferencias" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="4734c5a7-d0ce-4edd-b1ea-fb637d66bcec" name="Cambiar pregunta de seguridad" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="a2cad301-e2bc-4303-94a4-66373a623851" />
+        <subjects>
+          <subsystemMoniker Id="db953fda-e491-44f5-bd85-521d00000208" LastKnownName="Preferencias" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="b4bd1c2b-2ee5-475c-8e4e-415bfc6a48cb" name="ArquitecturaRegulacion">
+    <elementDefinition Id="bbf1f705-94be-4163-a204-54625a5bf3a3" />
+  </package>
+</useCaseModelRoot>

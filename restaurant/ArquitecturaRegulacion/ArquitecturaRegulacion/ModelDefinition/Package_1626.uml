@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="56d997a2-55f8-4ed3-9496-c5d6b48c3554"
+  name="Regulacion"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="1d1f7e6f-4cc2-4cc9-ad77-540bcc95cb18"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DRegulacion"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="97e0d859-a717-4235-9e04-36c1a528ce18"
+        LastKnownName="Negocio"
+        LastKnownLocation="Package1_1626.uml" />
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <packageMoniker
+        Id="07379f92-5b67-4de6-abb7-f6e31b8f16ea"
+        LastKnownName="Datos"
+        LastKnownLocation="Package3_1651.uml" />
+    </packageHasNamedElement>
+  </packagedElements>
+</package>
