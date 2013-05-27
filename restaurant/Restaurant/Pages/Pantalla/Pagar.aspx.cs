@@ -11,8 +11,13 @@ namespace Restaurant.Pages.Pantalla
 {
     public partial class Pagar : clSessionPage 
     {
+        String stServidorReportingServices;
+        String stInstanciaReportingServices;
         protected void Page_Load(object sender, EventArgs e)
         {
+             stServidorReportingServices = System.Web.Configuration.WebConfigurationManager.AppSettings.Get("ServidorReportingServices");
+             stInstanciaReportingServices = System.Web.Configuration.WebConfigurationManager.AppSettings.Get("InstanciaReportingServices");
+
             if(!IsPostBack)
             LlenarDDL();
         }
@@ -63,7 +68,7 @@ namespace Restaurant.Pages.Pantalla
 
         protected void BtnFactura_Click(object sender, EventArgs e)
         {
-            string stscript = string.Format("javascript:window.open('{0}','Factura', 'width=960,height=768,toolbar=0,status=0,location=0,menubar=0,directories=0,resizable=1,scrollbars=1');", string.Format("http://isolorio/ReportServer_SQL2012/Pages/ReportViewer.aspx?%2fFactura&rs:Command=Render&rs:Format=HTML4.0&rc:Parameters=false&id_factura={0}", HFieldFactura.Value.ToString()));
+            string stscript = string.Format("javascript:window.open('{0}','Factura', 'width=960,height=768,toolbar=0,status=0,location=0,menubar=0,directories=0,resizable=1,scrollbars=1');", string.Format("http://{0}/{1}/Pages/ReportViewer.aspx?%2fFactura&rs:Command=Render&rs:Format=HTML4.0&rc:Parameters=false&id_factura={2}", stServidorReportingServices, stInstanciaReportingServices, HFieldFactura.Value.ToString()));
             ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "Factura",stscript , true);
         }
 
@@ -73,9 +78,9 @@ namespace Restaurant.Pages.Pantalla
             {
                 clPagar.SetPago(TBoxSaldo.Text, DDLTipoPago.SelectedValue.ToString(), HFieldFactura.Value.ToString());
                 BtnPagar.Enabled = false;
-                string stscript = string.Format("javascript:window.open('{0}','Factura', 'width=960,height=768,toolbar=0,status=0,location=0,menubar=0,directories=0,resizable=1,scrollbars=1');", string.Format("http://isolorio/ReportServer_SQL2012/Pages/ReportViewer.aspx?%2fFactura&rs:Command=Render&rs:Format=HTML4.0&rc:Parameters=false&id_factura={0}", HFieldFactura.Value.ToString()));
+                string stscript = string.Format("javascript:window.open('{0}','Factura', 'width=960,height=768,toolbar=0,status=0,location=0,menubar=0,directories=0,resizable=1,scrollbars=1');", string.Format("http://{0}/{1}/Pages/ReportViewer.aspx?%2fFactura&rs:Command=Render&rs:Format=HTML4.0&rc:Parameters=false&id_factura={2}", stServidorReportingServices, stInstanciaReportingServices, HFieldFactura.Value.ToString()));
                 ScriptManager.RegisterClientScriptBlock(this, this.GetType(), "Factura", stscript, true);
-                Response.Redirect("/Pages/Logins/Pagar.aspx");
+             //   Response.Redirect("/Pages/Pantalla/Pagar.aspx");
             }
             else
             {

@@ -57,6 +57,7 @@
     <Compile Include="clPermisos.cs" />
     <Compile Include="clUsuario.cs" />
     <Compile Include="clPagar.cs" />
+    <Compile Include="clReportes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

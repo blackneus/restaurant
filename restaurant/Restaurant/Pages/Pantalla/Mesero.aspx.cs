@@ -206,7 +206,12 @@ namespace Restaurant.Pages.Pantalla
             DataTable myDataTable;
 
             myDataTable = clMeseros.GetPedido(LblMesa.Text);
-            Session["myDataTable" + LblMesa.Text] = myDataTable;
+            if (myDataTable.Rows.Count > 0)
+            {
+                if (string.IsNullOrEmpty(myDataTable.Rows[0]["pedido_cocina"].ToString()))
+                    myDataTable = (DataTable)Session["myDataTable" + LblMesa.Text];
+            }
+
             GViewPedido.DataSource = myDataTable;
             GViewPedido.DataBind();
 
@@ -436,9 +441,11 @@ namespace Restaurant.Pages.Pantalla
             if (string.IsNullOrEmpty(myDataTable.Rows[e.RowIndex]["id_pedido"].ToString()))
                 myDataTable.Rows.RemoveAt(e.RowIndex);
             else
+            {
                 boolvalor = clMeseros.CancelPedido(myDataTable.Rows[e.RowIndex]["id_pedido"].ToString());
-            myDataTable = clMeseros.GetPedido(LblMesa.Text);
-            Session["myDataTable" + LblMesa.Text] = myDataTable;
+                myDataTable = clMeseros.GetPedido(LblMesa.Text);
+                Session["myDataTable" + LblMesa.Text] = myDataTable;
+            }
             GViewPedido.DataSource = myDataTable;
             GViewPedido.DataBind();
             BorrarSeleccion();

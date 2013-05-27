@@ -44,7 +44,7 @@
 </asp:UpdatePanel>
 
 <asp:Timer runat="server" id="Timer1" Enabled="true" 
-  Interval="60000" OnTick="Timer1_Tick" />
+  Interval="6000" OnTick="Timer1_Tick" />
 
 
 </asp:Content>

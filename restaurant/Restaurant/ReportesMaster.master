@@ -10,15 +10,11 @@
                 <div class="sidebar-nav">
                    <ul class="nav nav-list" >
                         <li class="nav-header">Reportes</li>
-                        <li id="Pormesero" style="min-width:130px"><a id="A1" runat="server" href="~/Pages/Configuracion/ActualizaDatospersonales.aspx">
+                        <li id="Pormesero" style="min-width:130px"><a id="A1" runat="server" href="~/Pages/Reportes/PorMesero.aspx">
                            <i class="icon-play"></i> Por Mesero</a></li>
-                        <li id="PorPlatillo" style="min-width:130px"><a id="A2" runat="server" href="~/Pages/Configuracion/CambiarContraseña.aspx">
-                           <i class="icon-play"></i> Por Platillo</a></li>
-                        <li id="PorPromocion" style="min-width:130px"><a id="A3" runat="server" href="~/Pages/Configuracion/CambiarPregunta.aspx">
-                            <i class="icon-play"></i>Por Promocion</a></li>
-                        <li id="PorMonto" style="min-width:130px"><a id="A4" runat="server" href="~/Pages/Configuracion/CambiarPregunta.aspx">
-                            <i class="icon-play"></i>Por Monto Vendido</a></li>
-                        <li id="CorteCaja" style="min-width:130px"><a id="A5" runat="server" href="~/Pages/Configuracion/CambiarPregunta.aspx">
+                        <li id="PorTurno" style="min-width:130px"><a id="A2" runat="server" href="~/Pages/Reportes/PorTurno.aspx">
+                           <i class="icon-play"></i> Por Turno</a></li>
+                        <li id="CorteCaja" style="min-width:130px"><a id="A5" runat="server" href="~/Pages/Reportes/Corte.aspx">
                             <i class="icon-play"></i>Corte de Caja</a></li>
                      </ul>
               </div>

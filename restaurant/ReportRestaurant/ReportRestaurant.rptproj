@@ -14,12 +14,16 @@
       <FullPath>Factura.rdl</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>PorMesero.rdl</Name>
-      <FullPath>PorMesero.rdl</FullPath>
+      <Name>PorMeserofinal.rdl</Name>
+      <FullPath>PorMeserofinal.rdl</FullPath>
     </ProjectItem>
     <ProjectItem>
       <Name>PorTurno.rdl</Name>
       <FullPath>PorTurno.rdl</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Corte.rdl</Name>
+      <FullPath>Corte.rdl</FullPath>
     </ProjectItem>
   </Reports>
   <Configurations>
